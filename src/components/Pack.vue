@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const props = defineProps<{
-	name: string;
+const _props = defineProps<{
+  name: string;
 }>();
 </script>
 

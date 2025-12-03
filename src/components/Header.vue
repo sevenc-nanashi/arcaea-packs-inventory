@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import { computed } from 'vue';
-import { useI18n } from 'vue-i18n';
+import { useI18n } from "vue-i18n";
 
 const i18n = useI18n();
-const locales = i18n.availableLocales;
+const _locales = i18n.availableLocales;
 </script>
 <template>
 	<header un-p="4" un-bg="arcaea" un-text="white lg" un-font="en" un-flex un-items="center">

@@ -7,5 +7,8 @@
   },
   "dependencies": {
     "@shared/song-data": "workspace:*"
+  },
+  "devDependencies": {
+    "rollup-plugin-license": "^3.6.0"
   }
 }

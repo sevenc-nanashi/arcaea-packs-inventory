@@ -2,6 +2,7 @@ import path from "node:path";
 import vueI18n from "@intlify/unplugin-vue-i18n/vite";
 import vue from "@vitejs/plugin-vue";
 import uno from "unocss/vite";
+import license from "rollup-plugin-license";
 import { defineConfig } from "vite";
 
 // https://vite.dev/config/
@@ -17,6 +18,27 @@ export default defineConfig({
     uno(),
     vueI18n({
       include: path.join(import.meta.dirname, "./src/locales/*.yml"),
+    }),
+    {
+      name: "add-license-banner",
+      generateBundle(_, bundle) {
+        const banner = `/** Check THIRD_PARTY_NOTICES.txt for license details. */`;
+        for (const file of Object.values(bundle)) {
+          if (file.type === "chunk") {
+            file.code = `${banner}\n${file.code}`;
+          }
+        }
+      },
+    },
+    license({
+      cwd: process.cwd(),
+
+      thirdParty: {
+        output: {
+          file: path.join(import.meta.dirname, "dist", "THIRD_PARTY_NOTICES.txt"),
+          encoding: "utf-8",
+        },
+      },
     }),
   ],
 });

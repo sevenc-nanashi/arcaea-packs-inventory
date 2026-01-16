@@ -65,25 +65,51 @@ const isAppendsOpen = ref(false);
 </script>
 
 <template>
-	<details v-if="hasSubItems" @toggle="isAppendsOpen = ($event.target as HTMLDetailsElement).open">
-		<summary un-flex un-items="center" un-gap="2" class="pack-heading" un-cursor="pointer" un-font="en">
-			<Checkbox :un-color="hasAllUnlockableContent ? 'pure' : 'far'" :modelValue="getHasPack()"
-				@update:modelValue="setHasAllPacks($event)" />
-			<span>{{ props.append?.title ?? props.pack.title }}</span>
-			<div un-flex="grow" />
-			<span un-text="sm slate-500" un-size="4"
-				:un-i="isAppendsOpen ? 'fluent-chevron-up-32-filled' : 'fluent-chevron-down-32-filled'" />
-		</summary>
-		<div un-ml="6">
-			<ContentCheck v-if="props.pack.appends.length > 0" :content="props.pack" un-font="en" />
-			<ContentCheck v-for="(append, index) in props.pack.appends" :key="index" :content="append" un-font="en" />
-			<ContentCheck v-for="(song, index) in lockedSongs" :key="index" :content="song" kind="song" />
-		</div>
-	</details>
-	<label v-else un-flex un-items="center" un-gap="2" class="pack-heading" un-cursor="pointer" un-font="en">
-		<Checkbox un-color="pure" :modelValue="getHasPack()" @update:modelValue="setHasPack($event)" />
-		<span>{{ props.append?.title ?? props.pack.title }}</span>
-	</label>
+  <details v-if="hasSubItems" @toggle="isAppendsOpen = ($event.target as HTMLDetailsElement).open">
+    <summary
+      un-flex
+      un-items="center"
+      un-gap="2"
+      class="pack-heading"
+      un-cursor="pointer"
+      un-font="en"
+    >
+      <Checkbox
+        :un-color="hasAllUnlockableContent ? 'pure' : 'far'"
+        :modelValue="getHasPack()"
+        @update:modelValue="setHasAllPacks($event)"
+      />
+      <span>{{ props.append?.title ?? props.pack.title }}</span>
+      <div un-flex="grow" />
+      <span
+        un-text="sm slate-500"
+        un-size="4"
+        :un-i="isAppendsOpen ? 'fluent-chevron-up-32-filled' : 'fluent-chevron-down-32-filled'"
+      />
+    </summary>
+    <div un-ml="6">
+      <ContentCheck v-if="props.pack.appends.length > 0" :content="props.pack" un-font="en" />
+      <ContentCheck
+        v-for="(append, index) in props.pack.appends"
+        :key="index"
+        :content="append"
+        un-font="en"
+      />
+      <ContentCheck v-for="(song, index) in lockedSongs" :key="index" :content="song" kind="song" />
+    </div>
+  </details>
+  <label
+    v-else
+    un-flex
+    un-items="center"
+    un-gap="2"
+    class="pack-heading"
+    un-cursor="pointer"
+    un-font="en"
+  >
+    <Checkbox un-color="pure" :modelValue="getHasPack()" @update:modelValue="setHasPack($event)" />
+    <span>{{ props.append?.title ?? props.pack.title }}</span>
+  </label>
 </template>
 
 <style scoped lang="scss"></style>

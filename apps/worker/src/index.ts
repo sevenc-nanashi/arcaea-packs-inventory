@@ -39,7 +39,11 @@ app.get("/", async (c) => {
   const description = maybeInventory.name
     ? `Check out ${maybeInventory.name}'s Arcaea packs inventory!`
     : "Share your Arcaea inventory at a glance.";
-  let ogpMeta = [
+  let dynamicMeta = [
+    meta({
+      name: "arcaea-packs-inventory:data",
+      content: JSON.stringify({ deployId: env.VERSION_METADATA.id }),
+    }),
     meta({ name: "theme-color", content: "#34333e" }),
     meta({ property: "og:type", content: "website" }),
     meta({ property: "og:url", content: "https://arcinv.sevenc7c.com" }),
@@ -52,7 +56,8 @@ app.get("/", async (c) => {
   if (query) {
     const imageUrl = new URL("/image", "https://arcinv.sevenc7c.com");
     imageUrl.searchParams.set("inventory", query);
-    ogpMeta.push(
+    imageUrl.searchParams.set("cache", env.VERSION_METADATA.id);
+    dynamicMeta.push(
       meta({ property: "og:image:width", content: "1200" }),
       meta({ property: "og:image:height", content: "630" }),
       meta({ name: "twitter:card", content: "summary_large_image" }),
@@ -61,8 +66,7 @@ app.get("/", async (c) => {
     );
   }
 
-  html = html.replace("</head>", `${ogpMeta.map((el) => el.render()).join("")}</head>`);
-  return c.html(html);
+  return c.html(html.replace("</head>", `${dynamicMeta.map((el) => el.render()).join("")}</head>`));
 });
 
 type AppendSection = {

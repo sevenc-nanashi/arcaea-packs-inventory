@@ -8,14 +8,16 @@
     "gen:abbrs": "bun run ./scripts/abbr.ts"
   },
   "dependencies": {
-    "@hono/zod-validator": "^0.7.6",
     "@arcaea-packs-inventory/song-data": "workspace:*",
+    "@hono/zod-validator": "^0.7.6",
     "hono": "^4.11.4",
     "mini-van-plate": "^0.6.3",
     "workers-og": "^0.0.27",
     "zod": "^4.3.5"
   },
   "devDependencies": {
-    "@vercel/og": "^0.8.6"
+    "@vercel/og": "^0.8.6",
+    "oxfmt": "catalog:lint",
+    "wrangler": "^4.59.2"
   }
 }

@@ -99,10 +99,6 @@ const songsData = songList.map((song) => ({
   hasEternal: song.has_eternal,
   hasBeyond: song.has_beyond,
 }));
-await writeFile(
-  categoriesDataOutputPath,
-  JSON.stringify(categoriesData, null, 2) + "\n",
-  "utf8",
-);
+await writeFile(categoriesDataOutputPath, JSON.stringify(categoriesData, null, 2) + "\n", "utf8");
 await writeFile(songsDataOutputPath, JSON.stringify(songsData, null, 2) + "\n", "utf8");
 console.log(`Wrote ${inventory.size} inventory keys`);

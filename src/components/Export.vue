@@ -8,9 +8,7 @@ const { t } = useI18n();
 const dialogRef = ref<HTMLDialogElement | null>(null);
 const unlockableContentsStore = useUnlockableContentsStore();
 const copyStatus = ref<'idle' | 'copied'>('idle');
-const copyButtonText = computed(() =>
-	copyStatus.value === 'copied' ? t('exportDialogCopied') : t('exportDialogCopy')
-);
+const copyButtonText = computed(() => (copyStatus.value === 'copied' ? t('exportDialogCopied') : t('exportDialogCopy')));
 let copyStatusResetTimer: ReturnType<typeof setTimeout> | null = null;
 
 const exportUrl = computed(() => {
@@ -51,14 +49,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-	<button
-		un-fixed
-		un-right="2"
-		un-bottom="2"
-		un-drop-shadow="md"
-		type="button"
-		@click="openDialog"
-	>
+	<button un-fixed un-right="2" un-bottom="2" un-drop-shadow="md" type="button" @click="openDialog">
 		<Badge un-bg="arcaea hover:pure" un-text="white" un-cursor="pointer" un-p="x-6">{{ t('exportButton') }}</Badge>
 	</button>
 	<dialog ref="dialogRef" class="export-dialog" @click.self="closeDialog">
@@ -67,12 +58,20 @@ onBeforeUnmount(() => {
 				<h3>{{ t('exportDialogTitle') }}</h3>
 				<p>{{ t('exportDialogDescription') }}</p>
 			</header>
-			<div class="export-dialog__link">
-				<input type="text" readonly :value="exportUrl" />
-				<button type="button" @click="copyExportLink">{{ copyButtonText }}</button>
+			<div un-flex un-gap="2">
+				<input type="text" readonly :value="exportUrl" un-flex-grow un-p="x-4" un-h="10" un-border="slate-300 2" un-rounded="md" />
+				<button type="button" @click="copyExportLink">
+					<Badge :un-bg="copyStatus === 'idle' ? 'arcaea' : 'pure'" un-text="slate-700" un-cursor="pointer" un-p="x-6">
+						{{ copyButtonText }}
+					</Badge>
+				</button>
 			</div>
-			<div class="export-dialog__actions">
-				<button type="button" @click="closeDialog">{{ t('exportDialogClose') }}</button>
+			<div un-flex un-justify="end">
+				<button type="button" @click="closeDialog">
+					<Badge un-bg="slate-400 hover:slate-500" un-text="slate-700" un-cursor="pointer" un-p="x-6">
+						{{ t('exportDialogClose') }}
+					</Badge>
+				</button>
 			</div>
 		</div>
 	</dialog>
@@ -113,43 +112,6 @@ onBeforeUnmount(() => {
 				font-size: 0.9rem;
 				color: gray;
 			}
-		}
-	}
-
-	&__link {
-		display: flex;
-		gap: 0.5rem;
-
-		input {
-			flex: 1;
-			padding: 0.5rem;
-			border-radius: 0.5rem;
-			border: 1px solid rgba(0, 0, 0, 0.2);
-			font-family: inherit;
-		}
-
-		button {
-			padding: 0.5rem 1rem;
-			border-radius: 0.5rem;
-			border: none;
-			background: #1c1c1c;
-			color: white;
-			cursor: pointer;
-			font-weight: bold;
-		}
-	}
-
-	&__actions {
-		display: flex;
-		justify-content: flex-end;
-
-		button {
-			padding: 0.5rem 1rem;
-			border-radius: 0.5rem;
-			border: none;
-			background: #e0e0e0;
-			cursor: pointer;
-			font-weight: bold;
 		}
 	}
 }

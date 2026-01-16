@@ -12,8 +12,12 @@ export default defineConfig({
   ],
   transformers: [transformerDirectives()],
   theme: {
-    font: palette.font,
-    colors: palette.colors,
+    font: {
+      sans: "var(--font-sans)",
+      en: "Exo, sans-serif",
+      ja: "'Kazesawa', sans-serif",
+    },
+    colors: palette,
   },
   rules: [
     [

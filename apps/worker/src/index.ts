@@ -11,6 +11,7 @@ import abbrs from "./abbrs.json";
 import * as z from "zod";
 import { ImageResponse, loadGoogleFont } from "workers-og";
 import van from "mini-van-plate/van-plate";
+import { env } from "cloudflare:workers";
 const app = new Hono();
 
 const { div, span } = van.tags;
@@ -26,9 +27,20 @@ const toStyles = (style: Record<string, string | number>) => {
 
 const songsBasedPacks = ["extend1", "extend2", "extend3", "extend4", "memoryarchive"];
 
-app.get("/", (c) => {
-  // TODO: render html
-  return c.text("Hello, World!");
+app.get("/", async (c) => {
+  const url = new URL(c.req.url);
+  let html = await env.ASSETS.fetch(c.req.raw).then((res) => res.text());
+  const query = url.searchParams.get("i");
+  if (query) {
+    html = html.replaceAll(
+      "!!OGP!!",
+      `${url.origin}/image?inventory=${encodeURIComponent(query)}`,
+    );
+    html = html.replaceAll("<unused-meta ", "<meta ");
+  } else {
+    html = html.replace(/<unused-meta .*?\/>/gs, "");
+  }
+  return c.html(html);
 });
 
 type AppendSection = {

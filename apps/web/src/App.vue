@@ -10,9 +10,10 @@ const i18n = useI18n();
 const unlockableContentsStore = useUnlockableContentsStore();
 
 if (typeof window !== "undefined") {
-  const hash = window.location.hash.slice(1);
-  if (hash) {
-    unlockableContentsStore.hydrate(hash);
+	const searchParams = new URLSearchParams(window.location.search);
+	const importParam = searchParams.get("i");
+	if (importParam) {
+    unlockableContentsStore.hydrate(importParam);
   }
 }
 

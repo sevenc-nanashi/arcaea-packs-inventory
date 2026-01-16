@@ -21,8 +21,7 @@ const exportUrl = computed(() => {
   if (typeof window === "undefined") {
     return "";
   }
-  const base = window.location.href.split("#")[0];
-  return `${base}#${unlockableContentsStore.export()}`;
+  return `${window.location.origin}${window.location.pathname}?i=${unlockableContentsStore.export()}`;
 });
 
 const openDialog = () => dialogRef.value?.showModal();
@@ -55,104 +54,78 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <button un-fixed un-right="2" un-bottom="2" un-drop-shadow="md" type="button" @click="openDialog">
-    <Badge un-bg="arcaea hover:pure" un-text="white" un-cursor="pointer" un-p="x-6">{{
-      t("exportButton")
-    }}</Badge>
-  </button>
-  <dialog ref="dialogRef" class="export-dialog" @click.self="closeDialog">
-    <div class="export-dialog__body">
-      <header>
-        <h3>{{ t("exportDialogTitle") }}</h3>
-        <p>{{ t("exportDialogDescription") }}</p>
-      </header>
-      <div un-flex un-gap="2" un-items="center">
-        <label un-min-w="22" un-text="slate-600">{{ t("exportDialogNameLabel") }}</label>
-        <input
-          v-model="userName"
-          type="text"
-          :placeholder="t('exportDialogNamePlaceholder')"
-          un-flex-grow
-          un-p="x-4"
-          un-h="10"
-          un-border="slate-300 2"
-          un-rounded="md"
-        />
-      </div>
-      <div un-flex un-gap="2">
-        <input
-          type="text"
-          readonly
-          :value="exportUrl"
-          un-flex-grow
-          un-p="x-4"
-          un-h="10"
-          un-border="slate-300 2"
-          un-rounded="md"
-        />
-        <button type="button" @click="copyExportLink">
-          <Badge
-            :un-bg="copyStatus === 'idle' ? 'arcaea' : 'pure'"
-            un-text="slate-700"
-            un-cursor="pointer"
-            un-p="x-6"
-          >
-            {{ copyButtonText }}
-          </Badge>
-        </button>
-      </div>
-      <div un-flex un-justify="end">
-        <button type="button" @click="closeDialog">
-          <Badge
-            un-bg="slate-400 hover:slate-500"
-            un-text="slate-700"
-            un-cursor="pointer"
-            un-p="x-6"
-          >
-            {{ t("exportDialogClose") }}
-          </Badge>
-        </button>
-      </div>
-    </div>
-  </dialog>
+	<button un-fixed un-right="2" un-bottom="2" un-drop-shadow="md" type="button" @click="openDialog">
+		<Badge un-bg="arcaea hover:pure" un-text="white" un-cursor="pointer" un-p="x-6">{{
+			t("exportButton")
+			}}</Badge>
+	</button>
+	<dialog ref="dialogRef" class="export-dialog" @click.self="closeDialog">
+		<div class="export-dialog__body">
+			<header>
+				<h3>{{ t("exportDialogTitle") }}</h3>
+				<p>{{ t("exportDialogDescription") }}</p>
+			</header>
+			<div un-flex un-gap="2" un-items="center">
+				<label un-min-w="22" un-text="slate-600">{{ t("exportDialogNameLabel") }}</label>
+				<input v-model="userName" type="text" :placeholder="t('exportDialogNamePlaceholder')" un-flex-grow un-p="x-4"
+					un-h="10" un-border="slate-300 2" un-rounded="md" />
+			</div>
+			<div un-flex un-gap="2">
+				<input type="text" readonly :value="exportUrl" un-flex-grow un-p="x-4" un-h="10" un-border="slate-300 2"
+					un-rounded="md" />
+				<button type="button" @click="copyExportLink">
+					<Badge :un-bg="copyStatus === 'idle' ? 'arcaea' : 'pure'" un-text="slate-700" un-cursor="pointer" un-p="x-6">
+						{{ copyButtonText }}
+					</Badge>
+				</button>
+			</div>
+			<div un-flex un-justify="end">
+				<button type="button" @click="closeDialog">
+					<Badge un-bg="slate-400 hover:slate-500" un-text="slate-700" un-cursor="pointer" un-p="x-6">
+						{{ t("exportDialogClose") }}
+					</Badge>
+				</button>
+			</div>
+		</div>
+	</dialog>
 </template>
 
 <style scoped lang="scss">
 .export-dialog {
-  border: none;
-  padding: 0;
-  border-radius: 1rem;
-  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
-  max-width: min(90vw, 32rem);
-  width: 100%;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	border: none;
+	padding: 0;
+	border-radius: 1rem;
+	box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+	max-width: min(90vw, 32rem);
+	width: 100%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 
-  &::backdrop {
-    background: rgba(0, 0, 0, 0.4);
-  }
+	&::backdrop {
+		background: rgba(0, 0, 0, 0.4);
+	}
 
-  &__body {
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    font-family: var(--font-sans);
+	&__body {
+		padding: 1.5rem;
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		font-family: var(--font-sans);
 
-    header {
-      h3 {
-        margin: 0;
-        font-size: 1.125rem;
-      }
+		header {
+			h3 {
+				margin: 0;
+				font-size: 1.125rem;
+			}
 
-      p {
-        margin: 0;
-        font-size: 0.9rem;
-        color: gray;
-      }
-    }
-  }
+			p {
+				margin: 0;
+				font-size: 0.9rem;
+				color: gray;
+			}
+		}
+	}
 }
 </style>

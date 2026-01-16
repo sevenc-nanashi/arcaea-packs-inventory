@@ -79,7 +79,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-	<button un-fixed un-right="2" un-bottom="2" un-drop-shadow="md" type="button" @click="openDialog">
+	<button un-fixed un-right="2" un-bottom="2" un-drop-shadow="md" type="button" un-z="100" @click="openDialog">
 		<Badge un-bg="arcaea hover:pure" un-text="white" un-cursor="pointer" un-p="x-6">{{
 			t("exportButton")
 			}}</Badge>
@@ -105,15 +105,8 @@ onBeforeUnmount(() => {
 				</button>
 			</div>
 			<div v-if="exportImageUrl" un-flex un-justify="center">
-				<img
-					:src="exportImageUrl"
-					alt="Inventory preview"
-					width="1200"
-					height="630"
-					un-rounded="lg"
-					un-border="slate-200 2"
-					un-w="full"
-				/>
+				<img :src="exportImageUrl" alt="Inventory preview" width="1200" height="630" un-rounded="lg"
+					un-border="slate-200 2" un-w="full" />
 			</div>
 			<div un-flex un-justify="end">
 				<button type="button" @click="closeDialog">

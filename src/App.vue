@@ -1,5 +1,8 @@
 <script setup lang="ts">
-
+import Header from './components/Header.vue';
+import Export from './components/Export.vue';
+import Category from './components/Category.vue';
+import { categoriesData } from './lib/songData';
 </script>
 
 <template>

@@ -1,14 +1,20 @@
 <script setup lang="ts">
-import type { CategoryData } from "../lib/songData";
+import type { CategoryData } from '../lib/songData';
+import Pack from './Pack.vue';
 
-const _props = defineProps<{
-  category: CategoryData;
+const props = defineProps<{
+	category: CategoryData;
 }>();
 </script>
 <template>
-	<h2 class="category-header">
-		{{ props.category.title }}
-	</h2>
+	<section>
+		<h2 class="category-header" un-m="x-auto" un-max-w="xl">
+			{{ props.category.title }}
+		</h2>
+		<div un-m="x-auto" un-max-w="sm">
+			<Pack v-for="(pack, index) in props.category.packs" :key="index" :pack />
+		</div>
+	</section>
 </template>
 <style scoped>
 .category-header {

@@ -21,7 +21,7 @@ const emit = defineEmits<{
     <svg
       width="1rem"
       height="1rem"
-      viewBox="-2 -2 26 26"
+      viewBox="-2 -2 28 28"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

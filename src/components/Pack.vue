@@ -1,88 +1,75 @@
 <script setup lang="ts">
 import Checkbox from './ui/Checkbox.vue';
-import type { PackData } from '../lib/songData';
+import type { AppendData, PackData } from '../lib/songData';
 import { packItselfKey, useUnlockableContentsStore } from '../store';
 import { computed, ref } from 'vue';
+import ContentCheck from './ContentCheck.vue';
 
 const props = defineProps<{
 	pack: PackData;
+	append?: AppendData;
 }>();
 
 const unlockableContentsStore = useUnlockableContentsStore();
-const setHasUnlockableContent = (unlockableContent: string, has: boolean) => {
-	unlockableContentsStore.setHasUnlockableContent(props.pack.textId, unlockableContent, has);
+const setHasPack = (has: boolean) => {
+	unlockableContentsStore.setHasPack(props.pack.textId, has);
 };
-const getHasUnlockableContent = (unlockableContent: string) => {
-	return unlockableContentsStore.hasUnlockableContent(props.pack.textId, unlockableContent);
+const getHasPack = () => {
+	return unlockableContentsStore.hasPack(props.pack.textId);
 };
 
 const hasAllUnlockableContent = computed(() => {
-	if (!getHasUnlockableContent(packItselfKey)) {
+	if (!getHasPack()) {
 		return false;
 	}
 	for (const append of props.pack.appends) {
-		if (!getHasUnlockableContent(append.textId)) {
+		if (!unlockableContentsStore.hasPack(append.textId)) {
 			return false;
 		}
 	}
 	return true;
 });
 
-const setHasAllUnlockableContent = () => {
-	if (hasAllUnlockableContent.value) {
-		// uncheck all
-		setHasUnlockableContent(packItselfKey, false);
+const setHasAllPacks = (value: boolean) => {
+	if (value) {
+		// check all
+		setHasPack(true);
 		for (const append of props.pack.appends) {
-			setHasUnlockableContent(append.textId, false);
+			unlockableContentsStore.setHasPack(append.textId, true);
 		}
 	} else {
-		// check all
-		setHasUnlockableContent(packItselfKey, true);
+		// uncheck all
+		setHasPack(false);
 		for (const append of props.pack.appends) {
-			setHasUnlockableContent(append.textId, true);
+			unlockableContentsStore.setHasPack(append.textId, false);
 		}
 	}
 };
 
-const hasAppends = computed(() => props.pack.appends.length > 0);
+const appends = computed(() => (props.append ? [] : props.pack.appends));
 const isAppendsOpen = ref(false);
 </script>
 
 <template>
-	<details v-if="hasAppends" @toggle="isAppendsOpen = ($event.target as HTMLDetailsElement).open">
+	<details v-if="appends.length > 0" @toggle="isAppendsOpen = ($event.target as HTMLDetailsElement).open">
 		<summary un-flex un-items="center" un-gap="2" class="pack-heading" un-cursor="pointer">
 			<Checkbox
 				:un-color="hasAllUnlockableContent ? 'pure' : 'far'"
-				:modelValue="getHasUnlockableContent(packItselfKey)"
-				@shiftCheck="setHasAllUnlockableContent"
-				@update:modelValue="setHasUnlockableContent(packItselfKey, $event)"
+				:modelValue="getHasPack()"
+				@update:modelValue="setHasAllPacks($event)"
 			/>
-			<span>{{ props.pack.title }}</span>
+			<span>{{ props.append?.title ?? props.pack.title }}</span>
 			<div un-flex="grow" />
-			<span
-				v-if="hasAppends"
-				un-text="sm slate-500"
-				un-size="4"
-				:un-i="isAppendsOpen ? 'fluent-chevron-up-32-filled' : 'fluent-chevron-down-32-filled'"
-			/>
+			<span un-text="sm slate-500" un-size="4" :un-i="isAppendsOpen ? 'fluent-chevron-up-32-filled' : 'fluent-chevron-down-32-filled'" />
 		</summary>
-		<div v-if="hasAppends" un-ml="6">
-			<div v-for="append in props.pack.appends">
-				<label un-flex un-items="center" un-gap="2" un-cursor="pointer">
-					<Checkbox un-color="far" :modelValue="getHasUnlockableContent(append.textId)" @update:modelValue="setHasUnlockableContent(append.textId, $event)" />
-					{{ append.title }}
-				</label>
-			</div>
+		<div un-ml="6">
+			<ContentCheck :content="props.pack" />
+			<ContentCheck v-for="(append, index) in props.pack.appends" :key="index" :content="append" />
 		</div>
 	</details>
 	<label v-else un-flex un-items="center" un-gap="2" class="pack-heading" un-cursor="pointer">
-		<Checkbox
-			un-color="far"
-			:modelValue="getHasUnlockableContent(packItselfKey)"
-			@shiftCheck="setHasUnlockableContent(packItselfKey, !getHasUnlockableContent(packItselfKey))"
-			@update:modelValue="setHasUnlockableContent(packItselfKey, $event)"
-		/>
-		<span>{{ props.pack.title }}</span>
+		<Checkbox un-color="pure" :modelValue="getHasPack()" @update:modelValue="setHasPack($event)" />
+		<span>{{ props.append?.title ?? props.pack.title }}</span>
 	</label>
 </template>
 

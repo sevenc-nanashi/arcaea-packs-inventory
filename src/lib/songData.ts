@@ -63,7 +63,7 @@ export const categoriesData: CategoryData[] = categories.map((category: BaseCate
 		textId: pack.text_id,
 		title: pack.title,
 		appends: pack.appends.map((append) => ({
-			textId: append.text_id,
+			textId: `${pack.text_id}__${append.text_id}`,
 			title: append.title,
 		})),
 	})),

@@ -17,6 +17,7 @@
       "cache": false
     },
     "deploy": {
+      "dependsOn": ["build"],
       "cache": false
     }
   }

@@ -77,7 +77,7 @@ const isAppendsOpen = ref(false);
 		<div un-ml="6">
 			<ContentCheck v-if="props.pack.appends.length > 0" :content="props.pack" un-font="en" />
 			<ContentCheck v-for="(append, index) in props.pack.appends" :key="index" :content="append" un-font="en" />
-			<ContentCheck v-for="(song, index) in lockedSongs" :key="index" :content="song" kind="song" un-font="en" />
+			<ContentCheck v-for="(song, index) in lockedSongs" :key="index" :content="song" kind="song" />
 		</div>
 	</details>
 	<label v-else un-flex un-items="center" un-gap="2" class="pack-heading" un-cursor="pointer" un-font="en">

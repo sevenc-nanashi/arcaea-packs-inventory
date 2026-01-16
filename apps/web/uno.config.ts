@@ -14,7 +14,7 @@ export default defineConfig({
   theme: {
     font: {
       sans: "var(--font-sans)",
-      en: "Exo, sans-serif",
+      en: "Exo, Kazesawa, sans-serif",
       ja: "'Kazesawa', sans-serif",
     },
     colors: palette,

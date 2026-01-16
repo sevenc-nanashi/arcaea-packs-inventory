@@ -6,6 +6,7 @@ import {
   palette,
   SongData,
   inventory,
+  parseSerializedInventoryWithName,
 } from "@shared/song-data";
 import abbrs from "./abbrs.json";
 import * as z from "zod";
@@ -14,7 +15,7 @@ import van from "mini-van-plate/van-plate";
 import { env } from "cloudflare:workers";
 const app = new Hono();
 
-const { div, span } = van.tags;
+const { div, span, meta } = van.tags;
 
 const toStyles = (style: Record<string, string | number>) => {
   return Object.entries(style)
@@ -31,15 +32,36 @@ app.get("/", async (c) => {
   const url = new URL(c.req.url);
   let html = await env.ASSETS.fetch(c.req.raw).then((res) => res.text());
   const query = url.searchParams.get("i");
+  const maybeInventory = parseSerializedInventoryWithName(query ?? "");
+  const title = maybeInventory.name
+    ? `${maybeInventory.name}'s Arcaea Packs Inventory`
+    : "Arcaea Packs Inventory";
+  const description = maybeInventory.name
+    ? `Check out ${maybeInventory.name}'s Arcaea packs inventory!`
+    : "Share your Arcaea inventory at a glance.";
+  let ogpMeta = [
+    meta({ name: "theme-color", content: "#34333e" }),
+    meta({ property: "og:type", content: "website" }),
+    meta({ property: "og:url", content: "https://arcinv.sevenc7c.com" }),
+    meta({ property: "og:title", content: title }),
+    meta({ property: "og:description", content: description }),
+    meta({ name: "twitter:title", content: title }),
+    meta({ name: "twitter:description", content: description }),
+    meta({ name: "description", content: description }),
+  ];
   if (query) {
-    html = html.replaceAll(
-      "!!OGP_URL!!",
-      `${url.origin}/image?inventory=${encodeURIComponent(query)}`,
+    const imageUrl = new URL("/image", "https://arcinv.sevenc7c.com");
+    imageUrl.searchParams.set("inventory", query);
+    ogpMeta.push(
+      meta({ property: "og:image:width", content: "1200" }),
+      meta({ property: "og:image:height", content: "630" }),
+      meta({ name: "twitter:card", content: "summary_large_image" }),
+      meta({ property: "og:image", content: imageUrl.toString() }),
+      meta({ name: "twitter:image", content: imageUrl.toString() }),
     );
-    html = html.replaceAll("<unused-meta ", "<meta ");
-  } else {
-    html = html.replace(/<unused-meta .*?\/>/gs, "");
   }
+
+  html = html.replace("</head>", `${ogpMeta.map((el) => el.render()).join("")}</head>`);
   return c.html(html);
 });
 
@@ -304,7 +326,7 @@ const FooterRow = (name: string | undefined, generatedAt: string | undefined, fo
   const footerParts = [
     trimmedName ? `${trimmedName}` : null,
     generatedAt ? `${generatedAt}` : null,
-    "arcinv.sevenc7c.com"
+    "arcinv.sevenc7c.com",
   ].filter(Boolean);
   const footerText = footerParts.join(" / ");
   return div(

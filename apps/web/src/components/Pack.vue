@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Checkbox from "./ui/Checkbox.vue";
-import type { AppendData, PackData } from "../lib/songData";
+import type { AppendData, PackData } from "@shared/song-data";
 import { packItselfKey, useUnlockableContentsStore } from "../store";
 import { computed, ref } from "vue";
 import ContentCheck from "./ContentCheck.vue";

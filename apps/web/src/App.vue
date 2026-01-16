@@ -2,7 +2,7 @@
 import Header from "./components/Header.vue";
 import Export from "./components/Export.vue";
 import Category from "./components/Category.vue";
-import { categoriesData } from "./lib/songData";
+import { categoriesData } from "@shared/song-data";
 import { useUnlockableContentsStore } from "./store";
 import { useI18n } from "vue-i18n";
 import { watch } from "vue";

@@ -1,7 +1,6 @@
-import inventoryKeysMap from "./lib/inventoryKeys.json";
 import { defineStore } from "pinia";
 import { BitField } from "./lib/bitField";
-import { categoriesData } from "./lib/songData";
+import { categoriesData, inventoryKeysMap } from "@shared/song-data";
 
 export const packItselfKey = "_itself";
 export const beyondKey = (name: string) => `${name}__beyond`;

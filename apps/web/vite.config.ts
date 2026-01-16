@@ -7,7 +7,18 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
   server: {
+    fs: {
+      allow: [path.resolve(import.meta.dirname, "../..")],
+    },
     allowedHosts: true,
+  },
+  resolve: {
+    alias: {
+      "@shared/song-data": path.resolve(
+        import.meta.dirname,
+        "../../packages/song-data/src/index.ts",
+      ),
+    },
   },
   plugins: [
     vue(),

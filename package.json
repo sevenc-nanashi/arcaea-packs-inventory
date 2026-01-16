@@ -2,14 +2,18 @@
   "name": "arcaea-packs-inventory",
   "version": "0.0.0",
   "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "run-p dev:frontend dev:backend",
-    "dev:frontend": "vite",
-    "dev:backend": "wrangler dev",
-    "start": "wrangler dev",
-    "test": "vitest",
-    "cf-typegen": "wrangler types",
+    "deploy": "cd apps/worker && wrangler deploy",
+    "dev": "run-p dev:web dev:worker",
+    "dev:web": "cd apps/web && vite",
+    "dev:worker": "cd apps/worker && wrangler dev",
+    "start": "cd apps/worker && wrangler dev",
+    "test": "cd apps/worker && vitest",
+    "cf-typegen": "cd apps/worker && wrangler types",
     "lint": "oxfmt --check .",
     "lint:fix": "oxfmt --write ."
   },

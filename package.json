@@ -9,7 +9,9 @@
     "dev:backend": "wrangler dev",
     "start": "wrangler dev",
     "test": "vitest",
-    "cf-typegen": "wrangler types"
+    "cf-typegen": "wrangler types",
+    "lint": "oxfmt --check .",
+    "lint:fix": "oxfmt --write ."
   },
   "dependencies": {
     "base64-js": "^1.5.1",

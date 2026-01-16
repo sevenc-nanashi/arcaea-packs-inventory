@@ -2,7 +2,6 @@ import { defineStore } from "pinia";
 import {
   applySerializedInventory,
   inventoryKeys,
-  inventoryKeysMap,
   makeInventoryKey,
   serializeInventory,
 } from "@shared/song-data";
@@ -10,30 +9,6 @@ import {
 export const packItselfKey = "_itself";
 export const beyondKey = (name: string) => `${name}__beyond`;
 const STORAGE_KEY = "arcaea-packs-inventory";
-
-if (inventoryKeys.some((key) => !inventoryKeysMap.includes(key))) {
-  if (import.meta.env.DEV) {
-    if (confirm("inventoryKeys.json is out of date. Download the updated version?")) {
-      const updatedKeys = inventoryKeysMap.slice();
-      for (const key of inventoryKeys) {
-        if (!updatedKeys.includes(key)) {
-          updatedKeys.push(key);
-        }
-      }
-      const dataStr =
-        "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(updatedKeys, null, 2));
-      const downloadAnchorNode = document.createElement("a");
-      downloadAnchorNode.setAttribute("href", dataStr);
-      downloadAnchorNode.setAttribute("download", "inventoryKeys.json");
-      document.body.appendChild(downloadAnchorNode); // required for firefox
-      downloadAnchorNode.click();
-      downloadAnchorNode.remove();
-    }
-  } else {
-    alert("Warning: inventoryKeys.json is out of date. Please inform the developer to update it.");
-    throw new Error("inventoryKeys.json is out of date. Please inform the developer to update it.");
-  }
-}
 
 const isBrowser = typeof window !== "undefined";
 
@@ -61,7 +36,7 @@ const persistInventory = (inventory: Map<string, boolean>) => {
     return;
   }
   const payload: Record<string, boolean> = {};
-  for (const key of inventoryKeysMap) {
+  for (const key of inventoryKeys) {
     payload[key] = Boolean(inventory.get(key));
   }
   window.localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));

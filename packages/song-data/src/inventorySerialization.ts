@@ -4,19 +4,21 @@ import inventoryKeysMap from "./inventoryKeys.json";
 
 const separator = "__";
 
-export const makeInventoryKey = (textId: string) => ["pack", textId].join(separator);
+export const makePackInventoryKey = (textId: string) => ["pack", textId].join(separator);
 
-export const inventoryKeys = categoriesData.flatMap((category) =>
+export const latestInventoryKeys = categoriesData.flatMap((category) =>
   category.packs.flatMap((pack) => [
-    makeInventoryKey(pack.textId),
-    ...pack.appends.map((append) => makeInventoryKey(append.textId)),
+    makePackInventoryKey(pack.textId),
+    ...pack.appends.map((append) => makePackInventoryKey(append.textId)),
   ]),
 );
 
-const inventoryKeyIndex = new Map<string, number>(inventoryKeys.map((key, index) => [key, index]));
+const inventoryKeyIndex = new Map<string, number>(
+  latestInventoryKeys.map((key, index) => [key, index]),
+);
 
 export const serializeInventory = (inventory: ReadonlyMap<string, boolean>) => {
-  const field = new BitField(inventoryKeys.length);
+  const field = new BitField(latestInventoryKeys.length);
   for (const [key, value] of inventory) {
     if (!value) {
       continue;
@@ -34,7 +36,7 @@ export const applySerializedInventory = (inventory: Map<string, boolean>, serial
     return false;
   }
   try {
-    const field = BitField.deserialize(serialized, inventoryKeys.length);
+    const field = BitField.deserialize(serialized, latestInventoryKeys.length);
     for (const key of inventoryKeysMap) {
       const index = inventoryKeyIndex.get(key);
       if (index !== undefined) {

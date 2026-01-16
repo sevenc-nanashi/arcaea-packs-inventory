@@ -12,9 +12,10 @@
   "scripts": {
     "dev": "tsdown --watch",
     "build": "tsdown",
-    "gen:inventory-keys": "bun run scripts/generate-inventory-keys.ts"
+    "gen:inventory": "cross-env ARCAEA_PACKS_INVENTORY_SKIP_CHECK=1 bun run scripts/inventory.ts"
   },
   "devDependencies": {
+    "cross-env": "^10.1.0",
     "tsdown": "^0.20.0-beta.3"
   }
 }

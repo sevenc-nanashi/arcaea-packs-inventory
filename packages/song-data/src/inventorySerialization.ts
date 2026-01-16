@@ -5,6 +5,7 @@ import inventoryKeysMap from "./inventoryKeys.json";
 const separator = "__";
 
 export const makePackInventoryKey = (textId: string) => ["pack", textId].join(separator);
+export const makeSongInventoryKey = (textId: string) => ["song", textId].join(separator);
 
 const inventoryKeyIndex = new Map<string, number>(inventoryKeys.map((key, index) => [key, index]));
 

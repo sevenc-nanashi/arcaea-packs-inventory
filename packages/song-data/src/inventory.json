@@ -358,5 +358,1724 @@
     "text_id": "dynamix",
     "title": "Dynamix Collaboration",
     "appends": []
+  },
+  "song__DataErr0r": {
+    "index": 472,
+    "text_id": "DataErr0r",
+    "title": "DataErr0r",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__CROSS%E2%80%A0SOUL": {
+    "index": 62,
+    "text_id": "CROSS%E2%80%A0SOUL",
+    "title": "CROSS†SOUL",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Your%20voice%20so...%20feat.%20Such": {
+    "index": 63,
+    "text_id": "Your%20voice%20so...%20feat.%20Such",
+    "title": "Your voice so... feat. Such",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E4%B8%8D%E6%B5%84%E3%81%AA%E7%99%BD%E3%81%84%E9%B3%A5": {
+    "index": 64,
+    "text_id": "%E4%B8%8D%E6%B5%84%E3%81%AA%E7%99%BD%E3%81%84%E9%B3%A5",
+    "title": "不浄な白い鳥",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Auxesia": {
+    "index": 65,
+    "text_id": "Auxesia",
+    "title": "Auxesia",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Modelista": {
+    "index": 66,
+    "text_id": "Modelista",
+    "title": "Modelista",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Surrender": {
+    "index": 67,
+    "text_id": "Surrender",
+    "title": "Surrender",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E5%A4%9C%E6%A1%9C%E5%90%B9%E9%9B%AA": {
+    "index": 68,
+    "text_id": "%E5%A4%9C%E6%A1%9C%E5%90%B9%E9%9B%AA",
+    "title": "夜桜吹雪",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Metallic%20Punisher": {
+    "index": 69,
+    "text_id": "Metallic%20Punisher",
+    "title": "Metallic Punisher",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__carmine_scythe": {
+    "index": 70,
+    "text_id": "carmine_scythe",
+    "title": "carmine:scythe",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%CE%B3uar%CE%B4ina": {
+    "index": 71,
+    "text_id": "%CE%B3uar%CE%B4ina",
+    "title": "γuarδina",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Be%20There": {
+    "index": 72,
+    "text_id": "Be%20There",
+    "title": "Be There",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Call%20My%20Name%20feat.%20Yukacco": {
+    "index": 73,
+    "text_id": "Call%20My%20Name%20feat.%20Yukacco",
+    "title": "Call My Name feat. Yukacco",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__dropdead": {
+    "index": 74,
+    "text_id": "dropdead",
+    "title": "dropdead",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": true
+  },
+  "song__Fallensquare": {
+    "index": 75,
+    "text_id": "Fallensquare",
+    "title": "Fallensquare",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Alexandrite": {
+    "index": 76,
+    "text_id": "Alexandrite",
+    "title": "Alexandrite",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Astral%20tale": {
+    "index": 77,
+    "text_id": "Astral%20tale",
+    "title": "Astral tale",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Phantasia": {
+    "index": 78,
+    "text_id": "Phantasia",
+    "title": "Phantasia",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Empire%20of%20Winter": {
+    "index": 79,
+    "text_id": "Empire%20of%20Winter",
+    "title": "Empire of Winter",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Libertas": {
+    "index": 80,
+    "text_id": "Libertas",
+    "title": "Libertas",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": true
+  },
+  "song__Dot%20to%20Dot%20feat.%20shully": {
+    "index": 81,
+    "text_id": "Dot%20to%20Dot%20feat.%20shully",
+    "title": "Dot to Dot feat. shully",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Dreadnought": {
+    "index": 82,
+    "text_id": "Dreadnought",
+    "title": "Dreadnought",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Mirzam": {
+    "index": 83,
+    "text_id": "Mirzam",
+    "title": "Mirzam",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Heavenly%20caress": {
+    "index": 84,
+    "text_id": "Heavenly%20caress",
+    "title": "Heavenly caress",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Filament": {
+    "index": 85,
+    "text_id": "Filament",
+    "title": "Filament",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Avant%20Raze": {
+    "index": 86,
+    "text_id": "Avant%20Raze",
+    "title": "Avant Raze",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__BATTLE%20NO.1": {
+    "index": 87,
+    "text_id": "BATTLE%20NO.1",
+    "title": "BATTLE NO.1",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__La%27qryma%20of%20the%20Wasteland": {
+    "index": 88,
+    "text_id": "La%27qryma%20of%20the%20Wasteland",
+    "title": "La'qryma of the Wasteland",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": true
+  },
+  "song__Einherjar%20Joker": {
+    "index": 89,
+    "text_id": "Einherjar%20Joker",
+    "title": "Einherjar Joker",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": true
+  },
+  "song__IZANA": {
+    "index": 90,
+    "text_id": "IZANA",
+    "title": "IZANA",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E6%9C%80%E5%BC%B7STRONGER": {
+    "index": 91,
+    "text_id": "%E6%9C%80%E5%BC%B7STRONGER",
+    "title": "最強STRONGER",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__amygdata": {
+    "index": 92,
+    "text_id": "amygdata",
+    "title": "amygdata",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Altale": {
+    "index": 93,
+    "text_id": "Altale",
+    "title": "Altale",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": true
+  },
+  "song__Feels%20So%20Right%20feat.%20Renko": {
+    "index": 94,
+    "text_id": "Feels%20So%20Right%20feat.%20Renko",
+    "title": "Feels So Right feat. Renko",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Scarlet%20Cage": {
+    "index": 95,
+    "text_id": "Scarlet%20Cage",
+    "title": "Scarlet Cage",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Teriqma": {
+    "index": 96,
+    "text_id": "Teriqma",
+    "title": "Teriqma",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": true
+  },
+  "song__MAHOROBA": {
+    "index": 97,
+    "text_id": "MAHOROBA",
+    "title": "MAHOROBA",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__BADTEK": {
+    "index": 98,
+    "text_id": "BADTEK",
+    "title": "BADTEK",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Malicious%20Mischance": {
+    "index": 99,
+    "text_id": "Malicious%20Mischance",
+    "title": "Malicious Mischance",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__BUCHiGiRE%20Berserker": {
+    "index": 100,
+    "text_id": "BUCHiGiRE%20Berserker",
+    "title": "BUCHiGiRE Berserker",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Galaxy%20Friends": {
+    "index": 101,
+    "text_id": "Galaxy%20Friends",
+    "title": "Galaxy Friends",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Xeraphinite": {
+    "index": 102,
+    "text_id": "Xeraphinite",
+    "title": "Xeraphinite",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Xanatos": {
+    "index": 103,
+    "text_id": "Xanatos",
+    "title": "Xanatos",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__AttraqtiA": {
+    "index": 104,
+    "text_id": "AttraqtiA",
+    "title": "AttraqtiA",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__GIMME%20DA%20BLOOD": {
+    "index": 105,
+    "text_id": "GIMME%20DA%20BLOOD",
+    "title": "GIMME DA BLOOD",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E3%83%99%E3%83%BC%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%84%E3%81%A3%E3%81%A6%E3%82%8B%EF%BC%9Fw": {
+    "index": 106,
+    "text_id": "%E3%83%99%E3%83%BC%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%84%E3%81%A3%E3%81%A6%E3%82%8B%EF%BC%9Fw",
+    "title": "ベースラインやってる？w",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__THE%20ULTIMACY": {
+    "index": 107,
+    "text_id": "THE%20ULTIMACY",
+    "title": "THE ULTIMACY",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E7%83%88%E8%8F%AFRESONANCE": {
+    "index": 108,
+    "text_id": "%E7%83%88%E8%8F%AFRESONANCE",
+    "title": "烈華RESONANCE",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Sheriruth%20%28Laur%20Remix%29": {
+    "index": 109,
+    "text_id": "Sheriruth%20%28Laur%20Remix%29",
+    "title": "Sheriruth (Laur Remix)",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E7%B7%8B%E7%BA%8F%E3%81%84%E3%81%AE%E5%AE%B5": {
+    "index": 110,
+    "text_id": "%E7%B7%8B%E7%BA%8F%E3%81%84%E3%81%AE%E5%AE%B5",
+    "title": "緋纏いの宵",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__goldenslaughterer": {
+    "index": 111,
+    "text_id": "goldenslaughterer",
+    "title": "goldenslaughterer",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__lastendconductor": {
+    "index": 112,
+    "text_id": "lastendconductor",
+    "title": "lastendconductor",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": true
+  },
+  "song__Redolent%20Shape": {
+    "index": 113,
+    "text_id": "Redolent%20Shape",
+    "title": "Redolent Shape",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E5%BD%A9%E3%82%8B%E5%A4%8F%E3%81%AE%E6%81%8B%E8%8A%B1%E7%81%AB": {
+    "index": 114,
+    "text_id": "%E5%BD%A9%E3%82%8B%E5%A4%8F%E3%81%AE%E6%81%8B%E8%8A%B1%E7%81%AB",
+    "title": "彩る夏の恋花火",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__init%28%29": {
+    "index": 115,
+    "text_id": "init%28%29",
+    "title": "init()",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__INTERNET%20OVERDOSE": {
+    "index": 116,
+    "text_id": "INTERNET%20OVERDOSE",
+    "title": "INTERNET OVERDOSE",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Macrocosmic%20Modulation": {
+    "index": 117,
+    "text_id": "Macrocosmic%20Modulation",
+    "title": "Macrocosmic Modulation",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Kissing%20Lucifer": {
+    "index": 118,
+    "text_id": "Kissing%20Lucifer",
+    "title": "Kissing Lucifer",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__NEO%20WINGS": {
+    "index": 119,
+    "text_id": "NEO%20WINGS",
+    "title": "NEO WINGS",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Aurgelmir": {
+    "index": 120,
+    "text_id": "Aurgelmir",
+    "title": "Aurgelmir",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Head%20BONK%20ache": {
+    "index": 121,
+    "text_id": "Head%20BONK%20ache",
+    "title": "Head BONK ache",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E3%83%94%E3%82%B3Pico%2A%E3%81%A8%E3%82%89%E3%82%93%E3%81%99%E3%82%8C%E3%83%BC%E3%81%97%E3%82%87%E3%82%93%E3%81%A3%EF%BC%81": {
+    "index": 122,
+    "text_id": "%E3%83%94%E3%82%B3Pico%2A%E3%81%A8%E3%82%89%E3%82%93%E3%81%99%E3%82%8C%E3%83%BC%E3%81%97%E3%82%87%E3%82%93%E3%81%A3%EF%BC%81",
+    "title": "ピコPico*とらんすれーしょんっ！",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%CE%BC": {
+    "index": 123,
+    "text_id": "%CE%BC",
+    "title": "μ",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__PUPA": {
+    "index": 124,
+    "text_id": "PUPA",
+    "title": "PUPA",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Free%20Myself": {
+    "index": 125,
+    "text_id": "Free%20Myself",
+    "title": "Free Myself",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__cocoro%2Acosmetic": {
+    "index": 126,
+    "text_id": "cocoro%2Acosmetic",
+    "title": "cocoro*cosmetic",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Capella": {
+    "index": 127,
+    "text_id": "Capella",
+    "title": "Capella",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__NULL%20APOPHENIA": {
+    "index": 128,
+    "text_id": "NULL%20APOPHENIA",
+    "title": "NULL APOPHENIA",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Crimson%20Throne": {
+    "index": 129,
+    "text_id": "Crimson%20Throne",
+    "title": "Crimson Throne",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Manic%20Jeer": {
+    "index": 130,
+    "text_id": "Manic%20Jeer",
+    "title": "Manic Jeer",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E7%B7%8B%E8%89%B2%E6%9C%88%E4%B8%8B%E3%80%81%E7%8B%82%E5%92%B2%E3%83%8E%E7%B5%B6%20%28nayuta%202017%20ver.%29": {
+    "index": 131,
+    "text_id": "%E7%B7%8B%E8%89%B2%E6%9C%88%E4%B8%8B%E3%80%81%E7%8B%82%E5%92%B2%E3%83%8E%E7%B5%B6%20%28nayuta%202017%20ver.%29",
+    "title": "緋色月下、狂咲ノ絶(nayuta 2017 ver.)",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__PRIMITIVE%20LIGHTS": {
+    "index": 132,
+    "text_id": "PRIMITIVE%20LIGHTS",
+    "title": "PRIMITIVE LIGHTS",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__The%20Survivor%20%28Game%20Edit%29": {
+    "index": 133,
+    "text_id": "The%20Survivor%20%28Game%20Edit%29",
+    "title": "The Survivor (Game Edit)",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__New%20York%20Back%20Raise": {
+    "index": 134,
+    "text_id": "New%20York%20Back%20Raise",
+    "title": "New York Back Raise",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Galactic%20Love": {
+    "index": 135,
+    "text_id": "Galactic%20Love",
+    "title": "Galactic Love",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Lost%20in%20the%20Abyss": {
+    "index": 136,
+    "text_id": "Lost%20in%20the%20Abyss",
+    "title": "Lost in the Abyss",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__To%20the%20Milky%20Way": {
+    "index": 137,
+    "text_id": "To%20the%20Milky%20Way",
+    "title": "To the Milky Way",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__INTERNET%20YAMERO": {
+    "index": 138,
+    "text_id": "INTERNET%20YAMERO",
+    "title": "INTERNET YAMERO",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__SACRIFICE%20feat.%20ayame": {
+    "index": 139,
+    "text_id": "SACRIFICE%20feat.%20ayame",
+    "title": "SACRIFICE feat. ayame",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E5%BD%BC%E6%96%B9%E3%81%AE%E5%A4%A2%E3%81%B8%E3%81%A8": {
+    "index": 140,
+    "text_id": "%E5%BD%BC%E6%96%B9%E3%81%AE%E5%A4%A2%E3%81%B8%E3%81%A8",
+    "title": "彼方の夢へと",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__B.B.K.K.B.K.K.": {
+    "index": 141,
+    "text_id": "B.B.K.K.B.K.K.",
+    "title": "B.B.K.K.B.K.K.",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Wish%20Upon%20a%20Snow": {
+    "index": 142,
+    "text_id": "Wish%20Upon%20a%20Snow",
+    "title": "Wish Upon a Snow",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E6%82%A3%E9%83%A8%E3%81%A7%E6%AD%A2%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%99%E3%81%90%E6%BA%B6%E3%81%91%E3%82%8B%E3%80%80%EF%BD%9E%20%E7%8B%82%E6%B0%97%E3%81%AE%E5%84%AA%E6%9B%87%E8%8F%AF%E9%99%A2": {
+    "index": 143,
+    "text_id": "%E6%82%A3%E9%83%A8%E3%81%A7%E6%AD%A2%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%99%E3%81%90%E6%BA%B6%E3%81%91%E3%82%8B%E3%80%80%EF%BD%9E%20%E7%8B%82%E6%B0%97%E3%81%AE%E5%84%AA%E6%9B%87%E8%8F%AF%E9%99%A2",
+    "title": "患部で止まってすぐ溶ける～ 狂気の優曇華院",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__LIVHT%20MY%20W%E2%80%8B%CE%94%E2%80%8BY": {
+    "index": 144,
+    "text_id": "LIVHT%20MY%20W%E2%80%8B%CE%94%E2%80%8BY",
+    "title": "LIVHT MY W​Δ​Y",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Luna%20Rossa": {
+    "index": 145,
+    "text_id": "Luna%20Rossa",
+    "title": "Luna Rossa",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Innocence": {
+    "index": 146,
+    "text_id": "Innocence",
+    "title": "Innocence",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__IONOSTREAM": {
+    "index": 147,
+    "text_id": "IONOSTREAM",
+    "title": "IONOSTREAM",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Masquerade%20Legion": {
+    "index": 148,
+    "text_id": "Masquerade%20Legion",
+    "title": "Masquerade Legion",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E7%8B%82%E6%81%8BROMANCE": {
+    "index": 149,
+    "text_id": "%E7%8B%82%E6%81%8BROMANCE",
+    "title": "狂恋ROMANCE",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Qovat": {
+    "index": 150,
+    "text_id": "Qovat",
+    "title": "Qovat",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__MIRINAE": {
+    "index": 151,
+    "text_id": "MIRINAE",
+    "title": "MIRINAE",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__ultradiaxon-N3": {
+    "index": 152,
+    "text_id": "ultradiaxon-N3",
+    "title": "ultradiaxon-N3",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Distorted%20Fate": {
+    "index": 153,
+    "text_id": "Distorted%20Fate",
+    "title": "Distorted Fate",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Floating%20World": {
+    "index": 154,
+    "text_id": "Floating%20World",
+    "title": "Floating World",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Chromafill": {
+    "index": 155,
+    "text_id": "Chromafill",
+    "title": "Chromafill",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__D%C3%A9sive": {
+    "index": 156,
+    "text_id": "D%C3%A9sive",
+    "title": "Désive",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__%E9%BB%84%E6%98%8F%E3%81%AE%E5%8D%94%E5%A5%8F%E6%9B%B2": {
+    "index": 157,
+    "text_id": "%E9%BB%84%E6%98%8F%E3%81%AE%E5%8D%94%E5%A5%8F%E6%9B%B2",
+    "title": "黄昏の協奏曲",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Beautiful%20Dreamer": {
+    "index": 158,
+    "text_id": "Beautiful%20Dreamer",
+    "title": "Beautiful Dreamer",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Back%20to%20Basics": {
+    "index": 159,
+    "text_id": "Back%20to%20Basics",
+    "title": "Back to Basics",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__STARGATE%20EXTREME": {
+    "index": 160,
+    "text_id": "STARGATE%20EXTREME",
+    "title": "STARGATE EXTREME",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__HYPER%20VISION": {
+    "index": 161,
+    "text_id": "HYPER%20VISION",
+    "title": "HYPER VISION",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__shrink": {
+    "index": 162,
+    "text_id": "shrink",
+    "title": "shrink",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Rain%20of%20Conflict%20in%20a%20Radiant%20Abyss": {
+    "index": 163,
+    "text_id": "Rain%20of%20Conflict%20in%20a%20Radiant%20Abyss",
+    "title": "Rain of Conflict in aRadiant Abyss",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__%E5%B9%BB%E6%83%B3%E3%81%AE%E3%82%B5%E3%83%86%E3%83%A9%E3%82%A4%E3%83%88": {
+    "index": 164,
+    "text_id": "%E5%B9%BB%E6%83%B3%E3%81%AE%E3%82%B5%E3%83%86%E3%83%A9%E3%82%A4%E3%83%88",
+    "title": "幻想のサテライト",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Crimson%20Quartz": {
+    "index": 165,
+    "text_id": "Crimson%20Quartz",
+    "title": "Crimson Quartz",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Third%20Sun": {
+    "index": 166,
+    "text_id": "Third%20Sun",
+    "title": "Third Sun",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Spirit%20of%20the%20Dauntless": {
+    "index": 167,
+    "text_id": "Spirit%20of%20the%20Dauntless",
+    "title": "Spirit of the Dauntless",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Dies%20irae": {
+    "index": 168,
+    "text_id": "Dies%20irae",
+    "title": "Dies irae",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__MEGALOVANIA%20%28Camellia%20Remix%29": {
+    "index": 169,
+    "text_id": "MEGALOVANIA%20%28Camellia%20Remix%29",
+    "title": "MEGALOVANIA(Camellia Remix)",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__%E3%83%97%E3%83%A9%E3%82%B7%E3%82%A4%E3%83%9C%E2%99%A5%E3%83%90%E3%83%88%E3%83%A9%E3%83%BC": {
+    "index": 170,
+    "text_id": "%E3%83%97%E3%83%A9%E3%82%B7%E3%82%A4%E3%83%9C%E2%99%A5%E3%83%90%E3%83%88%E3%83%A9%E3%83%BC",
+    "title": "プラシイボ♥バトラー",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E9%80%B2%E6%8D%97%E3%81%A9%E3%81%86%E3%81%A7%E3%81%99%E3%81%8B%3F": {
+    "index": 171,
+    "text_id": "%E9%80%B2%E6%8D%97%E3%81%A9%E3%81%86%E3%81%A7%E3%81%99%E3%81%8B%3F",
+    "title": "進捗どうですか?",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Dull%20Blade": {
+    "index": 172,
+    "text_id": "Dull%20Blade",
+    "title": "Dull Blade",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Don%27t%20Die": {
+    "index": 173,
+    "text_id": "Don%27t%20Die",
+    "title": "Don't Die",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Tic%21%20Tac%21%20Toe%21": {
+    "index": 174,
+    "text_id": "Tic%21%20Tac%21%20Toe%21",
+    "title": "Tic! Tac! Toe!",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Miles": {
+    "index": 175,
+    "text_id": "Miles",
+    "title": "Miles",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Acheron": {
+    "index": 176,
+    "text_id": "Acheron",
+    "title": "Acheron",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Eternity%20Break": {
+    "index": 177,
+    "text_id": "Eternity%20Break",
+    "title": "Eternity Break",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Angel%27s%20Boundary": {
+    "index": 178,
+    "text_id": "Angel%27s%20Boundary",
+    "title": "Angel's Boundary",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Xterfusion": {
+    "index": 179,
+    "text_id": "Xterfusion",
+    "title": "Xterfusion",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Grandspell": {
+    "index": 180,
+    "text_id": "Grandspell",
+    "title": "Grandspell",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Paranoid%20Arc": {
+    "index": 466,
+    "text_id": "Paranoid%20Arc",
+    "title": "Paranoid Arc",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__%E7%BE%BD%E5%8C%96%E3%81%99%E3%82%8B%E4%BA%9C%E7%90%83%E4%BD%93": {
+    "index": 467,
+    "text_id": "%E7%BE%BD%E5%8C%96%E3%81%99%E3%82%8B%E4%BA%9C%E7%90%83%E4%BD%93",
+    "title": "羽化する亜球体",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__%EF%BC%BB%E7%AD%8F%EF%BC%BD%E3%81%AF%E4%BA%91%E3%81%86%E3%80%82%E5%B9%BE%E3%82%89%E6%BC%82%E6%B5%81%E3%81%99%E3%82%8C%E3%81%A9%E4%B8%8D%E6%92%93%E3%81%AE%E5%BF%83%E3%81%95%E3%81%88%E6%9C%89%E3%82%8C%E3%81%B0%E8%BB%88%E3%81%A6%E8%A1%8C%E5%88%B0%E3%82%8B%E3%81%A8%E3%80%82": {
+    "index": 468,
+    "text_id": "%EF%BC%BB%E7%AD%8F%EF%BC%BD%E3%81%AF%E4%BA%91%E3%81%86%E3%80%82%E5%B9%BE%E3%82%89%E6%BC%82%E6%B5%81%E3%81%99%E3%82%8C%E3%81%A9%E4%B8%8D%E6%92%93%E3%81%AE%E5%BF%83%E3%81%95%E3%81%88%E6%9C%89%E3%82%8C%E3%81%B0%E8%BB%88%E3%81%A6%E8%A1%8C%E5%88%B0%E3%82%8B%E3%81%A8%E3%80%82",
+    "title": "［筏］は云う。幾ら漂流すれど不撓の心さえ有れば軈て行到ると。",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9": {
+    "index": 473,
+    "text_id": "%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9",
+    "title": "始マリノ詩",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__mod": {
+    "index": 181,
+    "text_id": "mod",
+    "title": "mod",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Particle": {
+    "index": 182,
+    "text_id": "Particle",
+    "title": "Particle",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Paradox%20Palette": {
+    "index": 183,
+    "text_id": "Paradox%20Palette",
+    "title": "Paradox Palette",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Xxium%20and%20Purple%20haze": {
+    "index": 184,
+    "text_id": "Xxium%20and%20Purple%20haze",
+    "title": "Xxium and Purple haze",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__taboo%20tears%20you%20up%202017": {
+    "index": 185,
+    "text_id": "taboo%20tears%20you%20up%202017",
+    "title": "taboo tears you up 2017",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__undefined": {
+    "index": 469,
+    "text_id": "undefined",
+    "title": "undefined",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__~_%2B": {
+    "index": 470,
+    "text_id": "~_%2B",
+    "title": "~_+",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__HELLOHELL": {
+    "index": 474,
+    "text_id": "HELLOHELL",
+    "title": "HELLOHELL",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__%E3%80%87%E3%80%81": {
+    "index": 186,
+    "text_id": "%E3%80%87%E3%80%81",
+    "title": "〇、",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Awaken%20In%20Ruins": {
+    "index": 187,
+    "text_id": "Awaken%20In%20Ruins",
+    "title": "Awaken In Ruins",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__MORNINGLOOM": {
+    "index": 188,
+    "text_id": "MORNINGLOOM",
+    "title": "MORNINGLOOM",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Lethal%20Voltage": {
+    "index": 189,
+    "text_id": "Lethal%20Voltage",
+    "title": "Lethal Voltage",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Leave%20All%20Behind": {
+    "index": 190,
+    "text_id": "Leave%20All%20Behind",
+    "title": "Leave All Behind",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Old%20School%20Salvage": {
+    "index": 191,
+    "text_id": "Old%20School%20Salvage",
+    "title": "Old School Salvage",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E3%83%87%E3%82%A3%E3%82%B9%E3%83%88%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%8B%E3%83%B3%E3%82%B2%E3%83%B3": {
+    "index": 192,
+    "text_id": "%E3%83%87%E3%82%A3%E3%82%B9%E3%83%88%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%8B%E3%83%B3%E3%82%B2%E3%83%B3",
+    "title": "ディストーション・ニンゲン",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__epitaxy": {
+    "index": 193,
+    "text_id": "epitaxy",
+    "title": "epitaxy",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Hailstone": {
+    "index": 194,
+    "text_id": "Hailstone",
+    "title": "Hailstone",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E3%83%95%E3%83%AC%E3%83%86%E3%83%9F%E3%82%BF%E3%82%A4": {
+    "index": 195,
+    "text_id": "%E3%83%95%E3%83%AC%E3%83%86%E3%83%9F%E3%82%BF%E3%82%A4",
+    "title": "フレテミタイ",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__%E3%83%97%E3%83%AC%E3%83%A4": {
+    "index": 196,
+    "text_id": "%E3%83%97%E3%83%AC%E3%83%A4",
+    "title": "プレヤ",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__astral.exe": {
+    "index": 197,
+    "text_id": "astral.exe",
+    "title": "astral.exe",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Black%20Mirror%20on%20the%20Wall": {
+    "index": 198,
+    "text_id": "Black%20Mirror%20on%20the%20Wall",
+    "title": "Black Mirror on the Wall",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__TRPNO": {
+    "index": 199,
+    "text_id": "TRPNO",
+    "title": "TRPNO",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%CF%84%20%28tau%29": {
+    "index": 200,
+    "text_id": "%CF%84%20%28tau%29",
+    "title": "τ (tau)",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Won%27t%20Back%20Down": {
+    "index": 201,
+    "text_id": "Won%27t%20Back%20Down",
+    "title": "Won't Back Down",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Someday": {
+    "index": 202,
+    "text_id": "Someday",
+    "title": "Someday",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__disintegration": {
+    "index": 203,
+    "text_id": "disintegration",
+    "title": "disintegration",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__ROST%20PAGE%20GENE": {
+    "index": 204,
+    "text_id": "ROST%20PAGE%20GENE",
+    "title": "ROST PAGE GENE",
+    "pack": "extend3",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E6%9C%88%E3%81%AB%E5%8F%A2%E9%9B%B2%E8%8F%AF%E3%81%AB%E9%A2%A8": {
+    "index": 475,
+    "text_id": "%E6%9C%88%E3%81%AB%E5%8F%A2%E9%9B%B2%E8%8F%AF%E3%81%AB%E9%A2%A8",
+    "title": "月に叢雲華に風",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__MANTIS%20%28Arcaea%20Ultra-Bloodrush%20VIP%29": {
+    "index": 205,
+    "text_id": "MANTIS%20%28Arcaea%20Ultra-Bloodrush%20VIP%29",
+    "title": "MANTIS(Arcaea Ultra-Bloodrush VIP)",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__World%20Fragments%20III%28radio%20edit%29": {
+    "index": 206,
+    "text_id": "World%20Fragments%20III%28radio%20edit%29",
+    "title": "World Fragments III(radio edit)",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Astra%20walkthrough": {
+    "index": 207,
+    "text_id": "Astra%20walkthrough",
+    "title": "Astra walkthrough",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Chronicle": {
+    "index": 208,
+    "text_id": "Chronicle",
+    "title": "Chronicle",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Let%27s%20Rock%20%28Arcaea%20mix%29": {
+    "index": 209,
+    "text_id": "Let%27s%20Rock%20%28Arcaea%20mix%29",
+    "title": "Let's Rock (Arcaea mix)",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Lost%20Emotion%20feat.%20nomico": {
+    "index": 210,
+    "text_id": "Lost%20Emotion%20feat.%20nomico",
+    "title": "Lost Emotion feat. nomico",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__GIMMICK": {
+    "index": 211,
+    "text_id": "GIMMICK",
+    "title": "GIMMICK",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E7%84%A1%E6%B3%95%E5%9C%B0%E7%82%B9": {
+    "index": 212,
+    "text_id": "%E7%84%A1%E6%B3%95%E5%9C%B0%E7%82%B9",
+    "title": "無法地点",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E3%83%92%E3%83%A5%E3%83%96%E3%83%AA%E3%82%B9%E3%81%AE%E9%A0%82%E3%81%AB%E8%81%B3%E3%81%88%E3%82%8B%E3%81%AE%E3%81%AF": {
+    "index": 213,
+    "text_id": "%E3%83%92%E3%83%A5%E3%83%96%E3%83%AA%E3%82%B9%E3%81%AE%E9%A0%82%E3%81%AB%E8%81%B3%E3%81%88%E3%82%8B%E3%81%AE%E3%81%AF",
+    "title": "ヒュブリスの頂に聳えるのは",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Ultimate%20taste": {
+    "index": 214,
+    "text_id": "Ultimate%20taste",
+    "title": "Ultimate taste",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__RGB": {
+    "index": 215,
+    "text_id": "RGB",
+    "title": "RGB",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E6%84%9F%E6%83%85%E3%81%AE%E6%91%A9%E5%A4%A9%E6%A5%BC%20%EF%BD%9EArr.Demetori": {
+    "index": 216,
+    "text_id": "%E6%84%9F%E6%83%85%E3%81%AE%E6%91%A9%E5%A4%A9%E6%A5%BC%20%EF%BD%9EArr.Demetori",
+    "title": "感情の摩天楼 ～Arr.Demetori",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Dynitik%C3%B3s": {
+    "index": 217,
+    "text_id": "Dynitik%C3%B3s",
+    "title": "Dynitikós",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E9%9B%A8%E7%A5%9E%E6%A5%BD": {
+    "index": 218,
+    "text_id": "%E9%9B%A8%E7%A5%9E%E6%A5%BD",
+    "title": "雨神楽",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__FANTA5Y": {
+    "index": 219,
+    "text_id": "FANTA5Y",
+    "title": "FANTA5Y",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E3%82%A2%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A2%E3%83%B3%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3": {
+    "index": 220,
+    "text_id": "%E3%82%A2%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A2%E3%83%B3%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3",
+    "title": "アローンアンドローン",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__felys%20final%20remix": {
+    "index": 221,
+    "text_id": "felys%20final%20remix",
+    "title": "felys final remix",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__On%20And%20On%21%21%20feat.%20Jenga": {
+    "index": 222,
+    "text_id": "On%20And%20On%21%21%20feat.%20Jenga",
+    "title": "On And On!! feat. Jenga",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Aleph-0": {
+    "index": 223,
+    "text_id": "Aleph-0",
+    "title": "Aleph-0",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Vivid%20Theory": {
+    "index": 476,
+    "text_id": "Vivid%20Theory",
+    "title": "Vivid Theory",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__1F%E2%88%9A": {
+    "index": 224,
+    "text_id": "1F%E2%88%9A",
+    "title": "1F√",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Gekka%20%28Short%20Version%29": {
+    "index": 225,
+    "text_id": "Gekka%20%28Short%20Version%29",
+    "title": "Gekka (Short Version)",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Give%20Me%20a%20Nightmare": {
+    "index": 226,
+    "text_id": "Give%20Me%20a%20Nightmare",
+    "title": "Give Me a Nightmare",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Black%20Lotus": {
+    "index": 227,
+    "text_id": "Black%20Lotus",
+    "title": "Black Lotus",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Faint%20Light%20%28Arcaea%20Edit%29": {
+    "index": 228,
+    "text_id": "Faint%20Light%20%28Arcaea%20Edit%29",
+    "title": "Faint Light (Arcaea Edit)",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__CROSS%E2%80%A0OVER": {
+    "index": 229,
+    "text_id": "CROSS%E2%80%A0OVER",
+    "title": "CROSS†OVER",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Lapis": {
+    "index": 230,
+    "text_id": "Lapis",
+    "title": "Lapis",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Purple%20Verse": {
+    "index": 231,
+    "text_id": "Purple%20Verse",
+    "title": "Purple Verse",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": true
+  },
+  "song__Glow": {
+    "index": 232,
+    "text_id": "Glow",
+    "title": "Glow",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__enchanted%20love": {
+    "index": 233,
+    "text_id": "enchanted%20love",
+    "title": "enchanted love",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E7%AB%B9": {
+    "index": 234,
+    "text_id": "%E7%AB%B9",
+    "title": "竹",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Life%20is%20PIANO": {
+    "index": 235,
+    "text_id": "Life%20is%20PIANO",
+    "title": "Life is PIANO",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Vandalism": {
+    "index": 236,
+    "text_id": "Vandalism",
+    "title": "Vandalism",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Turbocharger": {
+    "index": 237,
+    "text_id": "Turbocharger",
+    "title": "Turbocharger",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E7%8B%82%E8%A8%80%E7%B6%BA%E8%AA%9E": {
+    "index": 238,
+    "text_id": "%E7%8B%82%E8%A8%80%E7%B6%BA%E8%AA%9E",
+    "title": "狂言綺語",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__HIVEMIND": {
+    "index": 239,
+    "text_id": "HIVEMIND",
+    "title": "HIVEMIND",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__blue%20comet": {
+    "index": 240,
+    "text_id": "blue%20comet",
+    "title": "blue comet",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__ENERGY%20SYNERGY%20MATRIX": {
+    "index": 241,
+    "text_id": "ENERGY%20SYNERGY%20MATRIX",
+    "title": "ENERGY SYNERGY MATRIX",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": true
+  },
+  "song__G%20e%20n%20g%20a%20o%20z%20o": {
+    "index": 242,
+    "text_id": "G%20e%20n%20g%20a%20o%20z%20o",
+    "title": "G e n g a o z o",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
   }
 }

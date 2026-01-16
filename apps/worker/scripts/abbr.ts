@@ -6,10 +6,13 @@ const currentAbbrs = await fs
   .then((data) => JSON.parse(data) as Record<string, string>);
 
 for (const [key, value] of Object.entries(inventory)) {
+  if (key.startsWith("song__")) {
+    continue;
+  }
   if (!(key in currentAbbrs)) {
     console.warn(`Missing abbr for key: ${key}`);
     currentAbbrs[key] = value.title;
   }
 }
 
-await fs.writeFile("./src/abbrs.json", JSON.stringify(currentAbbrs, null, 2), "utf-8");
+await fs.writeFile("./src/abbrs.json", JSON.stringify(currentAbbrs, null, 2) + "\n", "utf-8");

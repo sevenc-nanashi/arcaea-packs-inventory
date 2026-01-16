@@ -1,17 +1,25 @@
 <script setup lang="ts">
 import Checkbox from "./ui/Checkbox.vue";
-import type { AppendData, PackData } from "@shared/song-data";
+import type { AppendData, LockedSongData, PackData } from "@shared/song-data";
 import { useUnlockableContentsStore } from "../store";
 
 const props = defineProps<{
-  content: PackData | AppendData;
+  content: PackData | AppendData | LockedSongData;
+  kind?: "pack" | "song";
 }>();
 
 const unlockableContentsStore = useUnlockableContentsStore();
 const setHasPack = (has: boolean) => {
-  unlockableContentsStore.setHasPack(props.content.textId, has);
+  if (props.kind === "song") {
+    unlockableContentsStore.setHasSong(props.content.textId, has);
+  } else {
+    unlockableContentsStore.setHasPack(props.content.textId, has);
+  }
 };
 const getHasPack = () => {
+  if (props.kind === "song") {
+    return unlockableContentsStore.hasSong(props.content.textId);
+  }
   return unlockableContentsStore.hasPack(props.content.textId);
 };
 </script>

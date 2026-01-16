@@ -9,8 +9,13 @@ export type PackData = {
   textId: string;
   title: string;
   appends: AppendData[];
+  lockedSongs: LockedSongData[];
 };
 export type AppendData = {
+  textId: string;
+  title: string;
+};
+export type LockedSongData = {
   textId: string;
   title: string;
 };

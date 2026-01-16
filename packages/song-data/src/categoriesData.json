@@ -6,32 +6,807 @@
       {
         "textId": "arcaea",
         "title": "Arcaea",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "memoryarchive",
         "title": "Memory Archive",
-        "appends": []
+        "appends": [],
+        "lockedSongs": [
+          {
+            "textId": "DataErr0r",
+            "title": "DataErr0r"
+          },
+          {
+            "textId": "CROSS%E2%80%A0SOUL",
+            "title": "CROSS†SOUL"
+          },
+          {
+            "textId": "Your%20voice%20so...%20feat.%20Such",
+            "title": "Your voice so... feat. Such"
+          },
+          {
+            "textId": "%E4%B8%8D%E6%B5%84%E3%81%AA%E7%99%BD%E3%81%84%E9%B3%A5",
+            "title": "不浄な白い鳥"
+          },
+          {
+            "textId": "Auxesia",
+            "title": "Auxesia"
+          },
+          {
+            "textId": "Modelista",
+            "title": "Modelista"
+          },
+          {
+            "textId": "Surrender",
+            "title": "Surrender"
+          },
+          {
+            "textId": "%E5%A4%9C%E6%A1%9C%E5%90%B9%E9%9B%AA",
+            "title": "夜桜吹雪"
+          },
+          {
+            "textId": "Metallic%20Punisher",
+            "title": "Metallic Punisher"
+          },
+          {
+            "textId": "carmine_scythe",
+            "title": "carmine:scythe"
+          },
+          {
+            "textId": "%CE%B3uar%CE%B4ina",
+            "title": "γuarδina"
+          },
+          {
+            "textId": "Be%20There",
+            "title": "Be There"
+          },
+          {
+            "textId": "Call%20My%20Name%20feat.%20Yukacco",
+            "title": "Call My Name feat. Yukacco"
+          },
+          {
+            "textId": "dropdead",
+            "title": "dropdead"
+          },
+          {
+            "textId": "Fallensquare",
+            "title": "Fallensquare"
+          },
+          {
+            "textId": "Alexandrite",
+            "title": "Alexandrite"
+          },
+          {
+            "textId": "Astral%20tale",
+            "title": "Astral tale"
+          },
+          {
+            "textId": "Phantasia",
+            "title": "Phantasia"
+          },
+          {
+            "textId": "Empire%20of%20Winter",
+            "title": "Empire of Winter"
+          },
+          {
+            "textId": "Libertas",
+            "title": "Libertas"
+          },
+          {
+            "textId": "Dot%20to%20Dot%20feat.%20shully",
+            "title": "Dot to Dot feat. shully"
+          },
+          {
+            "textId": "Dreadnought",
+            "title": "Dreadnought"
+          },
+          {
+            "textId": "Mirzam",
+            "title": "Mirzam"
+          },
+          {
+            "textId": "Heavenly%20caress",
+            "title": "Heavenly caress"
+          },
+          {
+            "textId": "Filament",
+            "title": "Filament"
+          },
+          {
+            "textId": "Avant%20Raze",
+            "title": "Avant Raze"
+          },
+          {
+            "textId": "BATTLE%20NO.1",
+            "title": "BATTLE NO.1"
+          },
+          {
+            "textId": "La%27qryma%20of%20the%20Wasteland",
+            "title": "La'qryma of the Wasteland"
+          },
+          {
+            "textId": "Einherjar%20Joker",
+            "title": "Einherjar Joker"
+          },
+          {
+            "textId": "IZANA",
+            "title": "IZANA"
+          },
+          {
+            "textId": "%E6%9C%80%E5%BC%B7STRONGER",
+            "title": "最強STRONGER"
+          },
+          {
+            "textId": "amygdata",
+            "title": "amygdata"
+          },
+          {
+            "textId": "Altale",
+            "title": "Altale"
+          },
+          {
+            "textId": "Feels%20So%20Right%20feat.%20Renko",
+            "title": "Feels So Right feat. Renko"
+          },
+          {
+            "textId": "Scarlet%20Cage",
+            "title": "Scarlet Cage"
+          },
+          {
+            "textId": "Teriqma",
+            "title": "Teriqma"
+          },
+          {
+            "textId": "MAHOROBA",
+            "title": "MAHOROBA"
+          },
+          {
+            "textId": "BADTEK",
+            "title": "BADTEK"
+          },
+          {
+            "textId": "Malicious%20Mischance",
+            "title": "Malicious Mischance"
+          },
+          {
+            "textId": "BUCHiGiRE%20Berserker",
+            "title": "BUCHiGiRE Berserker"
+          },
+          {
+            "textId": "Galaxy%20Friends",
+            "title": "Galaxy Friends"
+          },
+          {
+            "textId": "Xeraphinite",
+            "title": "Xeraphinite"
+          },
+          {
+            "textId": "Xanatos",
+            "title": "Xanatos"
+          },
+          {
+            "textId": "AttraqtiA",
+            "title": "AttraqtiA"
+          },
+          {
+            "textId": "GIMME%20DA%20BLOOD",
+            "title": "GIMME DA BLOOD"
+          },
+          {
+            "textId": "%E3%83%99%E3%83%BC%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%84%E3%81%A3%E3%81%A6%E3%82%8B%EF%BC%9Fw",
+            "title": "ベースラインやってる？w"
+          },
+          {
+            "textId": "THE%20ULTIMACY",
+            "title": "THE ULTIMACY"
+          },
+          {
+            "textId": "%E7%83%88%E8%8F%AFRESONANCE",
+            "title": "烈華RESONANCE"
+          },
+          {
+            "textId": "Sheriruth%20%28Laur%20Remix%29",
+            "title": "Sheriruth (Laur Remix)"
+          },
+          {
+            "textId": "%E7%B7%8B%E7%BA%8F%E3%81%84%E3%81%AE%E5%AE%B5",
+            "title": "緋纏いの宵"
+          },
+          {
+            "textId": "goldenslaughterer",
+            "title": "goldenslaughterer"
+          },
+          {
+            "textId": "lastendconductor",
+            "title": "lastendconductor"
+          },
+          {
+            "textId": "Redolent%20Shape",
+            "title": "Redolent Shape"
+          },
+          {
+            "textId": "%E5%BD%A9%E3%82%8B%E5%A4%8F%E3%81%AE%E6%81%8B%E8%8A%B1%E7%81%AB",
+            "title": "彩る夏の恋花火"
+          },
+          {
+            "textId": "init%28%29",
+            "title": "init()"
+          },
+          {
+            "textId": "INTERNET%20OVERDOSE",
+            "title": "INTERNET OVERDOSE"
+          },
+          {
+            "textId": "Macrocosmic%20Modulation",
+            "title": "Macrocosmic Modulation"
+          },
+          {
+            "textId": "Kissing%20Lucifer",
+            "title": "Kissing Lucifer"
+          },
+          {
+            "textId": "NEO%20WINGS",
+            "title": "NEO WINGS"
+          },
+          {
+            "textId": "Aurgelmir",
+            "title": "Aurgelmir"
+          },
+          {
+            "textId": "Head%20BONK%20ache",
+            "title": "Head BONK ache"
+          },
+          {
+            "textId": "%E3%83%94%E3%82%B3Pico%2A%E3%81%A8%E3%82%89%E3%82%93%E3%81%99%E3%82%8C%E3%83%BC%E3%81%97%E3%82%87%E3%82%93%E3%81%A3%EF%BC%81",
+            "title": "ピコPico*とらんすれーしょんっ！"
+          },
+          {
+            "textId": "%CE%BC",
+            "title": "μ"
+          },
+          {
+            "textId": "PUPA",
+            "title": "PUPA"
+          },
+          {
+            "textId": "Free%20Myself",
+            "title": "Free Myself"
+          },
+          {
+            "textId": "cocoro%2Acosmetic",
+            "title": "cocoro*cosmetic"
+          },
+          {
+            "textId": "Capella",
+            "title": "Capella"
+          },
+          {
+            "textId": "NULL%20APOPHENIA",
+            "title": "NULL APOPHENIA"
+          },
+          {
+            "textId": "Crimson%20Throne",
+            "title": "Crimson Throne"
+          },
+          {
+            "textId": "Manic%20Jeer",
+            "title": "Manic Jeer"
+          },
+          {
+            "textId": "%E7%B7%8B%E8%89%B2%E6%9C%88%E4%B8%8B%E3%80%81%E7%8B%82%E5%92%B2%E3%83%8E%E7%B5%B6%20%28nayuta%202017%20ver.%29",
+            "title": "緋色月下、狂咲ノ絶(nayuta 2017 ver.)"
+          },
+          {
+            "textId": "PRIMITIVE%20LIGHTS",
+            "title": "PRIMITIVE LIGHTS"
+          },
+          {
+            "textId": "The%20Survivor%20%28Game%20Edit%29",
+            "title": "The Survivor (Game Edit)"
+          },
+          {
+            "textId": "New%20York%20Back%20Raise",
+            "title": "New York Back Raise"
+          },
+          {
+            "textId": "Galactic%20Love",
+            "title": "Galactic Love"
+          },
+          {
+            "textId": "Lost%20in%20the%20Abyss",
+            "title": "Lost in the Abyss"
+          },
+          {
+            "textId": "To%20the%20Milky%20Way",
+            "title": "To the Milky Way"
+          },
+          {
+            "textId": "INTERNET%20YAMERO",
+            "title": "INTERNET YAMERO"
+          },
+          {
+            "textId": "SACRIFICE%20feat.%20ayame",
+            "title": "SACRIFICE feat. ayame"
+          },
+          {
+            "textId": "%E5%BD%BC%E6%96%B9%E3%81%AE%E5%A4%A2%E3%81%B8%E3%81%A8",
+            "title": "彼方の夢へと"
+          },
+          {
+            "textId": "B.B.K.K.B.K.K.",
+            "title": "B.B.K.K.B.K.K."
+          },
+          {
+            "textId": "Wish%20Upon%20a%20Snow",
+            "title": "Wish Upon a Snow"
+          },
+          {
+            "textId": "%E6%82%A3%E9%83%A8%E3%81%A7%E6%AD%A2%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%99%E3%81%90%E6%BA%B6%E3%81%91%E3%82%8B%E3%80%80%EF%BD%9E%20%E7%8B%82%E6%B0%97%E3%81%AE%E5%84%AA%E6%9B%87%E8%8F%AF%E9%99%A2",
+            "title": "患部で止まってすぐ溶ける～ 狂気の優曇華院"
+          },
+          {
+            "textId": "LIVHT%20MY%20W%E2%80%8B%CE%94%E2%80%8BY",
+            "title": "LIVHT MY W​Δ​Y"
+          },
+          {
+            "textId": "Luna%20Rossa",
+            "title": "Luna Rossa"
+          },
+          {
+            "textId": "Innocence",
+            "title": "Innocence"
+          },
+          {
+            "textId": "IONOSTREAM",
+            "title": "IONOSTREAM"
+          },
+          {
+            "textId": "Masquerade%20Legion",
+            "title": "Masquerade Legion"
+          },
+          {
+            "textId": "%E7%8B%82%E6%81%8BROMANCE",
+            "title": "狂恋ROMANCE"
+          },
+          {
+            "textId": "Qovat",
+            "title": "Qovat"
+          },
+          {
+            "textId": "MIRINAE",
+            "title": "MIRINAE"
+          },
+          {
+            "textId": "ultradiaxon-N3",
+            "title": "ultradiaxon-N3"
+          },
+          {
+            "textId": "Distorted%20Fate",
+            "title": "Distorted Fate"
+          },
+          {
+            "textId": "Floating%20World",
+            "title": "Floating World"
+          },
+          {
+            "textId": "Chromafill",
+            "title": "Chromafill"
+          },
+          {
+            "textId": "D%C3%A9sive",
+            "title": "Désive"
+          },
+          {
+            "textId": "%E9%BB%84%E6%98%8F%E3%81%AE%E5%8D%94%E5%A5%8F%E6%9B%B2",
+            "title": "黄昏の協奏曲"
+          },
+          {
+            "textId": "Beautiful%20Dreamer",
+            "title": "Beautiful Dreamer"
+          },
+          {
+            "textId": "Back%20to%20Basics",
+            "title": "Back to Basics"
+          },
+          {
+            "textId": "STARGATE%20EXTREME",
+            "title": "STARGATE EXTREME"
+          },
+          {
+            "textId": "HYPER%20VISION",
+            "title": "HYPER VISION"
+          },
+          {
+            "textId": "shrink",
+            "title": "shrink"
+          },
+          {
+            "textId": "Rain%20of%20Conflict%20in%20a%20Radiant%20Abyss",
+            "title": "Rain of Conflict in aRadiant Abyss"
+          },
+          {
+            "textId": "%E5%B9%BB%E6%83%B3%E3%81%AE%E3%82%B5%E3%83%86%E3%83%A9%E3%82%A4%E3%83%88",
+            "title": "幻想のサテライト"
+          },
+          {
+            "textId": "Crimson%20Quartz",
+            "title": "Crimson Quartz"
+          },
+          {
+            "textId": "Third%20Sun",
+            "title": "Third Sun"
+          },
+          {
+            "textId": "Spirit%20of%20the%20Dauntless",
+            "title": "Spirit of the Dauntless"
+          },
+          {
+            "textId": "Dies%20irae",
+            "title": "Dies irae"
+          },
+          {
+            "textId": "MEGALOVANIA%20%28Camellia%20Remix%29",
+            "title": "MEGALOVANIA(Camellia Remix)"
+          },
+          {
+            "textId": "%E3%83%97%E3%83%A9%E3%82%B7%E3%82%A4%E3%83%9C%E2%99%A5%E3%83%90%E3%83%88%E3%83%A9%E3%83%BC",
+            "title": "プラシイボ♥バトラー"
+          },
+          {
+            "textId": "%E9%80%B2%E6%8D%97%E3%81%A9%E3%81%86%E3%81%A7%E3%81%99%E3%81%8B%3F",
+            "title": "進捗どうですか?"
+          },
+          {
+            "textId": "Dull%20Blade",
+            "title": "Dull Blade"
+          },
+          {
+            "textId": "Don%27t%20Die",
+            "title": "Don't Die"
+          },
+          {
+            "textId": "Tic%21%20Tac%21%20Toe%21",
+            "title": "Tic! Tac! Toe!"
+          },
+          {
+            "textId": "Miles",
+            "title": "Miles"
+          },
+          {
+            "textId": "Acheron",
+            "title": "Acheron"
+          },
+          {
+            "textId": "Eternity%20Break",
+            "title": "Eternity Break"
+          },
+          {
+            "textId": "Angel%27s%20Boundary",
+            "title": "Angel's Boundary"
+          },
+          {
+            "textId": "Xterfusion",
+            "title": "Xterfusion"
+          },
+          {
+            "textId": "Grandspell",
+            "title": "Grandspell"
+          },
+          {
+            "textId": "Paranoid%20Arc",
+            "title": "Paranoid Arc"
+          },
+          {
+            "textId": "%E7%BE%BD%E5%8C%96%E3%81%99%E3%82%8B%E4%BA%9C%E7%90%83%E4%BD%93",
+            "title": "羽化する亜球体"
+          },
+          {
+            "textId": "%EF%BC%BB%E7%AD%8F%EF%BC%BD%E3%81%AF%E4%BA%91%E3%81%86%E3%80%82%E5%B9%BE%E3%82%89%E6%BC%82%E6%B5%81%E3%81%99%E3%82%8C%E3%81%A9%E4%B8%8D%E6%92%93%E3%81%AE%E5%BF%83%E3%81%95%E3%81%88%E6%9C%89%E3%82%8C%E3%81%B0%E8%BB%88%E3%81%A6%E8%A1%8C%E5%88%B0%E3%82%8B%E3%81%A8%E3%80%82",
+            "title": "［筏］は云う。幾ら漂流すれど不撓の心さえ有れば軈て行到ると。"
+          }
+        ]
       },
       {
         "textId": "extend4",
         "title": "World Extend 4: Emanations",
-        "appends": []
+        "appends": [],
+        "lockedSongs": [
+          {
+            "textId": "%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9",
+            "title": "始マリノ詩"
+          },
+          {
+            "textId": "mod",
+            "title": "mod"
+          },
+          {
+            "textId": "Particle",
+            "title": "Particle"
+          },
+          {
+            "textId": "Paradox%20Palette",
+            "title": "Paradox Palette"
+          },
+          {
+            "textId": "Xxium%20and%20Purple%20haze",
+            "title": "Xxium and Purple haze"
+          },
+          {
+            "textId": "taboo%20tears%20you%20up%202017",
+            "title": "taboo tears you up 2017"
+          },
+          {
+            "textId": "undefined",
+            "title": "undefined"
+          },
+          {
+            "textId": "~_%2B",
+            "title": "~_+"
+          }
+        ]
       },
       {
         "textId": "extend3",
         "title": "Extend Archive 3: Illusions",
-        "appends": []
+        "appends": [],
+        "lockedSongs": [
+          {
+            "textId": "HELLOHELL",
+            "title": "HELLOHELL"
+          },
+          {
+            "textId": "%E3%80%87%E3%80%81",
+            "title": "〇、"
+          },
+          {
+            "textId": "Awaken%20In%20Ruins",
+            "title": "Awaken In Ruins"
+          },
+          {
+            "textId": "MORNINGLOOM",
+            "title": "MORNINGLOOM"
+          },
+          {
+            "textId": "Lethal%20Voltage",
+            "title": "Lethal Voltage"
+          },
+          {
+            "textId": "Leave%20All%20Behind",
+            "title": "Leave All Behind"
+          },
+          {
+            "textId": "Old%20School%20Salvage",
+            "title": "Old School Salvage"
+          },
+          {
+            "textId": "%E3%83%87%E3%82%A3%E3%82%B9%E3%83%88%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%8B%E3%83%B3%E3%82%B2%E3%83%B3",
+            "title": "ディストーション・ニンゲン"
+          },
+          {
+            "textId": "epitaxy",
+            "title": "epitaxy"
+          },
+          {
+            "textId": "Hailstone",
+            "title": "Hailstone"
+          },
+          {
+            "textId": "%E3%83%95%E3%83%AC%E3%83%86%E3%83%9F%E3%82%BF%E3%82%A4",
+            "title": "フレテミタイ"
+          },
+          {
+            "textId": "%E3%83%97%E3%83%AC%E3%83%A4",
+            "title": "プレヤ"
+          },
+          {
+            "textId": "astral.exe",
+            "title": "astral.exe"
+          },
+          {
+            "textId": "Black%20Mirror%20on%20the%20Wall",
+            "title": "Black Mirror on the Wall"
+          },
+          {
+            "textId": "TRPNO",
+            "title": "TRPNO"
+          },
+          {
+            "textId": "%CF%84%20%28tau%29",
+            "title": "τ (tau)"
+          },
+          {
+            "textId": "Won%27t%20Back%20Down",
+            "title": "Won't Back Down"
+          },
+          {
+            "textId": "Someday",
+            "title": "Someday"
+          },
+          {
+            "textId": "disintegration",
+            "title": "disintegration"
+          },
+          {
+            "textId": "ROST%20PAGE%20GENE",
+            "title": "ROST PAGE GENE"
+          }
+        ]
       },
       {
         "textId": "extend2",
         "title": "Extend Archive 2: Chronicles",
-        "appends": []
+        "appends": [],
+        "lockedSongs": [
+          {
+            "textId": "%E6%9C%88%E3%81%AB%E5%8F%A2%E9%9B%B2%E8%8F%AF%E3%81%AB%E9%A2%A8",
+            "title": "月に叢雲華に風"
+          },
+          {
+            "textId": "MANTIS%20%28Arcaea%20Ultra-Bloodrush%20VIP%29",
+            "title": "MANTIS(Arcaea Ultra-Bloodrush VIP)"
+          },
+          {
+            "textId": "World%20Fragments%20III%28radio%20edit%29",
+            "title": "World Fragments III(radio edit)"
+          },
+          {
+            "textId": "Astra%20walkthrough",
+            "title": "Astra walkthrough"
+          },
+          {
+            "textId": "Chronicle",
+            "title": "Chronicle"
+          },
+          {
+            "textId": "Let%27s%20Rock%20%28Arcaea%20mix%29",
+            "title": "Let's Rock (Arcaea mix)"
+          },
+          {
+            "textId": "Lost%20Emotion%20feat.%20nomico",
+            "title": "Lost Emotion feat. nomico"
+          },
+          {
+            "textId": "GIMMICK",
+            "title": "GIMMICK"
+          },
+          {
+            "textId": "%E7%84%A1%E6%B3%95%E5%9C%B0%E7%82%B9",
+            "title": "無法地点"
+          },
+          {
+            "textId": "%E3%83%92%E3%83%A5%E3%83%96%E3%83%AA%E3%82%B9%E3%81%AE%E9%A0%82%E3%81%AB%E8%81%B3%E3%81%88%E3%82%8B%E3%81%AE%E3%81%AF",
+            "title": "ヒュブリスの頂に聳えるのは"
+          },
+          {
+            "textId": "Ultimate%20taste",
+            "title": "Ultimate taste"
+          },
+          {
+            "textId": "RGB",
+            "title": "RGB"
+          },
+          {
+            "textId": "%E6%84%9F%E6%83%85%E3%81%AE%E6%91%A9%E5%A4%A9%E6%A5%BC%20%EF%BD%9EArr.Demetori",
+            "title": "感情の摩天楼 ～Arr.Demetori"
+          },
+          {
+            "textId": "Dynitik%C3%B3s",
+            "title": "Dynitikós"
+          },
+          {
+            "textId": "%E9%9B%A8%E7%A5%9E%E6%A5%BD",
+            "title": "雨神楽"
+          },
+          {
+            "textId": "FANTA5Y",
+            "title": "FANTA5Y"
+          },
+          {
+            "textId": "%E3%82%A2%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A2%E3%83%B3%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3",
+            "title": "アローンアンドローン"
+          },
+          {
+            "textId": "felys%20final%20remix",
+            "title": "felys final remix"
+          },
+          {
+            "textId": "On%20And%20On%21%21%20feat.%20Jenga",
+            "title": "On And On!! feat. Jenga"
+          },
+          {
+            "textId": "Aleph-0",
+            "title": "Aleph-0"
+          }
+        ]
       },
       {
         "textId": "extend1",
         "title": "Extend Archive 1: Visions",
-        "appends": []
+        "appends": [],
+        "lockedSongs": [
+          {
+            "textId": "Vivid%20Theory",
+            "title": "Vivid Theory"
+          },
+          {
+            "textId": "1F%E2%88%9A",
+            "title": "1F√"
+          },
+          {
+            "textId": "Gekka%20%28Short%20Version%29",
+            "title": "Gekka (Short Version)"
+          },
+          {
+            "textId": "Give%20Me%20a%20Nightmare",
+            "title": "Give Me a Nightmare"
+          },
+          {
+            "textId": "Black%20Lotus",
+            "title": "Black Lotus"
+          },
+          {
+            "textId": "Faint%20Light%20%28Arcaea%20Edit%29",
+            "title": "Faint Light (Arcaea Edit)"
+          },
+          {
+            "textId": "CROSS%E2%80%A0OVER",
+            "title": "CROSS†OVER"
+          },
+          {
+            "textId": "Lapis",
+            "title": "Lapis"
+          },
+          {
+            "textId": "Purple%20Verse",
+            "title": "Purple Verse"
+          },
+          {
+            "textId": "Glow",
+            "title": "Glow"
+          },
+          {
+            "textId": "enchanted%20love",
+            "title": "enchanted love"
+          },
+          {
+            "textId": "%E7%AB%B9",
+            "title": "竹"
+          },
+          {
+            "textId": "Life%20is%20PIANO",
+            "title": "Life is PIANO"
+          },
+          {
+            "textId": "Vandalism",
+            "title": "Vandalism"
+          },
+          {
+            "textId": "Turbocharger",
+            "title": "Turbocharger"
+          },
+          {
+            "textId": "%E7%8B%82%E8%A8%80%E7%B6%BA%E8%AA%9E",
+            "title": "狂言綺語"
+          },
+          {
+            "textId": "HIVEMIND",
+            "title": "HIVEMIND"
+          },
+          {
+            "textId": "blue%20comet",
+            "title": "blue comet"
+          },
+          {
+            "textId": "ENERGY%20SYNERGY%20MATRIX",
+            "title": "ENERGY SYNERGY MATRIX"
+          },
+          {
+            "textId": "G%20e%20n%20g%20a%20o%20z%20o",
+            "title": "G e n g a o z o"
+          }
+        ]
       }
     ]
   },
@@ -42,17 +817,20 @@
       {
         "textId": "liminal",
         "title": "Liminal Eclipse",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "lucent",
         "title": "Lucent Historia",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "nihil",
         "title": "Absolute Nihil",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "lasting",
@@ -66,7 +844,8 @@
             "textId": "lasting__shifting_veil",
             "title": "Shifting Veil"
           }
-        ]
+        ],
+        "lockedSongs": []
       }
     ]
   },
@@ -77,32 +856,38 @@
       {
         "textId": "final",
         "title": "Final Verdict",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "black",
         "title": "Black Fate",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "adverse",
         "title": "Adverse Prelude",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "luminous",
         "title": "Luminous Sky",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "vicious",
         "title": "Vicious Labyrinth",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "eternalcore",
         "title": "Eternal Core",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       }
     ]
   },
@@ -118,7 +903,8 @@
             "textId": "extant__chapter_experientia",
             "title": "Chapter Experientia"
           }
-        ]
+        ],
+        "lockedSongs": []
       },
       {
         "textId": "esoteric",
@@ -132,12 +918,14 @@
             "textId": "esoteric__light_of_salvation",
             "title": "Light of Salvation"
           }
-        ]
+        ],
+        "lockedSongs": []
       },
       {
         "textId": "divided",
         "title": "Divided Heart",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "ephemeral",
@@ -147,17 +935,20 @@
             "textId": "ephemeral__the_journey_onwards",
             "title": "The Journey Onwards"
           }
-        ]
+        ],
+        "lockedSongs": []
       },
       {
         "textId": "sunset",
         "title": "Sunset Radiance",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "absolute",
         "title": "Absolute Reason",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "binary",
@@ -167,17 +958,20 @@
             "textId": "binary__shared_time",
             "title": "Shared Time"
           }
-        ]
+        ],
+        "lockedSongs": []
       },
       {
         "textId": "ambivalent",
         "title": "Ambivalent Vision",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "crimsonsolace",
         "title": "Crimson Solace",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       }
     ]
   },
@@ -188,7 +982,8 @@
       {
         "textId": "nextstage",
         "title": "Arcaea Next Stage",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "djmax",
@@ -198,17 +993,20 @@
             "textId": "djmax__collaboration_chapter_2",
             "title": "Collaboration Chapter 2"
           }
-        ]
+        ],
+        "lockedSongs": []
       },
       {
         "textId": "undertale",
         "title": "UNDERTALE Collaboration",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "rotaeno",
         "title": "Rotaeno Collaboration",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "cytusii",
@@ -218,12 +1016,14 @@
             "textId": "cytusii__collaboration_chapter_2",
             "title": "Collaboration Chapter 2"
           }
-        ]
+        ],
+        "lockedSongs": []
       },
       {
         "textId": "musedash",
         "title": "Muse Dash Collaboration",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "wacca",
@@ -233,7 +1033,8 @@
             "textId": "wacca__collaboration_chapter_2",
             "title": "Collaboration Chapter 2"
           }
-        ]
+        ],
+        "lockedSongs": []
       },
       {
         "textId": "maimai",
@@ -247,7 +1048,8 @@
             "textId": "maimai__collaboration_chapter_3",
             "title": "Collaboration Chapter 3"
           }
-        ]
+        ],
+        "lockedSongs": []
       },
       {
         "textId": "ongeki",
@@ -261,7 +1063,8 @@
             "textId": "ongeki__collaboration_chapter_3",
             "title": "Collaboration Chapter 3"
           }
-        ]
+        ],
+        "lockedSongs": []
       },
       {
         "textId": "chunithm",
@@ -279,7 +1082,8 @@
             "textId": "chunithm__collaboration_chapter_4",
             "title": "Collaboration Chapter 4"
           }
-        ]
+        ],
+        "lockedSongs": []
       },
       {
         "textId": "groove",
@@ -289,12 +1093,14 @@
             "textId": "groove__collaboration_chapter_2",
             "title": "Collaboration Chapter 2"
           }
-        ]
+        ],
+        "lockedSongs": []
       },
       {
         "textId": "tonesphere",
         "title": "Tone Sphere Collaboration",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       },
       {
         "textId": "lanota",
@@ -304,12 +1110,14 @@
             "textId": "lanota__collaboration_chapter_2",
             "title": "Collaboration Chapter 2"
           }
-        ]
+        ],
+        "lockedSongs": []
       },
       {
         "textId": "dynamix",
         "title": "Dynamix Collaboration",
-        "appends": []
+        "appends": [],
+        "lockedSongs": []
       }
     ]
   }

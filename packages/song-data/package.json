@@ -12,7 +12,8 @@
   "scripts": {
     "dev": "tsdown --watch",
     "build": "tsdown",
-    "gen:inventory": "cross-env ARCAEA_PACKS_INVENTORY_SKIP_CHECK=1 bun run scripts/inventory.ts"
+    "gen:songs": "cd songs && ruby main.rb",
+    "gen:inventory": "bun run scripts/inventory.ts"
   },
   "devDependencies": {
     "cross-env": "^10.1.0",

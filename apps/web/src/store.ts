@@ -3,6 +3,7 @@ import {
   applySerializedInventoryWithName,
   inventoryKeys,
   makePackInventoryKey,
+  makeSongInventoryKey,
   serializeInventoryWithName,
 } from "@shared/song-data";
 
@@ -101,8 +102,19 @@ export const useUnlockableContentsStore = defineStore("unlockableContents", {
       }
       return maybeValue;
     },
+    hasSong(songId: string) {
+      const maybeValue = this.inventory.get(makeSongInventoryKey(songId));
+      if (maybeValue === undefined) {
+        throw new Error(`Unknown song: ${songId}`);
+      }
+      return maybeValue;
+    },
     setHasPack(packId: string, value: boolean) {
       this.inventory.set(makePackInventoryKey(packId), value);
+      persistInventory(this.inventory);
+    },
+    setHasSong(songId: string, value: boolean) {
+      this.inventory.set(makeSongInventoryKey(songId), value);
       persistInventory(this.inventory);
     },
     export() {

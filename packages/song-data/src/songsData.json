@@ -1,5 +1,13 @@
 [
   {
+    "index": 471,
+    "textId": "Sayonara%20Hatsukoi",
+    "title": "Sayonara Hatsukoi",
+    "pack": "arcaea",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
     "index": 0,
     "textId": "Fairytale",
     "title": "Fairytale",
@@ -496,6 +504,14 @@
     "hasBeyond": false
   },
   {
+    "index": 472,
+    "textId": "DataErr0r",
+    "title": "DataErr0r",
+    "pack": "memoryarchive",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
     "index": 62,
     "textId": "CROSS%E2%80%A0SOUL",
     "title": "CROSS†SOUL",
@@ -570,7 +586,7 @@
   {
     "index": 71,
     "textId": "%CE%B3uar%CE%B4ina",
-    "title": "γuarδina *4",
+    "title": "γuarδina",
     "pack": "memoryarchive",
     "hasEternal": false,
     "hasBeyond": false
@@ -1170,7 +1186,7 @@
   {
     "index": 146,
     "textId": "Innocence",
-    "title": "Innocence *5",
+    "title": "Innocence",
     "pack": "memoryarchive",
     "hasEternal": true,
     "hasBeyond": false
@@ -1250,7 +1266,7 @@
   {
     "index": 156,
     "textId": "D%C3%A9sive",
-    "title": "Désive *6",
+    "title": "Désive",
     "pack": "memoryarchive",
     "hasEternal": true,
     "hasBeyond": false
@@ -1354,7 +1370,7 @@
   {
     "index": 169,
     "textId": "MEGALOVANIA%20%28Camellia%20Remix%29",
-    "title": "MEGALOVANIA(Camellia Remix) *7",
+    "title": "MEGALOVANIA(Camellia Remix)",
     "pack": "memoryarchive",
     "hasEternal": true,
     "hasBeyond": false
@@ -1410,7 +1426,7 @@
   {
     "index": 176,
     "textId": "Acheron",
-    "title": "Acheron *8",
+    "title": "Acheron",
     "pack": "memoryarchive",
     "hasEternal": false,
     "hasBeyond": false
@@ -1445,6 +1461,38 @@
     "title": "Grandspell",
     "pack": "memoryarchive",
     "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 466,
+    "textId": "Paranoid%20Arc",
+    "title": "Paranoid Arc",
+    "pack": "memoryarchive",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 467,
+    "textId": "%E7%BE%BD%E5%8C%96%E3%81%99%E3%82%8B%E4%BA%9C%E7%90%83%E4%BD%93",
+    "title": "羽化する亜球体",
+    "pack": "memoryarchive",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 468,
+    "textId": "%EF%BC%BB%E7%AD%8F%EF%BC%BD%E3%81%AF%E4%BA%91%E3%81%86%E3%80%82%E5%B9%BE%E3%82%89%E6%BC%82%E6%B5%81%E3%81%99%E3%82%8C%E3%81%A9%E4%B8%8D%E6%92%93%E3%81%AE%E5%BF%83%E3%81%95%E3%81%88%E6%9C%89%E3%82%8C%E3%81%B0%E8%BB%88%E3%81%A6%E8%A1%8C%E5%88%B0%E3%82%8B%E3%81%A8%E3%80%82",
+    "title": "［筏］は云う。幾ら漂流すれど不撓の心さえ有れば軈て行到ると。",
+    "pack": "memoryarchive",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 473,
+    "textId": "%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9",
+    "title": "始マリノ詩",
+    "pack": "extend4",
+    "hasEternal": true,
     "hasBeyond": false
   },
   {
@@ -1484,6 +1532,30 @@
     "textId": "taboo%20tears%20you%20up%202017",
     "title": "taboo tears you up 2017",
     "pack": "extend4",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 469,
+    "textId": "undefined",
+    "title": "undefined",
+    "pack": "extend4",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 470,
+    "textId": "~_%2B",
+    "title": "~_+",
+    "pack": "extend4",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 474,
+    "textId": "HELLOHELL",
+    "title": "HELLOHELL",
+    "pack": "extend3",
     "hasEternal": true,
     "hasBeyond": false
   },
@@ -1640,6 +1712,14 @@
     "hasBeyond": false
   },
   {
+    "index": 475,
+    "textId": "%E6%9C%88%E3%81%AB%E5%8F%A2%E9%9B%B2%E8%8F%AF%E3%81%AB%E9%A2%A8",
+    "title": "月に叢雲華に風",
+    "pack": "extend2",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
     "index": 205,
     "textId": "MANTIS%20%28Arcaea%20Ultra-Bloodrush%20VIP%29",
     "title": "MANTIS(Arcaea Ultra-Bloodrush VIP)",
@@ -1788,6 +1868,14 @@
     "textId": "Aleph-0",
     "title": "Aleph-0",
     "pack": "extend2",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 476,
+    "textId": "Vivid%20Theory",
+    "title": "Vivid Theory",
+    "pack": "extend1",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -1944,6 +2032,14 @@
     "hasBeyond": false
   },
   {
+    "index": 477,
+    "textId": "Viola%20Illyria",
+    "title": "Viola Illyria",
+    "pack": "liminal",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
     "index": 243,
     "textId": "Vainspire",
     "title": "Vainspire",
@@ -1973,6 +2069,14 @@
     "title": "Undying Macula",
     "pack": "liminal",
     "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 478,
+    "textId": "Swan%20Song",
+    "title": "Swan Song",
+    "pack": "lucent",
+    "hasEternal": false,
     "hasBeyond": false
   },
   {
@@ -2024,6 +2128,14 @@
     "hasBeyond": false
   },
   {
+    "index": 479,
+    "textId": "In%20Vain",
+    "title": "In Vain",
+    "pack": "nihil",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
     "index": 253,
     "textId": "Hypnotize",
     "title": "Hypnotize",
@@ -2053,6 +2165,14 @@
     "title": "ALTER EGO",
     "pack": "nihil",
     "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 480,
+    "textId": "WAIT%20FOR%20DAWN",
+    "title": "WAIT FOR DAWN",
+    "pack": "lasting",
+    "hasEternal": false,
     "hasBeyond": false
   },
   {
@@ -2160,6 +2280,14 @@
     "hasBeyond": false
   },
   {
+    "index": 481,
+    "textId": "Defection",
+    "title": "Defection",
+    "pack": "final",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
     "index": 269,
     "textId": "Infinite%20Strife%2C",
     "title": "Infinite Strife,",
@@ -2224,6 +2352,14 @@
     "hasBeyond": false
   },
   {
+    "index": 482,
+    "textId": "Equilibrium",
+    "title": "Equilibrium",
+    "pack": "black",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
     "index": 277,
     "textId": "Antagonism",
     "title": "Antagonism",
@@ -2272,6 +2408,14 @@
     "hasBeyond": false
   },
   {
+    "index": 483,
+    "textId": "Saint%20or%20Sinner",
+    "title": "Saint or Sinner",
+    "pack": "adverse",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
     "index": 283,
     "textId": "Vindication",
     "title": "Vindication",
@@ -2300,6 +2444,14 @@
     "textId": "BLRINK",
     "title": "BLRINK",
     "pack": "adverse",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 484,
+    "textId": "%E4%B9%9D%E7%95%AA%E7%9B%AE%E3%81%AE%E8%BF%B7%E8%B7%AF",
+    "title": "九番目の迷路",
+    "pack": "luminous",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -2344,6 +2496,14 @@
     "hasBeyond": false
   },
   {
+    "index": 485,
+    "textId": "Iconoclast",
+    "title": "Iconoclast",
+    "pack": "vicious",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
     "index": 292,
     "textId": "SOUNDWiTCH",
     "title": "SOUNDWiTCH",
@@ -2380,6 +2540,14 @@
     "textId": "Grievous%20Lady",
     "title": "Grievous Lady",
     "pack": "vicious",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 486,
+    "textId": "cry%20of%20viyella",
+    "title": "cry of viyella",
+    "pack": "eternalcore",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -2445,6 +2613,14 @@
     "title": "虚空の夢",
     "pack": "eternalcore",
     "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 487,
+    "textId": "See%20the%20Lights%21",
+    "title": "See the Lights!",
+    "pack": "extant",
+    "hasEternal": true,
     "hasBeyond": false
   },
   {
@@ -2521,6 +2697,14 @@
     "title": "AlterGate",
     "pack": "extant",
     "packAppend": "chapter_experientia",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 488,
+    "textId": "Paper%20Witch",
+    "title": "Paper Witch",
+    "pack": "esoteric",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -2619,6 +2803,14 @@
     "hasBeyond": false
   },
   {
+    "index": 489,
+    "textId": "First%20Snow",
+    "title": "First Snow",
+    "pack": "divided",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
     "index": 325,
     "textId": "Blue%20Rose",
     "title": "Blue Rose",
@@ -2647,6 +2839,14 @@
     "textId": "Lightning%20Screw",
     "title": "Lightning Screw",
     "pack": "divided",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 490,
+    "textId": "Alice%20a%20la%20mode",
+    "title": "Alice à la mode",
+    "pack": "ephemeral",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -2710,6 +2910,14 @@
     "hasBeyond": false
   },
   {
+    "index": 491,
+    "textId": "Chelsea",
+    "title": "Chelsea",
+    "pack": "sunset",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
     "index": 336,
     "textId": "AI_UE_OON",
     "title": "AI[UE]OON",
@@ -2750,6 +2958,14 @@
     "hasBeyond": false
   },
   {
+    "index": 492,
+    "textId": "Antithese",
+    "title": "Antithese",
+    "pack": "absolute",
+    "hasEternal": false,
+    "hasBeyond": true
+  },
+  {
     "index": 341,
     "textId": "Black%20Territory",
     "title": "Black Territory",
@@ -2780,6 +2996,14 @@
     "pack": "absolute",
     "hasEternal": false,
     "hasBeyond": false
+  },
+  {
+    "index": 493,
+    "textId": "next%20to%20you",
+    "title": "next to you",
+    "pack": "binary",
+    "hasEternal": false,
+    "hasBeyond": true
   },
   {
     "index": 345,
@@ -2841,6 +3065,14 @@
     "hasBeyond": false
   },
   {
+    "index": 494,
+    "textId": "Blossoms",
+    "title": "Blossoms",
+    "pack": "ambivalent",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
     "index": 352,
     "textId": "vs%E3%82%AD%E3%83%9F%E6%88%A6%E4%BA%89",
     "title": "vsキミ戦争",
@@ -2877,6 +3109,14 @@
     "textId": "corps-sans-organes",
     "title": "corps-sans-organes",
     "pack": "ambivalent",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 495,
+    "textId": "Paradise",
+    "title": "Paradise",
+    "pack": "crimsonsolace",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -2921,6 +3161,14 @@
     "hasBeyond": false
   },
   {
+    "index": 496,
+    "textId": "INFINITE%20DIMENSION",
+    "title": "INFINITE DIMENSION",
+    "pack": "nextstage",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
     "index": 362,
     "textId": "INCARNATOR%E2%82%80%E2%82%80",
     "title": "INCARNATOR₀₀",
@@ -2957,6 +3205,14 @@
     "textId": "%CE%9BZ%CE%9BLE%CE%9B",
     "title": "ΛZΛLEΛ",
     "pack": "nextstage",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 497,
+    "textId": "Ladymade%20Star",
+    "title": "Ladymade Star",
+    "pack": "djmax",
     "hasEternal": true,
     "hasBeyond": false
   },
@@ -3038,6 +3294,14 @@
     "hasBeyond": false
   },
   {
+    "index": 498,
+    "textId": "%E5%BF%83%E3%81%AE%E7%97%9B%E3%81%BF",
+    "title": "心の痛み",
+    "pack": "undertale",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
     "index": 376,
     "textId": "%E8%8F%AF%E9%BA%97%E3%81%AA%E3%82%8B%E6%AD%BB%E9%97%98",
     "title": "華麗なる死闘",
@@ -3070,6 +3334,14 @@
     "hasBeyond": false
   },
   {
+    "index": 499,
+    "textId": "Waltz%20for%20Lorelei",
+    "title": "Waltz for Lorelei",
+    "pack": "rotaeno",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
     "index": 380,
     "textId": "Dual%20Doom%20Deathmatch",
     "title": "Dual Doom Deathmatch",
@@ -3098,6 +3370,14 @@
     "textId": "Vulc%C4%81nus",
     "title": "Vulcānus",
     "pack": "rotaeno",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 500,
+    "textId": "Bullet%20Waiting%20for%20Me%20%28James%20Landino%20remix%29",
+    "title": "Bullet Waiting for Me(James Landino remix)",
+    "pack": "cytusii",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -3179,6 +3459,14 @@
     "hasBeyond": false
   },
   {
+    "index": 501,
+    "textId": "Lights%20of%20Muse",
+    "title": "Lights of Muse",
+    "pack": "musedash",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
     "index": 393,
     "textId": "Final%20Step%21",
     "title": "Final Step!",
@@ -3201,6 +3489,14 @@
     "pack": "musedash",
     "hasEternal": false,
     "hasBeyond": false
+  },
+  {
+    "index": 502,
+    "textId": "Quon%E3%80%90WACCA%E3%80%91",
+    "title": "Quon",
+    "pack": "wacca",
+    "hasEternal": false,
+    "hasBeyond": true
   },
   {
     "index": 396,
@@ -3276,6 +3572,14 @@
     "title": "Meta-Mysteria",
     "pack": "wacca",
     "packAppend": "collaboration_chapter_2",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 503,
+    "textId": "%E5%9B%9B%E6%9C%88%E3%81%AE%E9%9B%A8",
+    "title": "四月の雨",
+    "pack": "maimai",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -3372,6 +3676,14 @@
     "title": "ヨミビトシラズ",
     "pack": "maimai",
     "packAppend": "collaboration_chapter_3",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 504,
+    "textId": "Lazy%20Addiction",
+    "title": "Lazy Addiction",
+    "pack": "ongeki",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -3477,6 +3789,14 @@
     "title": "And Revive The Melody",
     "pack": "ongeki",
     "packAppend": "collaboration_chapter_3",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 505,
+    "textId": "Garakuta%20Doll%20Play",
+    "title": "Garakuta Doll Play",
+    "pack": "chunithm",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -3614,6 +3934,14 @@
     "hasBeyond": false
   },
   {
+    "index": 506,
+    "textId": "MERLIN",
+    "title": "MERLIN",
+    "pack": "groove",
+    "hasEternal": false,
+    "hasBeyond": true
+  },
+  {
     "index": 443,
     "textId": "DX%E8%B6%85%E6%80%A7%E8%83%BD%E3%83%95%E3%83%AB%E3%83%A1%E3%82%BF%E3%83%AB%E5%B0%91%E5%A5%B3",
     "title": "DX超性能フルメタル少女",
@@ -3681,6 +4009,14 @@
     "hasBeyond": false
   },
   {
+    "index": 507,
+    "textId": "%E5%85%89",
+    "title": "光",
+    "pack": "tonesphere",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
     "index": 451,
     "textId": "Hall%20of%20Mirrors",
     "title": "Hall of Mirrors",
@@ -3709,6 +4045,14 @@
     "textId": "Tiferet",
     "title": "Tiferet",
     "pack": "tonesphere",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 508,
+    "textId": "Dream%20goes%20on",
+    "title": "Dream goes on",
+    "pack": "lanota",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -3768,6 +4112,14 @@
     "title": "Stasis",
     "pack": "lanota",
     "packAppend": "collaboration_chapter_2",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 509,
+    "textId": "Moonlight%20of%20Sand%20Castle",
+    "title": "Moonlight of Sand Castle",
+    "pack": "dynamix",
     "hasEternal": false,
     "hasBeyond": false
   },

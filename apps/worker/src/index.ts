@@ -1,6 +1,12 @@
 import { Hono } from "hono";
 import { zValidator } from "@hono/zod-validator";
-import { applySerializedInventoryWithName, categoriesData, palette } from "@shared/song-data";
+import {
+  applySerializedInventoryWithName,
+  categoriesData,
+  palette,
+  SongData,
+  inventory,
+} from "@shared/song-data";
 import abbrs from "./abbrs.json";
 import * as z from "zod";
 import { ImageResponse, loadGoogleFont } from "workers-og";
@@ -18,6 +24,8 @@ const toStyles = (style: Record<string, string | number>) => {
     .join(" ");
 };
 
+const songsBasedPacks = ["extend1", "extend2", "extend3", "extend4", "memoryarchive"];
+
 app.get("/", (c) => {
   // TODO: render html
   return c.text("Hello, World!");
@@ -33,6 +41,12 @@ type Section = {
     name: string;
     unlocked: "full" | "partial" | "locked";
     appends: AppendSection[];
+    lockedSongs:
+      | {
+          unlocked: number;
+          all: number;
+        }
+      | undefined;
   }[];
 };
 
@@ -47,7 +61,7 @@ const getColorForUnlockStatus = (status: "full" | "partial" | "locked") => {
   }
 };
 
-const generateSectionsFromInventory = (inventory: Map<string, boolean>): Section[] => {
+const generateSectionsFromInventory = (currentInventory: Map<string, boolean>): Section[] => {
   const sections: Section[] = [];
 
   for (const category of categoriesData) {
@@ -58,12 +72,12 @@ const generateSectionsFromInventory = (inventory: Map<string, boolean>): Section
 
     for (const pack of category.packs) {
       const packKey = `pack__${pack.textId}`;
-      const isPackUnlocked = inventory.get(packKey) ?? false;
+      const isPackUnlocked = currentInventory.get(packKey) ?? false;
 
       let allAppendsUnlocked = true;
       const appendStatuses = pack.appends.map((append): AppendSection => {
         const appendKey = `pack__${append.textId}`;
-        const isAppendUnlocked = inventory.get(appendKey) ?? false;
+        const isAppendUnlocked = currentInventory.get(appendKey) ?? false;
         if (!isAppendUnlocked) {
           allAppendsUnlocked = false;
         }
@@ -89,10 +103,30 @@ const generateSectionsFromInventory = (inventory: Map<string, boolean>): Section
         }
       }
 
+      let lockedSongs = undefined;
+      if (songsBasedPacks.includes(pack.textId)) {
+        const songsInPack = Object.entries(inventory).filter(([key, value]) => {
+          if (!key.startsWith("song__")) {
+            return false;
+          }
+          const song = value as unknown as SongData;
+          return song.pack === pack.textId && !song.packAppend;
+        });
+        const lockedSongsCount = songsInPack.filter(([key]) => {
+          const isUnlocked = currentInventory.get(key) ?? false;
+          return !isUnlocked;
+        }).length;
+        lockedSongs = {
+          unlocked: songsInPack.length - lockedSongsCount,
+          all: songsInPack.length,
+        };
+      }
+
       section.items.push({
         name: abbrs[packKey as keyof typeof abbrs],
         unlocked,
         appends: appendStatuses,
+        lockedSongs,
       });
     }
     sections.push(section);
@@ -118,6 +152,7 @@ const SectionTitle = (
         paddingLeft: "20px",
         paddingRight: "10px",
         color: "#FFFFFF",
+        fontSize: `${fontSize}px`,
         fontFamily: "Exo-bold",
         background: palette.arcaea,
       }),
@@ -155,6 +190,22 @@ const AppendList = (item: Section["items"][number], fontSize: number) => {
   );
 };
 
+const SongsList = (item: Section["items"][number], fontSize: number) => {
+  if (!item.lockedSongs) {
+    return null;
+  }
+  return span(
+    {
+      style: toStyles({
+        fontSize: `${fontSize * 0.7}px`,
+        color: item.unlocked === "full" ? palette.pure : palette.arcaea,
+        paddingLeft: "4px",
+      }),
+    },
+    `(${item.lockedSongs.unlocked}/${item.lockedSongs.all})`,
+  );
+};
+
 const ItemRow = (item: Section["items"][number], index: number, total: number, fontSize: number) =>
   div(
     {
@@ -175,6 +226,7 @@ const ItemRow = (item: Section["items"][number], index: number, total: number, f
       },
       item.name,
       AppendList(item, fontSize),
+      SongsList(item, fontSize),
     ),
     index < total - 1
       ? span(

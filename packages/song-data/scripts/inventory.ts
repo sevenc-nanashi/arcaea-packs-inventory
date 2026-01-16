@@ -27,6 +27,8 @@ type BaseCategoryData = {
 
 const separator = "__";
 const makePackInventoryKey = (textId: string) => ["pack", textId].join(separator);
+const makeSongInventoryKey = (textId: string) => ["song", textId].join(separator);
+const lockedSongPackIds = new Set(["extend1", "extend2", "extend3", "extend4", "memoryarchive"]);
 
 const root = path.resolve(import.meta.dirname, "..");
 
@@ -40,7 +42,9 @@ const songList = songs as BaseSongData[];
 
 const inventory = new Map<
   string,
-  BaseCategoryData["packs"][number] | BaseCategoryData["packs"][number]["appends"][number]
+  | BaseCategoryData["packs"][number]
+  | BaseCategoryData["packs"][number]["appends"][number]
+  | BaseSongData
 >();
 for (const category of categoryList) {
   for (const pack of category.packs) {
@@ -48,6 +52,11 @@ for (const category of categoryList) {
     for (const append of pack.appends) {
       inventory.set(makePackInventoryKey(`${pack.text_id}__${append.text_id}`), append);
     }
+  }
+}
+for (const song of songList) {
+  if (lockedSongPackIds.has(song.pack) && !song.pack_append) {
+    inventory.set(makeSongInventoryKey(song.text_id), song);
   }
 }
 
@@ -60,14 +69,26 @@ await writeFile(
 const categoriesData = categoryList.map((category) => ({
   textId: category.text_id,
   title: category.title,
-  packs: category.packs.map((pack) => ({
-    textId: pack.text_id,
-    title: pack.title,
-    appends: pack.appends.map((append) => ({
-      textId: `${pack.text_id}__${append.text_id}`,
-      title: append.title,
-    })),
-  })),
+  packs: category.packs.map((pack) => {
+    const lockedSongs =
+      lockedSongPackIds.has(pack.text_id) && !pack.appends.length
+        ? songList
+            .filter((song) => song.pack === pack.text_id && !song.pack_append)
+            .map((song) => ({
+              textId: song.text_id,
+              title: song.title,
+            }))
+        : [];
+    return {
+      textId: pack.text_id,
+      title: pack.title,
+      appends: pack.appends.map((append) => ({
+        textId: `${pack.text_id}__${append.text_id}`,
+        title: append.title,
+      })),
+      lockedSongs,
+    };
+  }),
 }));
 const songsData = songList.map((song) => ({
   index: song.index,

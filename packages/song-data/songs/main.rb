@@ -60,8 +60,6 @@ content.children.each do |child|
     table
       .css("tbody tr")
       .each_with_index do |row, index|
-        next if index.zero?
-
         maybe_header = row.at_css("th[colspan=10]")
         if maybe_header
           append_text = maybe_header.at_css("strong")&.text
@@ -102,7 +100,7 @@ content.children.each do |child|
             raise "Unexpected number of cells in row: #{cells.size}"
           end
 
-          song_title = cells[0].text.strip
+          song_title = cells[0].at_css("a").text.strip
           has_eternal = !cells[8].text.empty?
           has_beyond = !cells[9].text.empty?
           text_id = cells[0].at_css("a")["href"].split("/").last
@@ -131,7 +129,6 @@ content.children.each do |child|
       end
   end
 end
-songs_data.sort_by! { |s| s[:index] }
 File.write(
 	"../src/categories.json",
   JSON.pretty_generate(

@@ -1,7 +1,7 @@
 export const palette = {
   // far: "#f6d368",
   // pure: "#4cc8dc",
-  far: "#e2c365",
+  far: "#d6b239",
   pure: "#67bfce",
 
   light: "#87cefa",

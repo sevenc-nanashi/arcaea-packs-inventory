@@ -1,12 +1,20 @@
 {
-	"name": "arcaea-packs-inventory-worker",
-	"private": true,
-	"dependencies": {
+  "name": "arcaea-packs-inventory-worker",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.7.6",
     "@shared/song-data": "workspace:*",
-		"@hono/zod-validator": "^0.7.6",
-		"mini-van-plate": "^0.6.3",
-		"zod": "^4.3.5",
-		"hono": "^4.11.4"
-	},
-	"devDependencies": {}
+    "hono": "^4.11.4",
+    "mini-van-plate": "^0.6.3",
+    "workers-og": "^0.0.27",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "@vercel/og": "^0.8.6"
+  }
 }

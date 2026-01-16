@@ -1,5 +1,14 @@
 import { fromByteArray, toByteArray } from "base64-js";
 
+const toBase64Url = (base64: string) =>
+  base64.replaceAll("+", "-").replaceAll("/", "_").replaceAll("=", "");
+
+const fromBase64Url = (base64url: string) => {
+  const base64 = base64url.replaceAll("-", "+").replaceAll("_", "/");
+  const paddingLength = (4 - (base64.length % 4)) % 4;
+  return base64 + "=".repeat(paddingLength);
+};
+
 export class BitField {
   private data: boolean[];
   private length: number;
@@ -34,11 +43,11 @@ export class BitField {
         byteArray[Math.floor(i / 8)]! |= 1 << (i % 8);
       }
     }
-    return "1" + fromByteArray(byteArray);
+    return "1" + toBase64Url(fromByteArray(byteArray));
   }
   static deserialize(serialized: string, length: number): BitField {
     if (serialized.startsWith("1")) {
-      const byteArray = toByteArray(serialized.slice(1));
+      const byteArray = toByteArray(fromBase64Url(serialized.slice(1)));
       const bitField = new BitField(length);
       for (let i = 0; i < length; i++) {
         const byteIndex = Math.floor(i / 8);

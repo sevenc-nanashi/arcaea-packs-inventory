@@ -1,5 +1,6 @@
 import { defineConfig, presetIcons, presetWind4, transformerDirectives } from "unocss";
 import { presetAttributify } from "unocss/preset-attributify";
+import { palette } from "@shared/song-data";
 
 export default defineConfig({
   presets: [
@@ -11,26 +12,8 @@ export default defineConfig({
   ],
   transformers: [transformerDirectives()],
   theme: {
-    font: {
-      sans: "var(--font-sans)",
-      en: "Exo, sans-serif",
-      ja: "'Kazesawa', sans-serif",
-    },
-    colors: {
-      far: "#f6d368",
-      pure: "#4cc8dc",
-
-      light: "#87cefa",
-      conflict: "#4b0082",
-
-      past: "#5cbad3",
-      present: "#b5c770",
-      future: "#814270",
-      eternal: "#8a7aa5",
-      beyond: "#bf0d26",
-
-      arcaea: "#34333e",
-    },
+    font: palette.font,
+    colors: palette.colors,
   },
   rules: [
     [

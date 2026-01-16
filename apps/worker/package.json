@@ -1,10 +1,12 @@
 {
-  "name": "arcaea-packs-inventory-worker",
-  "private": true,
-  "scripts": {
-    "dev": "wrangler dev",
-    "test": "vitest",
-    "cf-typegen": "wrangler types",
-    "deploy": "wrangler deploy"
-  }
+	"name": "arcaea-packs-inventory-worker",
+	"private": true,
+	"dependencies": {
+    "@shared/song-data": "workspace:*",
+		"@hono/zod-validator": "^0.7.6",
+		"mini-van-plate": "^0.6.3",
+		"zod": "^4.3.5",
+		"hono": "^4.11.4"
+	},
+	"devDependencies": {}
 }

@@ -12,14 +12,6 @@ export default defineConfig({
     },
     allowedHosts: true,
   },
-  resolve: {
-    alias: {
-      "@shared/song-data": path.resolve(
-        import.meta.dirname,
-        "../../packages/song-data/src/index.ts",
-      ),
-    },
-  },
   plugins: [
     vue(),
     uno(),

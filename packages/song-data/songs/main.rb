@@ -11,7 +11,7 @@ packs_doc = Nokogiri.HTML(packs_html)
 content = packs_doc.at_css("#content")
 current_pack = nil
 current_pack_append = nil
-songs_data = JSON.parse(File.read("./songs.json"), symbolize_names: true)
+songs_data = JSON.parse(File.read("../src/songs.json"), symbolize_names: true)
 packs = []
 fallback_pack_names = { "memoryarchive" => "Memory Archive" }
 next_index = (songs_data.map { |s| s[:index] }.max || -1) + 1
@@ -133,7 +133,7 @@ content.children.each do |child|
 end
 songs_data.sort_by! { |s| s[:index] }
 File.write(
-  "./categories.json",
+	"../src/categories.json",
   JSON.pretty_generate(
     packs
       .group_by { |p| p[:category] }
@@ -149,4 +149,4 @@ File.write(
       end
   )
 )
-File.write("./songs.json", JSON.pretty_generate(songs_data))
+File.write("../src/songs.json", JSON.pretty_generate(songs_data))

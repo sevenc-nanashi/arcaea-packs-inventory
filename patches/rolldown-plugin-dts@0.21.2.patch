@@ -1,0 +1,13 @@
+diff --git a/dist/index.mjs b/dist/index.mjs
+index f0d1bda79df6a23fc7ebd8040b6b5a83e0b2c2b7..29677bc2b1808011293601bf70d39fdf252f2538 100644
+--- a/dist/index.mjs
++++ b/dist/index.mjs
+@@ -800,7 +800,7 @@ function createGeneratePlugin({ tsconfig, tsconfigRaw, build, incremental, cwd,
+ 					dtsCode = result.code;
+ 					map = result.map;
+ 					if (dtsCode && RE_JSON.test(id)) if (dtsCode.includes("declare const _exports")) {
+-						if (dtsCode.includes("declare const _exports: {")) {
++						if (dtsCode.includes("declare const _exports: {") && !dtsCode.includes("\n}[];")) {
+ 							const exports = collectJsonExports(dtsCode);
+ 							let i = 0;
+ 							dtsCode += exports.map((e) => {

@@ -1,5 +1,5 @@
-import categories from "../songs/categories.json";
-import songs from "../songs/songs.json";
+import categories from "./categories.json";
+import songs from "./songs.json";
 
 type BaseSongData = {
   index: number;

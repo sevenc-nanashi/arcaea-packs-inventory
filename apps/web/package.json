@@ -1,4 +1,11 @@
 {
   "name": "arcaea-packs-inventory-web",
-  "private": true
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@shared/song-data": "workspace:*"
+  }
 }

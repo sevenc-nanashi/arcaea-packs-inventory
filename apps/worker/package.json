@@ -1,4 +1,10 @@
 {
   "name": "arcaea-packs-inventory-worker",
-  "private": true
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "test": "vitest",
+    "cf-typegen": "wrangler types",
+    "deploy": "wrangler deploy"
+  }
 }

@@ -4,7 +4,7 @@ import { CheckboxRoot, CheckboxIndicator } from 'reka-ui';
 const value = defineModel<boolean>({ required: true });
 
 const emit = defineEmits<{
-	shiftCheck: [checked: boolean];
+	shiftCheck: [event: MouseEvent, checked: boolean];
 }>();
 </script>
 <template>
@@ -14,7 +14,7 @@ const emit = defineEmits<{
 		un-inline-block
 		@click="
 			if ($event.shiftKey) {
-				emit('shiftCheck', !value);
+				emit('shiftCheck', $event, value);
 			}
 		"
 	>

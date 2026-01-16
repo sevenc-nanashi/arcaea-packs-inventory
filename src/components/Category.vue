@@ -11,7 +11,7 @@ const props = defineProps<{
 		<h2 class="category-header" un-m="x-auto" un-max-w="xl">
 			{{ props.category.title }}
 		</h2>
-		<div un-m="x-auto" un-max-w="sm">
+		<div un-m="x-auto" un-max-w="sm" un-p="x-4">
 			<Pack v-for="(pack, index) in props.category.packs" :key="index" :pack />
 		</div>
 	</section>

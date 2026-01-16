@@ -2,7 +2,7 @@
 import Checkbox from './ui/Checkbox.vue';
 import type { PackData } from '../lib/songData';
 import { packItselfKey, usePacksStore } from '../store';
-import { computed } from 'vue';
+import { computed, ref } from 'vue';
 
 const props = defineProps<{
 	pack: PackData;
@@ -43,24 +43,47 @@ const setHasAllPack = () => {
 		}
 	}
 };
+
+const hasAppends = computed(() => props.pack.appends.length > 0);
+const isAppendsOpen = ref(false);
 </script>
 
 <template>
-	<div un-flex un-items="center" un-gap="2">
-		<Checkbox
-			:un-color="hasAllPack ? 'pure' : 'far'"
-			:modelValue="getHasPack(packItselfKey)"
-			@shiftCheck="setHasAllPack()"
-			@update:modelValue="setHasPack(packItselfKey, $event)"
-		/>
-		{{ props.pack.title }}
-	</div>
-	<div un-ml="6">
-		<div v-for="append in props.pack.appends">
-			<div un-flex un-items="center" un-gap="2">
-				<Checkbox un-color="far" :modelValue="getHasPack(append.textId)" @update:modelValue="setHasPack(append.textId, $event)" />
-				{{ append.title }}
+	<details v-if="hasAppends" @toggle="isAppendsOpen = ($event.target as HTMLDetailsElement).open">
+		<summary un-flex un-items="center" un-gap="2" class="pack-heading" un-cursor="pointer">
+			<Checkbox
+				:un-color="hasAllPack ? 'pure' : 'far'"
+				:modelValue="getHasPack(packItselfKey)"
+				@shiftCheck="setHasAllPack"
+				@update:modelValue="setHasPack(packItselfKey, $event)"
+			/>
+			<span>{{ props.pack.title }}</span>
+			<div un-flex="grow" />
+			<span
+				v-if="hasAppends"
+				un-text="sm slate-500"
+				un-size="4"
+				:un-i="isAppendsOpen ? 'fluent-chevron-up-32-filled' : 'fluent-chevron-down-32-filled'"
+			/>
+		</summary>
+		<div v-if="hasAppends" un-ml="6">
+			<div v-for="append in props.pack.appends">
+				<label un-flex un-items="center" un-gap="2" un-cursor="pointer">
+					<Checkbox un-color="far" :modelValue="getHasPack(append.textId)" @update:modelValue="setHasPack(append.textId, $event)" />
+					{{ append.title }}
+				</label>
 			</div>
 		</div>
-	</div>
+	</details>
+	<label v-else un-flex un-items="center" un-gap="2" class="pack-heading" un-cursor="pointer">
+		<Checkbox
+			un-color="far"
+			:modelValue="getHasPack(packItselfKey)"
+			@shiftCheck="setHasPack(packItselfKey, !getHasPack(packItselfKey))"
+			@update:modelValue="setHasPack(packItselfKey, $event)"
+		/>
+		<span>{{ props.pack.title }}</span>
+	</label>
 </template>
+
+<style scoped></style>

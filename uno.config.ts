@@ -1,9 +1,10 @@
-import { defineConfig, presetWind4, transformerDirectives } from 'unocss';
+import { defineConfig, presetIcons, presetWind4, transformerDirectives } from 'unocss';
 import { presetAttributify } from 'unocss/preset-attributify';
 
 export default defineConfig({
 	presets: [
 		presetWind4(),
+		presetIcons(),
 		presetAttributify({
 			prefixedOnly: true,
 		}),

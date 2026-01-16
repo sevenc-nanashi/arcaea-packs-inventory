@@ -1,19 +1,15 @@
 import { defineStore } from "pinia";
-import { BitField } from "./lib/bitField";
-import { categoriesData, inventoryKeysMap } from "@shared/song-data";
+import {
+  applySerializedInventory,
+  inventoryKeys,
+  inventoryKeysMap,
+  makeInventoryKey,
+  serializeInventory,
+} from "@shared/song-data";
 
 export const packItselfKey = "_itself";
 export const beyondKey = (name: string) => `${name}__beyond`;
-const separator = "__";
 const STORAGE_KEY = "arcaea-packs-inventory";
-
-const makeInventoryKey = (textId: string) => ["pack", textId].join(separator);
-export const inventoryKeys = categoriesData.flatMap((category) =>
-  category.packs.flatMap((pack) => [
-    makeInventoryKey(pack.textId),
-    ...pack.appends.map((append) => makeInventoryKey(append.textId)),
-  ]),
-);
 
 if (inventoryKeys.some((key) => !inventoryKeysMap.includes(key))) {
   if (import.meta.env.DEV) {
@@ -71,23 +67,6 @@ const persistInventory = (inventory: Map<string, boolean>) => {
   window.localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
 };
 
-const applySerializedInventory = (inventory: Map<string, boolean>, serialized: string) => {
-  if (!serialized) {
-    return false;
-  }
-  try {
-    const field = BitField.deserialize(serialized, inventoryKeys.length);
-    for (const key of inventoryKeysMap) {
-      const index = inventoryKeys.indexOf(key);
-      inventory.set(key, field.get(index));
-    }
-    return true;
-  } catch {
-    console.warn("Failed to hydrate inventory from export data");
-    return false;
-  }
-};
-
 const createInventoryMap = () => {
   const inventory = new Map<string, boolean>();
   for (const key of inventoryKeys) {
@@ -121,17 +100,13 @@ export const useUnlockableContentsStore = defineStore("unlockableContents", {
       persistInventory(this.inventory);
     },
     export() {
-      const field = new BitField(inventoryKeys.length);
-      for (let index = 0; index < inventoryKeys.length; index++) {
-        if (this.inventory.get(inventoryKeys[index]!)) {
-          field.set(index, true);
-        }
-      }
-      return field.serialize();
+      return serializeInventory(this.inventory);
     },
     hydrate(serialized: string) {
       if (applySerializedInventory(this.inventory, serialized)) {
         persistInventory(this.inventory);
+      } else {
+        console.warn("Failed to hydrate inventory from export data");
       }
     },
   },

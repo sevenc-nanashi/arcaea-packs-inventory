@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { CategoryData } from "@shared/song-data";
+import type { CategoryData } from "@arcaea-packs-inventory/song-data";
 import Pack from "./Pack.vue";
 
 const props = defineProps<{

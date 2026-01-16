@@ -1,12 +1,12 @@
 {
-  "name": "arcaea-packs-inventory-web",
+  "name": "@arcaea-packs-inventory/web",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build"
   },
   "dependencies": {
-    "@shared/song-data": "workspace:*"
+    "@arcaea-packs-inventory/song-data": "workspace:*"
   },
   "devDependencies": {
     "rollup-plugin-license": "^3.6.0",

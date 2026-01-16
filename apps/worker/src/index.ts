@@ -7,7 +7,7 @@ import {
   SongData,
   inventory,
   parseSerializedInventoryWithName,
-} from "@shared/song-data";
+} from "@arcaea-packs-inventory/song-data";
 import abbrs from "./abbrs.json";
 import * as z from "zod";
 import { ImageResponse, loadGoogleFont } from "workers-og";

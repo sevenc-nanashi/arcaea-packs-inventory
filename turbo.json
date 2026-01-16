@@ -17,7 +17,7 @@
       "cache": false
     },
     "deploy": {
-      "dependsOn": ["arcaea-packs-inventory-web#build"],
+      "dependsOn": ["@arcaea-packs-inventory/web#build"],
       "cache": false
     }
   }

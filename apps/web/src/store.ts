@@ -5,7 +5,7 @@ import {
   makePackInventoryKey,
   makeSongInventoryKey,
   serializeInventoryWithName,
-} from "@shared/song-data";
+} from "@arcaea-packs-inventory/song-data";
 
 export const packItselfKey = "_itself";
 export const beyondKey = (name: string) => `${name}__beyond`;

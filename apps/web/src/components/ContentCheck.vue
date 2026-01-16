@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Checkbox from "./ui/Checkbox.vue";
-import type { AppendData, LockedSongData, PackData } from "@shared/song-data";
+import type { AppendData, LockedSongData, PackData } from "@arcaea-packs-inventory/song-data";
 import { useUnlockableContentsStore } from "../store";
 
 const props = defineProps<{

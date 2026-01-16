@@ -1,5 +1,5 @@
 import fs from "fs/promises";
-import { inventory } from "@shared/song-data";
+import { inventory } from "@arcaea-packs-inventory/song-data";
 
 const currentAbbrs = await fs
   .readFile("./src/abbrs.json", "utf-8")

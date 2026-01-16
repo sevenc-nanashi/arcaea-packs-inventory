@@ -1,5 +1,5 @@
 {
-  "name": "arcaea-packs-inventory-worker",
+  "name": "@arcaea-packs-inventory/worker",
   "private": true,
   "scripts": {
     "dev": "wrangler dev",
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@hono/zod-validator": "^0.7.6",
-    "@shared/song-data": "workspace:*",
+    "@arcaea-packs-inventory/song-data": "workspace:*",
     "hono": "^4.11.4",
     "mini-van-plate": "^0.6.3",
     "workers-og": "^0.0.27",

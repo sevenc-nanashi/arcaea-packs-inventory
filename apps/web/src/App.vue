@@ -2,7 +2,7 @@
 import Header from "./components/Header.vue";
 import Export from "./components/Export.vue";
 import Category from "./components/Category.vue";
-import { categoriesData } from "@shared/song-data";
+import { categoriesData } from "@arcaea-packs-inventory/song-data";
 import { useUnlockableContentsStore } from "./store";
 import { useI18n } from "vue-i18n";
 import { watch } from "vue";

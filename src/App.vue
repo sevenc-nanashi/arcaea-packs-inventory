@@ -3,9 +3,18 @@ import Header from './components/Header.vue';
 import Export from './components/Export.vue';
 import Category from './components/Category.vue';
 import { categoriesData } from './lib/songData';
+import { useUnlockableContentsStore } from './store';
 import { useI18n } from 'vue-i18n';
 import { watch } from 'vue';
 const i18n = useI18n();
+const unlockableContentsStore = useUnlockableContentsStore();
+
+if (typeof window !== 'undefined') {
+	const hash = window.location.hash.slice(1);
+	if (hash) {
+		unlockableContentsStore.hydrate(hash);
+	}
+}
 
 watch(
 	() => i18n.locale.value,

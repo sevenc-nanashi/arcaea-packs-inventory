@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { ref, computed, onBeforeUnmount } from 'vue';
 import { useI18n } from 'vue-i18n';
 import Badge from './Badge.vue';
 import { useUnlockableContentsStore } from '../store';
@@ -7,6 +7,11 @@ import { useUnlockableContentsStore } from '../store';
 const { t } = useI18n();
 const dialogRef = ref<HTMLDialogElement | null>(null);
 const unlockableContentsStore = useUnlockableContentsStore();
+const copyStatus = ref<'idle' | 'copied'>('idle');
+const copyButtonText = computed(() =>
+	copyStatus.value === 'copied' ? t('exportDialogCopied') : t('exportDialogCopy')
+);
+let copyStatusResetTimer: ReturnType<typeof setTimeout> | null = null;
 
 const exportUrl = computed(() => {
 	if (typeof window === 'undefined') {
@@ -25,10 +30,24 @@ const copyExportLink = async () => {
 	}
 	try {
 		await navigator.clipboard.writeText(exportUrl.value);
+		copyStatus.value = 'copied';
+		if (copyStatusResetTimer !== null) {
+			clearTimeout(copyStatusResetTimer);
+		}
+		copyStatusResetTimer = setTimeout(() => {
+			copyStatus.value = 'idle';
+			copyStatusResetTimer = null;
+		}, 1500);
 	} catch (error) {
 		console.error('Copy failed', error);
 	}
 };
+onBeforeUnmount(() => {
+	if (copyStatusResetTimer !== null) {
+		clearTimeout(copyStatusResetTimer);
+		copyStatusResetTimer = null;
+	}
+});
 </script>
 
 <template>
@@ -50,7 +69,7 @@ const copyExportLink = async () => {
 			</header>
 			<div class="export-dialog__link">
 				<input type="text" readonly :value="exportUrl" />
-				<button type="button" @click="copyExportLink">{{ t('exportDialogCopy') }}</button>
+				<button type="button" @click="copyExportLink">{{ copyButtonText }}</button>
 			</div>
 			<div class="export-dialog__actions">
 				<button type="button" @click="closeDialog">{{ t('exportDialogClose') }}</button>

@@ -2,4 +2,5 @@ exportButton: Export
 exportDialogTitle: Export link
 exportDialogDescription: Share your current inventory using the link below.
 exportDialogCopy: Copy link
+exportDialogCopied: Copied!
 exportDialogClose: Close

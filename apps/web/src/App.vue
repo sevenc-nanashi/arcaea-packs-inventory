@@ -37,7 +37,12 @@ watch(
     <Category v-for="category in categoriesData" :key="category.textId" :category="category" />
   </main>
   <div un-flex-grow />
-  <footer un-p="4" un-text="xs center arcaea" un-bg="slate-200" un-font="en">
+  <footer
+    un-p="4"
+    un-text="xs center arcaea dark:slate-400"
+    un-bg="slate-200 dark:slate-900"
+    un-font="en"
+  >
     &copy; 2026
     <a
       un-text="underline [#48b0d5]"
@@ -48,7 +53,7 @@ watch(
     >
     - Source code on
     <a
-      un-text="arcaea"
+      un-text="arcaea dark:slate-300"
       un-decoration="underline"
       href="https://github.com/sevenc-nanashi/arcaea-packs-inventory"
       target="_blank"
@@ -56,7 +61,7 @@ watch(
       >sevenc-nanashi/arcaea-packs-inventory</a
     >
     <br />
-    This project is not affiliated by Lowiro, and copyright of contents belong to Lowiro.
+    This project is not affiliated by Lowiro, and copyright of contents belong to Lowiro and respective owners.
   </footer>
 </template>
 

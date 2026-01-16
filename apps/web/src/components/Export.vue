@@ -100,32 +100,23 @@ onBeforeUnmount(() => {
 				<input type="text" readonly :value="exportUrl" un-flex-grow un-p="x-4" un-h="10" un-border="slate-300 2"
 					un-rounded="md" />
 				<button type="button" @click="copyExportLink">
-					<Badge :un-bg="copyStatus === 'idle' ? 'arcaea' : 'pure'" un-text="slate-700" un-cursor="pointer" un-p="x-6">
+					<Badge :un-bg="copyStatus === 'idle' ? 'arcaea' : 'pure'" un-text="white" un-cursor="pointer" un-p="x-6"
+						:un-opacity="
+							copyStatus === 'idle' ? '100 hover:80' : '100'
+						" un-transition="colors" un-duration="150">
 						{{ copyButtonText }}
 					</Badge>
 				</button>
 			</div>
-      <div v-if="exportImageUrl" un-flex un-justify="center">
-        <a
-          :href="exportImageUrl"
-          download="arcaea-inventory.png"
-          class="export-dialog__image-link"
-          un-w="full"
-        >
-          <img
-            :src="exportImageUrl"
-            alt="Inventory preview"
-            width="1200"
-            height="630"
-            un-rounded="lg"
-            un-border="slate-200 2"
-            un-w="full"
-          />
-        </a>
-      </div>
+			<div v-if="exportImageUrl" un-flex un-justify="center" un-rounded="lg" un-border="slate-200 2">
+				<a :href="exportImageUrl" download="arcaea-inventory.png" class="export-dialog__image-link" un-w="full">
+					<img :src="exportImageUrl" alt="Inventory preview" width="1200" height="630" un-w="full" />
+				</a>
+			</div>
 			<div un-flex un-justify="end">
 				<button type="button" @click="closeDialog">
-					<Badge un-bg="slate-400 hover:slate-500" un-text="slate-700" un-cursor="pointer" un-p="x-6">
+					<Badge un-bg="slate-500 dark:slate-800 hover:slate-400 dark:hover:slate-600" un-transition="colors"
+						un-duration="150" un-text="white" un-cursor="pointer" un-p="x-6">
 						{{ t("exportDialogClose") }}
 					</Badge>
 				</button>
@@ -175,7 +166,7 @@ onBeforeUnmount(() => {
 	&__image-link {
 		position: relative;
 		display: block;
-		border-radius: 0.75rem;
+		border-radius: calc(theme('radius.lg') - 2px);
 		overflow: hidden;
 	}
 

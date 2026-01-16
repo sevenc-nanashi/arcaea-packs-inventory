@@ -7,7 +7,6 @@
 .badge {
   --height: 2rem;
   text-align: center;
-  color: white;
   font-weight: bold;
   height: var(--height);
   line-height: var(--height);

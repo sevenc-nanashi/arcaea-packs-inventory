@@ -29,7 +29,7 @@ const emit = defineEmits<{
         d="M12 0 L24 12 L12 24 L0 12 Z"
         un-stroke="slate-500"
         stroke-width="2"
-        un-fill="white"
+        un-fill="white dark:slate-800"
         stroke-linecap="square"
       />
       <CheckboxIndicator asChild>

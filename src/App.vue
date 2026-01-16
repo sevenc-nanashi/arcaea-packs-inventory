@@ -19,7 +19,11 @@ if (typeof window !== 'undefined') {
 watch(
 	() => i18n.locale.value,
 	(newLocale) => {
+		if (typeof window === 'undefined') {
+			return;
+		}
 		document.documentElement.lang = newLocale;
+		localStorage.setItem('preferredLocale', newLocale);
 	},
 	{ immediate: true },
 );

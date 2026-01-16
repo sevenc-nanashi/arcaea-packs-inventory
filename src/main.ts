@@ -10,8 +10,19 @@ import './style.css';
 import en from './locales/en.yml';
 import ja from './locales/ja.yml';
 
+const getInitialLocale = () => {
+	if (typeof window === 'undefined') {
+		return 'en';
+	}
+	const savedLocale = localStorage.getItem('preferredLocale');
+	if (savedLocale) {
+		return savedLocale;
+	}
+	return navigator.language.split('-')[0];
+};
+
 const i18n = createI18n({
-	locale: navigator.language.split('-')[0],
+	locale: getInitialLocale(),
 	fallbackLocale: 'en',
 	messages: {
 		en,

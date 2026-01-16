@@ -1,42 +1,48 @@
 @font-face {
-  font-family: "Kazesawa-ExtraLight";
+  font-family: "Kazesawa";
+  font-weight: 200;
   src:
     url("/external/kazesawa/Kazesawa-ExtraLight.woff"),
     url("/external/kazesawa/Kazesawa-ExtraLight.ttf");
 }
 @font-face {
-  font-family: "Kazesawa-Light";
+  font-family: "Kazesawa";
+  font-weight: 300;
   src:
     url("/external/kazesawa/Kazesawa-Light.woff"),
     url("/external/kazesawa/Kazesawa-Light.ttf");
 }
 @font-face {
-  font-family: "Kazesawa-Regular";
+  font-family: "Kazesawa";
+  font-weight: 400;
   src:
     url("/external/kazesawa/Kazesawa-Regular.woff"),
     url("/external/kazesawa/Kazesawa-Regular.ttf");
 }
 @font-face {
-  font-family: "Kazesawa-Semibold";
+  font-family: "Kazesawa";
+  font-weight: 600;
   src:
     url("/external/kazesawa/Kazesawa-Semibold.woff"),
     url("/external/kazesawa/Kazesawa-Semibold.ttf");
 }
 @font-face {
-  font-family: "Kazesawa-Bold";
+  font-family: "Kazesawa";
+  font-weight: 700;
   src:
     url("/external/kazesawa/Kazesawa-Bold.woff"),
     url("/external/kazesawa/Kazesawa-Bold.ttf");
 }
 @font-face {
-  font-family: "Kazesawa-Extrabold";
+  font-family: "Kazesawa";
+  font-weight: 800;
   src:
     url("/external/kazesawa/Kazesawa-Extrabold.woff"),
     url("/external/kazesawa/Kazesawa-Extrabold.ttf");
 }
 html[lang="ja"] {
-  --font-sans: "Kazesawa-Regular", Exo, sans-serif;
+  --font-sans: "Kazesawa", Exo, sans-serif;
 }
 html[lang="en"] {
-  --font-sans: "Exo", "Kazesawa-Regular", sans-serif;
+  --font-sans: "Exo", "Kazesawa", sans-serif;
 }

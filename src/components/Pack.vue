@@ -52,7 +52,7 @@ const isAppendsOpen = ref(false);
 
 <template>
 	<details v-if="appends.length > 0" @toggle="isAppendsOpen = ($event.target as HTMLDetailsElement).open">
-		<summary un-flex un-items="center" un-gap="2" class="pack-heading" un-cursor="pointer">
+		<summary un-flex un-items="center" un-gap="2" class="pack-heading" un-cursor="pointer" un-font="en">
 			<Checkbox
 				:un-color="hasAllUnlockableContent ? 'pure' : 'far'"
 				:modelValue="getHasPack()"
@@ -63,11 +63,11 @@ const isAppendsOpen = ref(false);
 			<span un-text="sm slate-500" un-size="4" :un-i="isAppendsOpen ? 'fluent-chevron-up-32-filled' : 'fluent-chevron-down-32-filled'" />
 		</summary>
 		<div un-ml="6">
-			<ContentCheck :content="props.pack" />
-			<ContentCheck v-for="(append, index) in props.pack.appends" :key="index" :content="append" />
+			<ContentCheck :content="props.pack" un-font="en" />
+			<ContentCheck v-for="(append, index) in props.pack.appends" :key="index" :content="append" un-font="en" />
 		</div>
 	</details>
-	<label v-else un-flex un-items="center" un-gap="2" class="pack-heading" un-cursor="pointer">
+	<label v-else un-flex un-items="center" un-gap="2" class="pack-heading" un-cursor="pointer" un-font="en">
 		<Checkbox un-color="pure" :modelValue="getHasPack()" @update:modelValue="setHasPack($event)" />
 		<span>{{ props.append?.title ?? props.pack.title }}</span>
 	</label>

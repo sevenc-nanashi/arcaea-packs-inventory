@@ -11,7 +11,7 @@ export default defineConfig({
 	],
 	transformers: [transformerDirectives()],
 	theme: {
-		fontFamily: {
+		font: {
 			sans: 'var(--font-sans)',
 			en: 'Exo, sans-serif',
 			ja: "'Kazesawa', sans-serif",

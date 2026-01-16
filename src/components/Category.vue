@@ -8,7 +8,7 @@ const props = defineProps<{
 </script>
 <template>
 	<section>
-		<h2 class="category-header" un-m="x-auto" un-max-w="xl">
+		<h2 class="category-header" un-m="x-auto" un-max-w="xl" un-font="en">
 			{{ props.category.title }}
 		</h2>
 		<div un-m="x-auto" un-max-w="sm" un-p="x-4">

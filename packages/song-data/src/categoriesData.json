@@ -1,0 +1,316 @@
+[
+  {
+    "textId": "arcaea",
+    "title": "Arcaea",
+    "packs": [
+      {
+        "textId": "arcaea",
+        "title": "Arcaea",
+        "appends": []
+      },
+      {
+        "textId": "memoryarchive",
+        "title": "Memory Archive",
+        "appends": []
+      },
+      {
+        "textId": "extend4",
+        "title": "World Extend 4: Emanations",
+        "appends": []
+      },
+      {
+        "textId": "extend3",
+        "title": "Extend Archive 3: Illusions",
+        "appends": []
+      },
+      {
+        "textId": "extend2",
+        "title": "Extend Archive 2: Chronicles",
+        "appends": []
+      },
+      {
+        "textId": "extend1",
+        "title": "Extend Archive 1: Visions",
+        "appends": []
+      }
+    ]
+  },
+  {
+    "textId": "main_story_2",
+    "title": "Main Story Act II",
+    "packs": [
+      {
+        "textId": "liminal",
+        "title": "Liminal Eclipse",
+        "appends": []
+      },
+      {
+        "textId": "lucent",
+        "title": "Lucent Historia",
+        "appends": []
+      },
+      {
+        "textId": "nihil",
+        "title": "Absolute Nihil",
+        "appends": []
+      },
+      {
+        "textId": "lasting",
+        "title": "Lasting Eden",
+        "appends": [
+          {
+            "textId": "lasting__lasting_eden_chapter_2",
+            "title": "Lasting Eden Chapter 2"
+          },
+          {
+            "textId": "lasting__shifting_veil",
+            "title": "Shifting Veil"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "textId": "main_story_1",
+    "title": "Main Story Act I",
+    "packs": [
+      {
+        "textId": "final",
+        "title": "Final Verdict",
+        "appends": []
+      },
+      {
+        "textId": "black",
+        "title": "Black Fate",
+        "appends": []
+      },
+      {
+        "textId": "adverse",
+        "title": "Adverse Prelude",
+        "appends": []
+      },
+      {
+        "textId": "luminous",
+        "title": "Luminous Sky",
+        "appends": []
+      },
+      {
+        "textId": "vicious",
+        "title": "Vicious Labyrinth",
+        "appends": []
+      },
+      {
+        "textId": "eternalcore",
+        "title": "Eternal Core",
+        "appends": []
+      }
+    ]
+  },
+  {
+    "textId": "side_story",
+    "title": "Side Story",
+    "packs": [
+      {
+        "textId": "extant",
+        "title": "Extant Anima",
+        "appends": [
+          {
+            "textId": "extant__chapter_experientia",
+            "title": "Chapter Experientia"
+          }
+        ]
+      },
+      {
+        "textId": "esoteric",
+        "title": "Esoteric Order",
+        "appends": [
+          {
+            "textId": "esoteric__pale_tapestry",
+            "title": "Pale Tapestry"
+          },
+          {
+            "textId": "esoteric__light_of_salvation",
+            "title": "Light of Salvation"
+          }
+        ]
+      },
+      {
+        "textId": "divided",
+        "title": "Divided Heart",
+        "appends": []
+      },
+      {
+        "textId": "ephemeral",
+        "title": "Ephemeral Page",
+        "appends": [
+          {
+            "textId": "ephemeral__the_journey_onwards",
+            "title": "The Journey Onwards"
+          }
+        ]
+      },
+      {
+        "textId": "sunset",
+        "title": "Sunset Radiance",
+        "appends": []
+      },
+      {
+        "textId": "absolute",
+        "title": "Absolute Reason",
+        "appends": []
+      },
+      {
+        "textId": "binary",
+        "title": "Binary Enfold",
+        "appends": [
+          {
+            "textId": "binary__shared_time",
+            "title": "Shared Time"
+          }
+        ]
+      },
+      {
+        "textId": "ambivalent",
+        "title": "Ambivalent Vision",
+        "appends": []
+      },
+      {
+        "textId": "crimsonsolace",
+        "title": "Crimson Solace",
+        "appends": []
+      }
+    ]
+  },
+  {
+    "textId": "collaboration",
+    "title": "Collaboration",
+    "packs": [
+      {
+        "textId": "nextstage",
+        "title": "Arcaea Next Stage",
+        "appends": []
+      },
+      {
+        "textId": "djmax",
+        "title": "DJMAX Collaboration",
+        "appends": [
+          {
+            "textId": "djmax__collaboration_chapter_2",
+            "title": "Collaboration Chapter 2"
+          }
+        ]
+      },
+      {
+        "textId": "undertale",
+        "title": "UNDERTALE Collaboration",
+        "appends": []
+      },
+      {
+        "textId": "rotaeno",
+        "title": "Rotaeno Collaboration",
+        "appends": []
+      },
+      {
+        "textId": "cytusii",
+        "title": "Cytus II Collaboration",
+        "appends": [
+          {
+            "textId": "cytusii__collaboration_chapter_2",
+            "title": "Collaboration Chapter 2"
+          }
+        ]
+      },
+      {
+        "textId": "musedash",
+        "title": "Muse Dash Collaboration",
+        "appends": []
+      },
+      {
+        "textId": "wacca",
+        "title": "WACCA Collaboration",
+        "appends": [
+          {
+            "textId": "wacca__collaboration_chapter_2",
+            "title": "Collaboration Chapter 2"
+          }
+        ]
+      },
+      {
+        "textId": "maimai",
+        "title": "maimai Collaboration",
+        "appends": [
+          {
+            "textId": "maimai__collaboration_chapter_2",
+            "title": "Collaboration Chapter 2"
+          },
+          {
+            "textId": "maimai__collaboration_chapter_3",
+            "title": "Collaboration Chapter 3"
+          }
+        ]
+      },
+      {
+        "textId": "ongeki",
+        "title": "O.N.G.E.K.I. Collaboration",
+        "appends": [
+          {
+            "textId": "ongeki__collaboration_chapter_2",
+            "title": "Collaboration Chapter 2"
+          },
+          {
+            "textId": "ongeki__collaboration_chapter_3",
+            "title": "Collaboration Chapter 3"
+          }
+        ]
+      },
+      {
+        "textId": "chunithm",
+        "title": "CHUNITHM Collaboration",
+        "appends": [
+          {
+            "textId": "chunithm__collaboration_chapter_2",
+            "title": "Collaboration Chapter 2"
+          },
+          {
+            "textId": "chunithm__collaboration_chapter_3",
+            "title": "Collaboration Chapter 3"
+          },
+          {
+            "textId": "chunithm__collaboration_chapter_4",
+            "title": "Collaboration Chapter 4"
+          }
+        ]
+      },
+      {
+        "textId": "groove",
+        "title": "Groove Coaster Collaboration",
+        "appends": [
+          {
+            "textId": "groove__collaboration_chapter_2",
+            "title": "Collaboration Chapter 2"
+          }
+        ]
+      },
+      {
+        "textId": "tonesphere",
+        "title": "Tone Sphere Collaboration",
+        "appends": []
+      },
+      {
+        "textId": "lanota",
+        "title": "Lanota Collaboration",
+        "appends": [
+          {
+            "textId": "lanota__collaboration_chapter_2",
+            "title": "Collaboration Chapter 2"
+          }
+        ]
+      },
+      {
+        "textId": "dynamix",
+        "title": "Dynamix Collaboration",
+        "appends": []
+      }
+    ]
+  }
+]

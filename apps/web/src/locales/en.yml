@@ -1,6 +1,8 @@
 exportButton: Export
 exportDialogTitle: Export
 exportDialogDescription: Share your current inventory using the link below.
+exportDialogNameLabel: Name
+exportDialogNamePlaceholder: Your name (optional)
 exportDialogCopy: Copy link
 exportDialogCopied: Copied!
 exportDialogClose: Close

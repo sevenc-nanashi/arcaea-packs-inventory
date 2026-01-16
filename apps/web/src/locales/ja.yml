@@ -1,6 +1,8 @@
 exportButton: エクスポート
 exportDialogTitle: エクスポート
 exportDialogDescription: 以下のリンクで所持状況を共有できます。
+exportDialogNameLabel: 名前
+exportDialogNamePlaceholder: 名前（任意）
 exportDialogCopy: リンクをコピー
 exportDialogCopied: コピーしました
 exportDialogClose: 閉じる

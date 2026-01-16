@@ -1,6 +1,6 @@
 import { Hono } from "hono";
 import { zValidator } from "@hono/zod-validator";
-import { applySerializedInventory, categoriesData, palette } from "@shared/song-data";
+import { applySerializedInventoryWithName, categoriesData, palette } from "@shared/song-data";
 import abbrs from "./abbrs.json";
 import * as z from "zod";
 import { ImageResponse, loadGoogleFont } from "workers-og";
@@ -100,7 +100,190 @@ const generateSectionsFromInventory = (inventory: Map<string, boolean>): Section
   return sections;
 };
 
-const renderTemplate = (sections: Section[]) => {
+const SectionTitle = (
+  title: string,
+  index: number,
+  fontSize: number,
+  topGap: number,
+  sectionGap: number,
+) =>
+  div(
+    {
+      style: toStyles({
+        display: "flex",
+        textAlign: "right",
+        width: "20vw",
+        height: "100%",
+        paddingTop: `${index === 0 ? topGap : sectionGap}px`,
+        paddingLeft: "20px",
+        paddingRight: "10px",
+        color: "#FFFFFF",
+        fontFamily: "Exo-bold",
+        background: palette.arcaea,
+      }),
+    },
+    title,
+  );
+
+const AppendLabel = (append: AppendSection) =>
+  span(
+    {
+      style: toStyles({
+        color: getColorForUnlockStatus(append.unlocked),
+      }),
+    },
+    append.name,
+  );
+
+const AppendList = (item: Section["items"][number], fontSize: number) => {
+  if (item.appends.length === 0) {
+    return null;
+  }
+  return span(
+    {
+      style: toStyles({
+        fontSize: `${fontSize * 0.7}px`,
+        color: item.unlocked === "full" ? palette.pure : palette.arcaea,
+        paddingLeft: "4px",
+      }),
+    },
+    `(+`,
+    ...item.appends.flatMap((append, index) =>
+      index > 0 ? [", ", AppendLabel(append)] : [AppendLabel(append)],
+    ),
+    `)`,
+  );
+};
+
+const ItemRow = (item: Section["items"][number], index: number, total: number, fontSize: number) =>
+  div(
+    {
+      style: toStyles({
+        height: "24px",
+        display: "flex",
+        alignItems: "center",
+      }),
+    },
+    span(
+      {
+        style: toStyles({
+          display: "flex",
+          color: getColorForUnlockStatus(item.unlocked),
+          fontFamily: "Exo",
+          alignItems: "center",
+        }),
+      },
+      item.name,
+      AppendList(item, fontSize),
+    ),
+    index < total - 1
+      ? span(
+          {
+            style: toStyles({
+              whiteSpace: "pre",
+              color: palette.arcaea,
+            }),
+          },
+          " / ",
+        )
+      : null,
+  );
+
+const SectionItems = (
+  items: Section["items"],
+  index: number,
+  fontSize: number,
+  topGap: number,
+  sectionGap: number,
+) =>
+  div(
+    {
+      style: toStyles({
+        display: "flex",
+        width: "80vw",
+        flexWrap: "wrap",
+        fontSize: `${fontSize * 0.9}px`,
+        paddingTop: `${(index === 0 ? topGap : sectionGap) + fontSize * 0.1}px`,
+        paddingRight: "20px",
+        paddingLeft: "10px",
+        backgroundColor: "#FFFFFF",
+        alignItems: "center",
+        rowGap: `${fontSize * 0.4}px`,
+      }),
+    },
+    items.map((item, itemIndex) => ItemRow(item, itemIndex, items.length, fontSize)),
+  );
+
+const SectionRow = (
+  section: Section,
+  index: number,
+  fontSize: number,
+  topGap: number,
+  sectionGap: number,
+) =>
+  div(
+    {
+      style: toStyles({
+        display: "flex",
+        flexDirection: "row",
+        fontFamily: "Exo",
+        fontSize: `${fontSize}px`,
+        width: "100vw",
+      }),
+    },
+    SectionTitle(section.title, index, fontSize, topGap, sectionGap),
+    SectionItems(section.items, index, fontSize, topGap, sectionGap),
+  );
+
+const FooterRow = (name: string | undefined, generatedAt: string | undefined, fontSize: number) => {
+  const trimmedName = (name ?? "").trim();
+  const footerParts = [
+    trimmedName ? `${trimmedName}` : null,
+    generatedAt ? `${generatedAt}` : null,
+  ].filter(Boolean);
+  const footerText = footerParts.join(" / ");
+  return div(
+    {
+      style: toStyles({
+        display: "flex",
+        flexDirection: "row",
+        fontFamily: "Exo",
+        width: "100vw",
+        flexGrow: 1,
+      }),
+    },
+    div({
+      style: toStyles({
+        display: "flex",
+        textAlign: "right",
+        width: "20vw",
+        background: palette.arcaea,
+      }),
+    }),
+    div(
+      {
+        style: toStyles({
+          display: "flex",
+          width: "80vw",
+          backgroundColor: "#FFFFFF",
+          alignItems: "flex-end",
+          justifyContent: "flex-end",
+          paddingRight: "20px",
+          paddingBottom: "12px",
+          fontSize: `${fontSize * 0.6}px`,
+          color: palette.arcaea,
+        }),
+      },
+      footerText,
+    ),
+  );
+};
+
+const renderTemplate = (
+  sections: Section[],
+  name: string | undefined,
+  generatedAt: string | undefined,
+) => {
   const fontSize = 24;
   const topGap = fontSize;
   const sectionGap = fontSize * 0.5;
@@ -115,148 +298,8 @@ const renderTemplate = (sections: Section[]) => {
         height: "100vh",
       }),
     },
-    sections.map((section, i) =>
-      div(
-        {
-          style: toStyles({
-            display: "flex",
-            flexDirection: "row",
-            fontFamily: "Exo",
-            fontSize: `${fontSize}px`,
-            width: "100vw",
-          }),
-        },
-        div(
-          {
-            style: toStyles({
-              display: "flex",
-              textAlign: "right",
-              width: "20vw",
-              height: "100%",
-              paddingTop: `${i === 0 ? topGap : sectionGap}px`,
-              paddingLeft: "20px",
-              paddingRight: "10px",
-              color: "#FFFFFF",
-              fontFamily: "Exo-bold",
-              background: palette.arcaea,
-            }),
-          },
-          section.title,
-        ),
-        div(
-          {
-            style: toStyles({
-              display: "flex",
-              width: "80vw",
-              flexWrap: "wrap",
-              fontSize: `${fontSize * 0.9}px`,
-              paddingTop: `${(i === 0 ? topGap : sectionGap) + fontSize * 0.1}px`,
-              paddingRight: "20px",
-              paddingLeft: "10px",
-              backgroundColor: "#FFFFFF",
-              alignItems: "center",
-              rowGap: `${fontSize * 0.4}px`,
-            }),
-          },
-          section.items.map((item, i) =>
-            div(
-              {
-                style: toStyles({
-                  height: "24px",
-                  display: "flex",
-                  alignItems: "center",
-                }),
-              },
-              span(
-                {
-                  style: toStyles({
-                    display: "flex",
-                    color: getColorForUnlockStatus(item.unlocked),
-                    fontFamily: "Exo",
-                    alignItems: "center",
-                  }),
-                },
-                item.name,
-                item.appends.length > 0
-                  ? span(
-                      {
-                        style: toStyles({
-                          fontSize: `${fontSize * 0.7}px`,
-                          color: item.unlocked === "full" ? palette.pure : palette.arcaea,
-                          paddingLeft: "4px",
-                        }),
-                      },
-                      `(+`,
-                      ...item.appends.flatMap((append, i) =>
-                        i > 0
-                          ? [
-                              ", ",
-                              span(
-                                {
-                                  style: toStyles({
-                                    color: getColorForUnlockStatus(append.unlocked),
-                                  }),
-                                },
-                                append.name,
-                              ),
-                            ]
-                          : [
-                              span(
-                                {
-                                  style: toStyles({
-                                    color: getColorForUnlockStatus(append.unlocked),
-                                  }),
-                                },
-                                append.name,
-                              ),
-                            ],
-                      ),
-                      `)`,
-                    )
-                  : null,
-              ),
-              i < section.items.length - 1
-                ? span(
-                    {
-                      style: toStyles({
-                        whiteSpace: "pre",
-                        color: palette.arcaea,
-                      }),
-                    },
-                    " / ",
-                  )
-                : null,
-            ),
-          ),
-        ),
-      ),
-    ),
-    div(
-      {
-        style: toStyles({
-          display: "flex",
-          flexDirection: "row",
-          fontFamily: "Exo",
-          width: "100vw",
-          flexGrow: 1,
-        }),
-      },
-      div({
-        style: toStyles({
-          display: "flex",
-          textAlign: "right",
-          width: "20vw",
-          background: palette.arcaea,
-        }),
-      }),
-      div({
-        style: toStyles({
-          display: "flex",
-          width: "80vw",
-          backgroundColor: "#FFFFFF",
-        }),
-      }),
-    ),
+    sections.map((section, index) => SectionRow(section, index, fontSize, topGap, sectionGap)),
+    FooterRow(name, generatedAt, fontSize),
   ).render();
 
   return template;
@@ -273,11 +316,11 @@ app.get(
   async (c) => {
     const { inventory: serializedInventory } = c.req.valid("query");
     const map = new Map();
-    applySerializedInventory(map, serializedInventory);
+    const { name, generatedAt } = applySerializedInventoryWithName(map, serializedInventory);
 
     const sections = generateSectionsFromInventory(map);
 
-    const template = renderTemplate(sections);
+    const template = renderTemplate(sections, name, generatedAt);
 
     return new ImageResponse(template, {
       width: 1200,

@@ -7,6 +7,10 @@ import { useUnlockableContentsStore } from "../store";
 const { t } = useI18n();
 const dialogRef = ref<HTMLDialogElement | null>(null);
 const unlockableContentsStore = useUnlockableContentsStore();
+const userName = computed({
+  get: () => unlockableContentsStore.userName,
+  set: (value: string) => unlockableContentsStore.setUserName(value),
+});
 const copyStatus = ref<"idle" | "copied">("idle");
 const copyButtonText = computed(() =>
   copyStatus.value === "copied" ? t("exportDialogCopied") : t("exportDialogCopy"),
@@ -62,6 +66,19 @@ onBeforeUnmount(() => {
         <h3>{{ t("exportDialogTitle") }}</h3>
         <p>{{ t("exportDialogDescription") }}</p>
       </header>
+      <div un-flex un-gap="2" un-items="center">
+        <label un-min-w="22" un-text="slate-600">{{ t("exportDialogNameLabel") }}</label>
+        <input
+          v-model="userName"
+          type="text"
+          :placeholder="t('exportDialogNamePlaceholder')"
+          un-flex-grow
+          un-p="x-4"
+          un-h="10"
+          un-border="slate-300 2"
+          un-rounded="md"
+        />
+      </div>
       <div un-flex un-gap="2">
         <input
           type="text"

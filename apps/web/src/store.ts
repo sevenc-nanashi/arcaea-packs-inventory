@@ -1,16 +1,24 @@
 import { defineStore } from "pinia";
 import {
-  applySerializedInventory,
+  applySerializedInventoryWithName,
   inventoryKeys,
-  makeInventoryKey,
-  serializeInventory,
+  makePackInventoryKey,
+  serializeInventoryWithName,
 } from "@shared/song-data";
 
 export const packItselfKey = "_itself";
 export const beyondKey = (name: string) => `${name}__beyond`;
 const STORAGE_KEY = "arcaea-packs-inventory";
+const USER_NAME_KEY = "arcaea-packs-inventory:user-name";
 
 const isBrowser = typeof window !== "undefined";
+
+const formatLocalDate = (date: Date) => {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+};
 
 const readPersistedInventory = (): Record<string, boolean> | undefined => {
   if (!isBrowser) {
@@ -31,6 +39,13 @@ const readPersistedInventory = (): Record<string, boolean> | undefined => {
   return undefined;
 };
 
+const readPersistedUserName = () => {
+  if (!isBrowser) {
+    return "";
+  }
+  return window.localStorage.getItem(USER_NAME_KEY) ?? "";
+};
+
 const persistInventory = (inventory: Map<string, boolean>) => {
   if (!isBrowser) {
     return;
@@ -40,6 +55,17 @@ const persistInventory = (inventory: Map<string, boolean>) => {
     payload[key] = Boolean(inventory.get(key));
   }
   window.localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+};
+
+const persistUserName = (name: string) => {
+  if (!isBrowser) {
+    return;
+  }
+  if (!name) {
+    window.localStorage.removeItem(USER_NAME_KEY);
+    return;
+  }
+  window.localStorage.setItem(USER_NAME_KEY, name);
 };
 
 const createInventoryMap = () => {
@@ -61,25 +87,34 @@ const createInventoryMap = () => {
 export const useUnlockableContentsStore = defineStore("unlockableContents", {
   state: () => ({
     inventory: createInventoryMap(),
+    userName: readPersistedUserName(),
   }),
   actions: {
+    setUserName(name: string) {
+      this.userName = name;
+      persistUserName(name.trim());
+    },
     hasPack(packId: string) {
-      const maybeValue = this.inventory.get(makeInventoryKey(packId));
+      const maybeValue = this.inventory.get(makePackInventoryKey(packId));
       if (maybeValue === undefined) {
         throw new Error(`Unknown pack: ${packId}`);
       }
       return maybeValue;
     },
     setHasPack(packId: string, value: boolean) {
-      this.inventory.set(makeInventoryKey(packId), value);
+      this.inventory.set(makePackInventoryKey(packId), value);
       persistInventory(this.inventory);
     },
     export() {
-      return serializeInventory(this.inventory);
+      return serializeInventoryWithName(this.userName, this.inventory, formatLocalDate(new Date()));
     },
     hydrate(serialized: string) {
-      if (applySerializedInventory(this.inventory, serialized)) {
+      const { ok, name } = applySerializedInventoryWithName(this.inventory, serialized);
+      if (ok) {
         persistInventory(this.inventory);
+        if (name !== undefined && name.trim()) {
+          this.setUserName(name);
+        }
       } else {
         console.warn("Failed to hydrate inventory from export data");
       }

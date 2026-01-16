@@ -16,14 +16,16 @@ const props = defineProps<{
 		</div>
 	</section>
 </template>
-<style scoped>
-.category-header {
-	background: theme('colors.arcaea');
-	text-align: center;
-	color: white;
-	font-weight: bold;
-	height: 2rem;
-	line-height: 2rem;
-	clip-path: polygon(1rem 0, calc(100% - 1rem) 0, 100% 50%, calc(100% - 1rem) 100%, 1rem 100%, 0 50%);
+<style scoped lang="scss">
+section {
+	.category-header {
+		background: theme('colors.arcaea');
+		text-align: center;
+		color: white;
+		font-weight: bold;
+		height: 2rem;
+		line-height: 2rem;
+		clip-path: polygon(1rem 0, calc(100% - 1rem) 0, 100% 50%, calc(100% - 1rem) 100%, 1rem 100%, 0 50%);
+	}
 }
 </style>

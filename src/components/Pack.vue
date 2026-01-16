@@ -73,4 +73,4 @@ const isAppendsOpen = ref(false);
 	</label>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss"></style>

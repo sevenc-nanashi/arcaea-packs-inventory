@@ -3,7 +3,7 @@
 		<slot />
 	</div>
 </template>
-<style scoped>
+<style scoped lang="scss">
 .badge {
 	--height: 2rem;
 	text-align: center;

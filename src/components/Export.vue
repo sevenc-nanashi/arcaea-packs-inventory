@@ -78,7 +78,7 @@ onBeforeUnmount(() => {
 	</dialog>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .export-dialog {
 	border: none;
 	padding: 0;
@@ -90,56 +90,67 @@ onBeforeUnmount(() => {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-}
-.export-dialog::backdrop {
-	background: rgba(0, 0, 0, 0.4);
-}
-.export-dialog__body {
-	padding: 1.5rem;
-	display: flex;
-	flex-direction: column;
-	gap: 1rem;
-	font-family: var(--font-sans);
-}
-.export-dialog__body header h3 {
-	margin: 0;
-	font-size: 1.125rem;
-}
-.export-dialog__body header p {
-	margin: 0;
-	font-size: 0.9rem;
-	color: gray;
-}
-.export-dialog__link {
-	display: flex;
-	gap: 0.5rem;
-}
-.export-dialog__link input {
-	flex: 1;
-	padding: 0.5rem;
-	border-radius: 0.5rem;
-	border: 1px solid rgba(0, 0, 0, 0.2);
-	font-family: inherit;
-}
-.export-dialog__link button {
-	padding: 0.5rem 1rem;
-	border-radius: 0.5rem;
-	border: none;
-	background: #1c1c1c;
-	color: white;
-	cursor: pointer;
-	font-weight: bold;
-}
-.export-dialog__actions {
-	display: flex;
-	justify-content: flex-end;
-}
-.export-dialog__actions button {
-	padding: 0.5rem 1rem;
-	border-radius: 0.5rem;
-	border: none;
-	background: #e0e0e0;
-	cursor: pointer;
-	font-weight: bold;
+
+	&::backdrop {
+		background: rgba(0, 0, 0, 0.4);
+	}
+
+	&__body {
+		padding: 1.5rem;
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		font-family: var(--font-sans);
+
+		header {
+			h3 {
+				margin: 0;
+				font-size: 1.125rem;
+			}
+
+			p {
+				margin: 0;
+				font-size: 0.9rem;
+				color: gray;
+			}
+		}
+	}
+
+	&__link {
+		display: flex;
+		gap: 0.5rem;
+
+		input {
+			flex: 1;
+			padding: 0.5rem;
+			border-radius: 0.5rem;
+			border: 1px solid rgba(0, 0, 0, 0.2);
+			font-family: inherit;
+		}
+
+		button {
+			padding: 0.5rem 1rem;
+			border-radius: 0.5rem;
+			border: none;
+			background: #1c1c1c;
+			color: white;
+			cursor: pointer;
+			font-weight: bold;
+		}
+	}
+
+	&__actions {
+		display: flex;
+		justify-content: flex-end;
+
+		button {
+			padding: 0.5rem 1rem;
+			border-radius: 0.5rem;
+			border: none;
+			background: #e0e0e0;
+			cursor: pointer;
+			font-weight: bold;
+		}
+	}
 }
 </style>

@@ -23,4 +23,4 @@ const getHasPack = () => {
 	</label>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss"></style>

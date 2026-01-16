@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onBeforeUnmount } from "vue";
+import { ref, computed, onBeforeUnmount, watch } from "vue";
 import { useI18n } from "vue-i18n";
 import Badge from "./Badge.vue";
 import { useUnlockableContentsStore } from "../store";
@@ -17,12 +17,33 @@ const copyButtonText = computed(() =>
 );
 let copyStatusResetTimer: ReturnType<typeof setTimeout> | null = null;
 
+const exportSerialized = computed(() => unlockableContentsStore.export());
 const exportUrl = computed(() => {
   if (typeof window === "undefined") {
     return "";
   }
-  return `${window.location.origin}${window.location.pathname}?i=${unlockableContentsStore.export()}`;
+  return `${window.location.origin}${window.location.pathname}?i=${exportSerialized.value}`;
 });
+const exportImageUrl = ref("");
+let exportImageTimer: ReturnType<typeof setTimeout> | null = null;
+watch(
+  exportSerialized,
+  (value) => {
+    if (typeof window === "undefined") {
+      exportImageUrl.value = "";
+      return;
+    }
+    if (exportImageTimer !== null) {
+      clearTimeout(exportImageTimer);
+    }
+    exportImageTimer = setTimeout(() => {
+      const serialized = encodeURIComponent(value);
+      exportImageUrl.value = `${window.location.origin}/image?inventory=${serialized}`;
+      exportImageTimer = null;
+    }, 300);
+  },
+  { immediate: true },
+);
 
 const openDialog = () => dialogRef.value?.showModal();
 const closeDialog = () => dialogRef.value?.close();
@@ -49,6 +70,10 @@ onBeforeUnmount(() => {
   if (copyStatusResetTimer !== null) {
     clearTimeout(copyStatusResetTimer);
     copyStatusResetTimer = null;
+  }
+  if (exportImageTimer !== null) {
+    clearTimeout(exportImageTimer);
+    exportImageTimer = null;
   }
 });
 </script>
@@ -78,6 +103,17 @@ onBeforeUnmount(() => {
 						{{ copyButtonText }}
 					</Badge>
 				</button>
+			</div>
+			<div v-if="exportImageUrl" un-flex un-justify="center">
+				<img
+					:src="exportImageUrl"
+					alt="Inventory preview"
+					width="1200"
+					height="630"
+					un-rounded="lg"
+					un-border="slate-200 2"
+					un-w="full"
+				/>
 			</div>
 			<div un-flex un-justify="end">
 				<button type="button" @click="closeDialog">

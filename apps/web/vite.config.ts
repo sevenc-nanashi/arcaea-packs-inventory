@@ -11,6 +11,9 @@ export default defineConfig({
     fs: {
       allow: [path.resolve(import.meta.dirname, "../..")],
     },
+    proxy: {
+      "/image": "http://localhost:8787",
+    },
     allowedHosts: true,
   },
   plugins: [

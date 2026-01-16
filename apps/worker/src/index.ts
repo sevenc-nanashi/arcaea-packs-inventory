@@ -33,7 +33,7 @@ app.get("/", async (c) => {
   const query = url.searchParams.get("i");
   if (query) {
     html = html.replaceAll(
-      "!!OGP!!",
+      "!!OGP_URL!!",
       `${url.origin}/image?inventory=${encodeURIComponent(query)}`,
     );
     html = html.replaceAll("<unused-meta ", "<meta ");
@@ -222,7 +222,7 @@ const ItemRow = (item: Section["items"][number], index: number, total: number, f
   div(
     {
       style: toStyles({
-        height: "24px",
+        height: `${fontSize}px`,
         display: "flex",
         alignItems: "center",
       }),
@@ -304,6 +304,7 @@ const FooterRow = (name: string | undefined, generatedAt: string | undefined, fo
   const footerParts = [
     trimmedName ? `${trimmedName}` : null,
     generatedAt ? `${generatedAt}` : null,
+    "arcinv.sevenc7c.com"
   ].filter(Boolean);
   const footerText = footerParts.join(" / ");
   return div(
@@ -348,7 +349,7 @@ const renderTemplate = (
   name: string | undefined,
   generatedAt: string | undefined,
 ) => {
-  const fontSize = 24;
+  const fontSize = 26;
   const topGap = fontSize;
   const sectionGap = fontSize * 0.5;
   const template = div(

@@ -127,22 +127,6 @@ const generateSectionsFromInventory = (currentInventory: Map<string, boolean>): 
         };
       });
 
-      let unlocked: "full" | "partial" | "locked" = "locked";
-      if (appendStatuses.length === 0) {
-        unlocked = isPackUnlocked ? "full" : "locked";
-      } else {
-        if (isPackUnlocked && allAppendsUnlocked) {
-          unlocked = "full";
-          for (const appendStatus of appendStatuses) {
-            appendStatus.unlocked = "full";
-          }
-        } else if (isPackUnlocked) {
-          unlocked = "partial";
-        } else {
-          unlocked = "locked";
-        }
-      }
-
       let lockedSongs = undefined;
       if (songsBasedPacks.includes(pack.textId)) {
         const songsInPack = Object.entries(inventory).filter(([key, value]) => {
@@ -160,6 +144,22 @@ const generateSectionsFromInventory = (currentInventory: Map<string, boolean>): 
           unlocked: songsInPack.length - lockedSongsCount,
           all: songsInPack.length,
         };
+      }
+
+      let unlocked: "full" | "partial" | "locked" = "locked";
+      if (
+        isPackUnlocked &&
+        allAppendsUnlocked &&
+        (!lockedSongs || lockedSongs.unlocked === lockedSongs.all)
+      ) {
+        unlocked = "full";
+        for (const appendStatus of appendStatuses) {
+          appendStatus.unlocked = "full";
+        }
+      } else if (isPackUnlocked) {
+        unlocked = "partial";
+      } else {
+        unlocked = "locked";
       }
 
       section.items.push({

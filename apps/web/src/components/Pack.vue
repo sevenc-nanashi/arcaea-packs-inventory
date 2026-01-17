@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import Checkbox from "./ui/Checkbox.vue";
-import type { AppendData, PackData } from "@arcaea-packs-inventory/song-data";
+import { individualPacks, type AppendData, type PackData } from "@arcaea-packs-inventory/song-data";
 import { useUnlockableContentsStore } from "../store";
-import { computed, ref } from "vue";
+import { computed, ref, watchEffect } from "vue";
 import ContentCheck from "./ContentCheck.vue";
 
 const props = defineProps<{
@@ -62,6 +62,20 @@ const setHasAllPacks = (value: boolean) => {
 const appends = computed(() => (props.append ? [] : props.pack.appends));
 const hasSubItems = computed(() => appends.value.length > 0 || lockedSongs.value.length > 0);
 const isAppendsOpen = ref(false);
+
+const isIndividualSongPack = computed(() => individualPacks.includes(props.pack.textId));
+watchEffect(() => {
+  if (!isIndividualSongPack.value) {
+    return;
+  }
+  if (lockedSongs.value.some((song) => unlockableContentsStore.hasSong(song.textId))) {
+    // if at least one song is unlocked, mark the pack as unlocked
+    setHasPack(true);
+  } else {
+    // if all songs are locked, mark the pack as locked
+    setHasPack(false);
+  }
+});
 </script>
 
 <template>

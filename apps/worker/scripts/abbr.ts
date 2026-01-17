@@ -1,4 +1,5 @@
 import fs from "fs/promises";
+
 import { inventory } from "@arcaea-packs-inventory/song-data";
 
 const currentAbbrs = await fs

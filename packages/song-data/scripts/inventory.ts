@@ -1,9 +1,10 @@
 import { writeFile } from "node:fs/promises";
 import path from "node:path";
-import categories from "../src/categories.json";
-import songs from "../src/songs.json";
-import englishTitles from "../src/englishTitles.json";
+
 import { CategoryData, SongData } from "../src";
+import categories from "../src/categories.json";
+import englishTitles from "../src/englishTitles.json";
+import songs from "../src/songs.json";
 
 type BaseSongData = {
   index: number;

@@ -149,6 +149,6 @@ File.write(
             end
         }
       end
-  )
+  ) + "\n"
 )
-File.write("#{src}/songs.json", JSON.pretty_generate(songs_data))
+File.write("#{src}/songs.json", JSON.pretty_generate(songs_data) + "\n")

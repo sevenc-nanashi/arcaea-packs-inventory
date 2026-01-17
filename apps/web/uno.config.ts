@@ -1,5 +1,6 @@
 import { defineConfig, presetIcons, presetWind4, transformerDirectives } from "unocss";
 import { presetAttributify } from "unocss/preset-attributify";
+
 import { palette } from "@arcaea-packs-inventory/song-data";
 
 export default defineConfig({

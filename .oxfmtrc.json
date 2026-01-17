@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/oxfmt/configuration_schema.json",
   "ignorePatterns": [],
-  "useTabs": false
+  "useTabs": false,
+  "experimentalSortImports": {
+    "internalPattern": ["@arcaea-packs-inventory/"]
+  }
 }

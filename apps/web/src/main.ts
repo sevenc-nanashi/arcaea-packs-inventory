@@ -4,9 +4,9 @@ import { createPinia } from "pinia";
 import "virtual:uno.css";
 import { createApp } from "vue";
 import { createI18n } from "vue-i18n";
+
 import App from "./App.vue";
 import "./style.scss";
-
 import en from "./locales/en.yml";
 import ja from "./locales/ja.yml";
 

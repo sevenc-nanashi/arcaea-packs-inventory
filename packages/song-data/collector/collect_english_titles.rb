@@ -22,6 +22,6 @@ songs_data.each_with_index do |song, index|
   current_english_titles[song[:text_id]] = page_html.match(
     /英語版タイトル「(.+?)」/
   )&.[](1)
-  File.write(english_titles_path, JSON.pretty_generate(current_english_titles))
+  File.write(english_titles_path, JSON.pretty_generate(current_english_titles) + "\n")
   sleep 1
 end

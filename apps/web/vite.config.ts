@@ -1,8 +1,8 @@
-import path from "node:path";
 import vueI18n from "@intlify/unplugin-vue-i18n/vite";
 import vue from "@vitejs/plugin-vue";
-import uno from "unocss/vite";
+import path from "node:path";
 import license from "rollup-plugin-license";
+import uno from "unocss/vite";
 import { defineConfig } from "vite";
 
 // https://vite.dev/config/

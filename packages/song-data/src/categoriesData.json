@@ -16,495 +16,864 @@
         "lockedSongs": [
           {
             "textId": "DataErr0r",
-            "title": "DataErr0r"
+            "titles": {
+              "ja": "DataErr0r",
+              "en": "DataErr0r"
+            }
           },
           {
             "textId": "CROSS%E2%80%A0SOUL",
-            "title": "CROSS†SOUL"
+            "titles": {
+              "ja": "CROSS†SOUL",
+              "en": "CROSS†SOUL"
+            }
           },
           {
             "textId": "Your%20voice%20so...%20feat.%20Such",
-            "title": "Your voice so... feat. Such"
+            "titles": {
+              "ja": "Your voice so... feat. Such",
+              "en": "Your voice so... feat. Such"
+            }
           },
           {
             "textId": "%E4%B8%8D%E6%B5%84%E3%81%AA%E7%99%BD%E3%81%84%E9%B3%A5",
-            "title": "不浄な白い鳥"
+            "titles": {
+              "ja": "不浄な白い鳥",
+              "en": "Impure Bird"
+            }
           },
           {
             "textId": "Auxesia",
-            "title": "Auxesia"
+            "titles": {
+              "ja": "Auxesia",
+              "en": "Auxesia"
+            }
           },
           {
             "textId": "Modelista",
-            "title": "Modelista"
+            "titles": {
+              "ja": "Modelista",
+              "en": "Modelista"
+            }
           },
           {
             "textId": "Surrender",
-            "title": "Surrender"
+            "titles": {
+              "ja": "Surrender",
+              "en": "Surrender"
+            }
           },
           {
             "textId": "%E5%A4%9C%E6%A1%9C%E5%90%B9%E9%9B%AA",
-            "title": "夜桜吹雪"
+            "titles": {
+              "ja": "夜桜吹雪",
+              "en": "Yosakura Fubuki"
+            }
           },
           {
             "textId": "Metallic%20Punisher",
-            "title": "Metallic Punisher"
+            "titles": {
+              "ja": "Metallic Punisher",
+              "en": "Metallic Punisher"
+            }
           },
           {
             "textId": "carmine_scythe",
-            "title": "carmine:scythe"
+            "titles": {
+              "ja": "carmine:scythe",
+              "en": "carmine:scythe"
+            }
           },
           {
             "textId": "%CE%B3uar%CE%B4ina",
-            "title": "γuarδina"
+            "titles": {
+              "ja": "γuarδina",
+              "en": "γuarδina"
+            }
           },
           {
             "textId": "Be%20There",
-            "title": "Be There"
+            "titles": {
+              "ja": "Be There",
+              "en": "Be There"
+            }
           },
           {
             "textId": "Call%20My%20Name%20feat.%20Yukacco",
-            "title": "Call My Name feat. Yukacco"
+            "titles": {
+              "ja": "Call My Name feat. Yukacco",
+              "en": "Call My Name feat. Yukacco"
+            }
           },
           {
             "textId": "dropdead",
-            "title": "dropdead"
+            "titles": {
+              "ja": "dropdead",
+              "en": "dropdead"
+            }
           },
           {
             "textId": "Fallensquare",
-            "title": "Fallensquare"
+            "titles": {
+              "ja": "Fallensquare",
+              "en": "Fallensquare"
+            }
           },
           {
             "textId": "Alexandrite",
-            "title": "Alexandrite"
+            "titles": {
+              "ja": "Alexandrite",
+              "en": "Alexandrite"
+            }
           },
           {
             "textId": "Astral%20tale",
-            "title": "Astral tale"
+            "titles": {
+              "ja": "Astral tale",
+              "en": "Astral tale"
+            }
           },
           {
             "textId": "Phantasia",
-            "title": "Phantasia"
+            "titles": {
+              "ja": "Phantasia",
+              "en": "Phantasia"
+            }
           },
           {
             "textId": "Empire%20of%20Winter",
-            "title": "Empire of Winter"
+            "titles": {
+              "ja": "Empire of Winter",
+              "en": "Empire of Winter"
+            }
           },
           {
             "textId": "Libertas",
-            "title": "Libertas"
+            "titles": {
+              "ja": "Libertas",
+              "en": "Libertas"
+            }
           },
           {
             "textId": "Dot%20to%20Dot%20feat.%20shully",
-            "title": "Dot to Dot feat. shully"
+            "titles": {
+              "ja": "Dot to Dot feat. shully",
+              "en": "Dot to Dot feat. shully"
+            }
           },
           {
             "textId": "Dreadnought",
-            "title": "Dreadnought"
+            "titles": {
+              "ja": "Dreadnought",
+              "en": "Dreadnought"
+            }
           },
           {
             "textId": "Mirzam",
-            "title": "Mirzam"
+            "titles": {
+              "ja": "Mirzam",
+              "en": "Mirzam"
+            }
           },
           {
             "textId": "Heavenly%20caress",
-            "title": "Heavenly caress"
+            "titles": {
+              "ja": "Heavenly caress",
+              "en": "Heavenly caress"
+            }
           },
           {
             "textId": "Filament",
-            "title": "Filament"
+            "titles": {
+              "ja": "Filament",
+              "en": "Filament"
+            }
           },
           {
             "textId": "Avant%20Raze",
-            "title": "Avant Raze"
+            "titles": {
+              "ja": "Avant Raze",
+              "en": "Avant Raze"
+            }
           },
           {
             "textId": "BATTLE%20NO.1",
-            "title": "BATTLE NO.1"
+            "titles": {
+              "ja": "BATTLE NO.1",
+              "en": "BATTLE NO.1"
+            }
           },
           {
             "textId": "La%27qryma%20of%20the%20Wasteland",
-            "title": "La'qryma of the Wasteland"
+            "titles": {
+              "ja": "La'qryma of the Wasteland",
+              "en": "La'qryma of the Wasteland"
+            }
           },
           {
             "textId": "Einherjar%20Joker",
-            "title": "Einherjar Joker"
+            "titles": {
+              "ja": "Einherjar Joker",
+              "en": "Einherjar Joker"
+            }
           },
           {
             "textId": "IZANA",
-            "title": "IZANA"
+            "titles": {
+              "ja": "IZANA",
+              "en": "IZANA"
+            }
           },
           {
             "textId": "%E6%9C%80%E5%BC%B7STRONGER",
-            "title": "最強STRONGER"
+            "titles": {
+              "ja": "最強STRONGER",
+              "en": "SAIKYO STRONGER"
+            }
           },
           {
             "textId": "amygdata",
-            "title": "amygdata"
+            "titles": {
+              "ja": "amygdata",
+              "en": "amygdata"
+            }
           },
           {
             "textId": "Altale",
-            "title": "Altale"
+            "titles": {
+              "ja": "Altale",
+              "en": "Altale"
+            }
           },
           {
             "textId": "Feels%20So%20Right%20feat.%20Renko",
-            "title": "Feels So Right feat. Renko"
+            "titles": {
+              "ja": "Feels So Right feat. Renko",
+              "en": "Feels So Right feat. Renko"
+            }
           },
           {
             "textId": "Scarlet%20Cage",
-            "title": "Scarlet Cage"
+            "titles": {
+              "ja": "Scarlet Cage",
+              "en": "Scarlet Cage"
+            }
           },
           {
             "textId": "Teriqma",
-            "title": "Teriqma"
+            "titles": {
+              "ja": "Teriqma",
+              "en": "Teriqma"
+            }
           },
           {
             "textId": "MAHOROBA",
-            "title": "MAHOROBA"
+            "titles": {
+              "ja": "MAHOROBA",
+              "en": "MAHOROBA"
+            }
           },
           {
             "textId": "BADTEK",
-            "title": "BADTEK"
+            "titles": {
+              "ja": "BADTEK",
+              "en": "BADTEK"
+            }
           },
           {
             "textId": "Malicious%20Mischance",
-            "title": "Malicious Mischance"
+            "titles": {
+              "ja": "Malicious Mischance",
+              "en": "Malicious Mischance"
+            }
           },
           {
             "textId": "BUCHiGiRE%20Berserker",
-            "title": "BUCHiGiRE Berserker"
+            "titles": {
+              "ja": "BUCHiGiRE Berserker",
+              "en": "BUCHiGiRE Berserker"
+            }
           },
           {
             "textId": "Galaxy%20Friends",
-            "title": "Galaxy Friends"
+            "titles": {
+              "ja": "Galaxy Friends",
+              "en": "Galaxy Friends"
+            }
           },
           {
             "textId": "Xeraphinite",
-            "title": "Xeraphinite"
+            "titles": {
+              "ja": "Xeraphinite",
+              "en": "Xeraphinite"
+            }
           },
           {
             "textId": "Xanatos",
-            "title": "Xanatos"
+            "titles": {
+              "ja": "Xanatos",
+              "en": "Xanatos"
+            }
           },
           {
             "textId": "AttraqtiA",
-            "title": "AttraqtiA"
+            "titles": {
+              "ja": "AttraqtiA",
+              "en": "AttraqtiA"
+            }
           },
           {
             "textId": "GIMME%20DA%20BLOOD",
-            "title": "GIMME DA BLOOD"
+            "titles": {
+              "ja": "GIMME DA BLOOD",
+              "en": "GIMME DA BLOOD"
+            }
           },
           {
             "textId": "%E3%83%99%E3%83%BC%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%84%E3%81%A3%E3%81%A6%E3%82%8B%EF%BC%9Fw",
-            "title": "ベースラインやってる？w"
+            "titles": {
+              "ja": "ベースラインやってる？w",
+              "en": "Can I Friend You On Bassbook? Lol"
+            }
           },
           {
             "textId": "THE%20ULTIMACY",
-            "title": "THE ULTIMACY"
+            "titles": {
+              "ja": "THE ULTIMACY",
+              "en": "THE ULTIMACY"
+            }
           },
           {
             "textId": "%E7%83%88%E8%8F%AFRESONANCE",
-            "title": "烈華RESONANCE"
+            "titles": {
+              "ja": "烈華RESONANCE",
+              "en": "REKKA RESONANCE"
+            }
           },
           {
             "textId": "Sheriruth%20%28Laur%20Remix%29",
-            "title": "Sheriruth (Laur Remix)"
+            "titles": {
+              "ja": "Sheriruth (Laur Remix)",
+              "en": "Sheriruth (Laur Remix)"
+            }
           },
           {
             "textId": "%E7%B7%8B%E7%BA%8F%E3%81%84%E3%81%AE%E5%AE%B5",
-            "title": "緋纏いの宵"
+            "titles": {
+              "ja": "緋纏いの宵",
+              "en": "Evening in Scarlet"
+            }
           },
           {
             "textId": "goldenslaughterer",
-            "title": "goldenslaughterer"
+            "titles": {
+              "ja": "goldenslaughterer",
+              "en": "goldenslaughterer"
+            }
           },
           {
             "textId": "lastendconductor",
-            "title": "lastendconductor"
+            "titles": {
+              "ja": "lastendconductor",
+              "en": "lastendconductor"
+            }
           },
           {
             "textId": "Redolent%20Shape",
-            "title": "Redolent Shape"
+            "titles": {
+              "ja": "Redolent Shape",
+              "en": "Redolent Shape"
+            }
           },
           {
             "textId": "%E5%BD%A9%E3%82%8B%E5%A4%8F%E3%81%AE%E6%81%8B%E8%8A%B1%E7%81%AB",
-            "title": "彩る夏の恋花火"
+            "titles": {
+              "ja": "彩る夏の恋花火",
+              "en": "Summer Fireworks of Love"
+            }
           },
           {
             "textId": "init%28%29",
-            "title": "init()"
+            "titles": {
+              "ja": "init()",
+              "en": "init()"
+            }
           },
           {
             "textId": "INTERNET%20OVERDOSE",
-            "title": "INTERNET OVERDOSE"
+            "titles": {
+              "ja": "INTERNET OVERDOSE",
+              "en": "INTERNET OVERDOSE"
+            }
           },
           {
             "textId": "Macrocosmic%20Modulation",
-            "title": "Macrocosmic Modulation"
+            "titles": {
+              "ja": "Macrocosmic Modulation",
+              "en": "Macrocosmic Modulation"
+            }
           },
           {
             "textId": "Kissing%20Lucifer",
-            "title": "Kissing Lucifer"
+            "titles": {
+              "ja": "Kissing Lucifer",
+              "en": "Kissing Lucifer"
+            }
           },
           {
             "textId": "NEO%20WINGS",
-            "title": "NEO WINGS"
+            "titles": {
+              "ja": "NEO WINGS",
+              "en": "NEO WINGS"
+            }
           },
           {
             "textId": "Aurgelmir",
-            "title": "Aurgelmir"
+            "titles": {
+              "ja": "Aurgelmir",
+              "en": "Aurgelmir"
+            }
           },
           {
             "textId": "Head%20BONK%20ache",
-            "title": "Head BONK ache"
+            "titles": {
+              "ja": "Head BONK ache",
+              "en": "Head BONK ache"
+            }
           },
           {
             "textId": "%E3%83%94%E3%82%B3Pico%2A%E3%81%A8%E3%82%89%E3%82%93%E3%81%99%E3%82%8C%E3%83%BC%E3%81%97%E3%82%87%E3%82%93%E3%81%A3%EF%BC%81",
-            "title": "ピコPico*とらんすれーしょんっ！"
+            "titles": {
+              "ja": "ピコPico*とらんすれーしょんっ！",
+              "en": "PICO-Pico-Translation!"
+            }
           },
           {
             "textId": "%CE%BC",
-            "title": "μ"
+            "titles": {
+              "ja": "μ",
+              "en": "μ"
+            }
           },
           {
             "textId": "PUPA",
-            "title": "PUPA"
+            "titles": {
+              "ja": "PUPA",
+              "en": "PUPA"
+            }
           },
           {
             "textId": "Free%20Myself",
-            "title": "Free Myself"
+            "titles": {
+              "ja": "Free Myself",
+              "en": "Free Myself"
+            }
           },
           {
             "textId": "cocoro%2Acosmetic",
-            "title": "cocoro*cosmetic"
+            "titles": {
+              "ja": "cocoro*cosmetic",
+              "en": "cocoro*cosmetic"
+            }
           },
           {
             "textId": "Capella",
-            "title": "Capella"
+            "titles": {
+              "ja": "Capella",
+              "en": "Capella"
+            }
           },
           {
             "textId": "NULL%20APOPHENIA",
-            "title": "NULL APOPHENIA"
+            "titles": {
+              "ja": "NULL APOPHENIA",
+              "en": "NULL APOPHENIA"
+            }
           },
           {
             "textId": "Crimson%20Throne",
-            "title": "Crimson Throne"
+            "titles": {
+              "ja": "Crimson Throne",
+              "en": "Crimson Throne"
+            }
           },
           {
             "textId": "Manic%20Jeer",
-            "title": "Manic Jeer"
+            "titles": {
+              "ja": "Manic Jeer",
+              "en": "Manic Jeer"
+            }
           },
           {
             "textId": "%E7%B7%8B%E8%89%B2%E6%9C%88%E4%B8%8B%E3%80%81%E7%8B%82%E5%92%B2%E3%83%8E%E7%B5%B6%20%28nayuta%202017%20ver.%29",
-            "title": "緋色月下、狂咲ノ絶(nayuta 2017 ver.)"
+            "titles": {
+              "ja": "緋色月下、狂咲ノ絶(nayuta 2017 ver.)",
+              "en": "Hiiro Gekka, Kyoushou no Zetsu (nayuta 2017 ver.)"
+            }
           },
           {
             "textId": "PRIMITIVE%20LIGHTS",
-            "title": "PRIMITIVE LIGHTS"
+            "titles": {
+              "ja": "PRIMITIVE LIGHTS",
+              "en": "PRIMITIVE LIGHTS"
+            }
           },
           {
             "textId": "The%20Survivor%20%28Game%20Edit%29",
-            "title": "The Survivor (Game Edit)"
+            "titles": {
+              "ja": "The Survivor (Game Edit)",
+              "en": "The Survivor (Game Edit)"
+            }
           },
           {
             "textId": "New%20York%20Back%20Raise",
-            "title": "New York Back Raise"
+            "titles": {
+              "ja": "New York Back Raise",
+              "en": "New York Back Raise"
+            }
           },
           {
             "textId": "Galactic%20Love",
-            "title": "Galactic Love"
+            "titles": {
+              "ja": "Galactic Love",
+              "en": "Galactic Love"
+            }
           },
           {
             "textId": "Lost%20in%20the%20Abyss",
-            "title": "Lost in the Abyss"
+            "titles": {
+              "ja": "Lost in the Abyss",
+              "en": "Lost in the Abyss"
+            }
           },
           {
             "textId": "To%20the%20Milky%20Way",
-            "title": "To the Milky Way"
+            "titles": {
+              "ja": "To the Milky Way",
+              "en": "To the Milky Way"
+            }
           },
           {
             "textId": "INTERNET%20YAMERO",
-            "title": "INTERNET YAMERO"
+            "titles": {
+              "ja": "INTERNET YAMERO",
+              "en": "INTERNET YAMERO"
+            }
           },
           {
             "textId": "SACRIFICE%20feat.%20ayame",
-            "title": "SACRIFICE feat. ayame"
+            "titles": {
+              "ja": "SACRIFICE feat. ayame",
+              "en": "SACRIFICE feat. ayame"
+            }
           },
           {
             "textId": "%E5%BD%BC%E6%96%B9%E3%81%AE%E5%A4%A2%E3%81%B8%E3%81%A8",
-            "title": "彼方の夢へと"
+            "titles": {
+              "ja": "彼方の夢へと",
+              "en": "To the Furthest Dream"
+            }
           },
           {
             "textId": "B.B.K.K.B.K.K.",
-            "title": "B.B.K.K.B.K.K."
+            "titles": {
+              "ja": "B.B.K.K.B.K.K.",
+              "en": "B.B.K.K.B.K.K."
+            }
           },
           {
             "textId": "Wish%20Upon%20a%20Snow",
-            "title": "Wish Upon a Snow"
+            "titles": {
+              "ja": "Wish Upon a Snow",
+              "en": "Wish Upon a Snow"
+            }
           },
           {
             "textId": "%E6%82%A3%E9%83%A8%E3%81%A7%E6%AD%A2%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%99%E3%81%90%E6%BA%B6%E3%81%91%E3%82%8B%E3%80%80%EF%BD%9E%20%E7%8B%82%E6%B0%97%E3%81%AE%E5%84%AA%E6%9B%87%E8%8F%AF%E9%99%A2",
-            "title": "患部で止まってすぐ溶ける～ 狂気の優曇華院"
+            "titles": {
+              "ja": "患部で止まってすぐ溶ける～ 狂気の優曇華院",
+              "en": "Kanbu de Tomatte Sugu Tokeru"
+            }
           },
           {
             "textId": "LIVHT%20MY%20W%E2%80%8B%CE%94%E2%80%8BY",
-            "title": "LIVHT MY W​Δ​Y"
+            "titles": {
+              "ja": "LIVHT MY W​Δ​Y",
+              "en": "LIVHT MY W​Δ​Y"
+            }
           },
           {
             "textId": "Luna%20Rossa",
-            "title": "Luna Rossa"
+            "titles": {
+              "ja": "Luna Rossa",
+              "en": "Luna Rossa"
+            }
           },
           {
             "textId": "Innocence",
-            "title": "Innocence"
+            "titles": {
+              "ja": "Innocence",
+              "en": "Innocence"
+            }
           },
           {
             "textId": "IONOSTREAM",
-            "title": "IONOSTREAM"
+            "titles": {
+              "ja": "IONOSTREAM",
+              "en": "IONOSTREAM"
+            }
           },
           {
             "textId": "Masquerade%20Legion",
-            "title": "Masquerade Legion"
+            "titles": {
+              "ja": "Masquerade Legion",
+              "en": "Masquerade Legion"
+            }
           },
           {
             "textId": "%E7%8B%82%E6%81%8BROMANCE",
-            "title": "狂恋ROMANCE"
+            "titles": {
+              "ja": "狂恋ROMANCE",
+              "en": "KYOREN ROMANCE"
+            }
           },
           {
             "textId": "Qovat",
-            "title": "Qovat"
+            "titles": {
+              "ja": "Qovat",
+              "en": "Qovat"
+            }
           },
           {
             "textId": "MIRINAE",
-            "title": "MIRINAE"
+            "titles": {
+              "ja": "MIRINAE",
+              "en": "MIRINAE"
+            }
           },
           {
             "textId": "ultradiaxon-N3",
-            "title": "ultradiaxon-N3"
+            "titles": {
+              "ja": "ultradiaxon-N3",
+              "en": "ultradiaxon-N3"
+            }
           },
           {
             "textId": "Distorted%20Fate",
-            "title": "Distorted Fate"
+            "titles": {
+              "ja": "Distorted Fate",
+              "en": "Distorted Fate"
+            }
           },
           {
             "textId": "Floating%20World",
-            "title": "Floating World"
+            "titles": {
+              "ja": "Floating World",
+              "en": "Floating World"
+            }
           },
           {
             "textId": "Chromafill",
-            "title": "Chromafill"
+            "titles": {
+              "ja": "Chromafill",
+              "en": "Chromafill"
+            }
           },
           {
             "textId": "D%C3%A9sive",
-            "title": "Désive"
+            "titles": {
+              "ja": "Désive",
+              "en": "Désive"
+            }
           },
           {
             "textId": "%E9%BB%84%E6%98%8F%E3%81%AE%E5%8D%94%E5%A5%8F%E6%9B%B2",
-            "title": "黄昏の協奏曲"
+            "titles": {
+              "ja": "黄昏の協奏曲",
+              "en": "Twilight Concerto"
+            }
           },
           {
             "textId": "Beautiful%20Dreamer",
-            "title": "Beautiful Dreamer"
+            "titles": {
+              "ja": "Beautiful Dreamer",
+              "en": "Beautiful Dreamer"
+            }
           },
           {
             "textId": "Back%20to%20Basics",
-            "title": "Back to Basics"
+            "titles": {
+              "ja": "Back to Basics",
+              "en": "Back to Basics"
+            }
           },
           {
             "textId": "STARGATE%20EXTREME",
-            "title": "STARGATE EXTREME"
+            "titles": {
+              "ja": "STARGATE EXTREME",
+              "en": "STARGATE EXTREME"
+            }
           },
           {
             "textId": "HYPER%20VISION",
-            "title": "HYPER VISION"
+            "titles": {
+              "ja": "HYPER VISION",
+              "en": "HYPER VISION"
+            }
           },
           {
             "textId": "shrink",
-            "title": "shrink"
+            "titles": {
+              "ja": "shrink",
+              "en": "shrink"
+            }
           },
           {
             "textId": "Rain%20of%20Conflict%20in%20a%20Radiant%20Abyss",
-            "title": "Rain of Conflict in aRadiant Abyss"
+            "titles": {
+              "ja": "Rain of Conflict in aRadiant Abyss",
+              "en": "Rain of Conflict in aRadiant Abyss"
+            }
           },
           {
             "textId": "%E5%B9%BB%E6%83%B3%E3%81%AE%E3%82%B5%E3%83%86%E3%83%A9%E3%82%A4%E3%83%88",
-            "title": "幻想のサテライト"
+            "titles": {
+              "ja": "幻想のサテライト",
+              "en": "Gensou no Satellite"
+            }
           },
           {
             "textId": "Crimson%20Quartz",
-            "title": "Crimson Quartz"
+            "titles": {
+              "ja": "Crimson Quartz",
+              "en": "Crimson Quartz"
+            }
           },
           {
             "textId": "Third%20Sun",
-            "title": "Third Sun"
+            "titles": {
+              "ja": "Third Sun",
+              "en": "Third Sun"
+            }
           },
           {
             "textId": "Spirit%20of%20the%20Dauntless",
-            "title": "Spirit of the Dauntless"
+            "titles": {
+              "ja": "Spirit of the Dauntless",
+              "en": "Spirit of the Dauntless"
+            }
           },
           {
             "textId": "Dies%20irae",
-            "title": "Dies irae"
+            "titles": {
+              "ja": "Dies irae",
+              "en": "Dies irae"
+            }
           },
           {
             "textId": "MEGALOVANIA%20%28Camellia%20Remix%29",
-            "title": "MEGALOVANIA(Camellia Remix)"
+            "titles": {
+              "ja": "MEGALOVANIA(Camellia Remix)",
+              "en": "MEGALOVANIA(Camellia Remix)"
+            }
           },
           {
             "textId": "%E3%83%97%E3%83%A9%E3%82%B7%E3%82%A4%E3%83%9C%E2%99%A5%E3%83%90%E3%83%88%E3%83%A9%E3%83%BC",
-            "title": "プラシイボ♥バトラー"
+            "titles": {
+              "ja": "プラシイボ♥バトラー",
+              "en": "Placebo&#9829;Battler"
+            }
           },
           {
             "textId": "%E9%80%B2%E6%8D%97%E3%81%A9%E3%81%86%E3%81%A7%E3%81%99%E3%81%8B%3F",
-            "title": "進捗どうですか?"
+            "titles": {
+              "ja": "進捗どうですか?",
+              "en": "Shinchoku Doudesuka?"
+            }
           },
           {
             "textId": "Dull%20Blade",
-            "title": "Dull Blade"
+            "titles": {
+              "ja": "Dull Blade",
+              "en": "Dull Blade"
+            }
           },
           {
             "textId": "Don%27t%20Die",
-            "title": "Don't Die"
+            "titles": {
+              "ja": "Don't Die",
+              "en": "Don't Die"
+            }
           },
           {
             "textId": "Tic%21%20Tac%21%20Toe%21",
-            "title": "Tic! Tac! Toe!"
+            "titles": {
+              "ja": "Tic! Tac! Toe!",
+              "en": "Tic! Tac! Toe!"
+            }
           },
           {
             "textId": "Miles",
-            "title": "Miles"
+            "titles": {
+              "ja": "Miles",
+              "en": "Miles"
+            }
           },
           {
             "textId": "Acheron",
-            "title": "Acheron"
+            "titles": {
+              "ja": "Acheron",
+              "en": "Acheron"
+            }
           },
           {
             "textId": "Eternity%20Break",
-            "title": "Eternity Break"
+            "titles": {
+              "ja": "Eternity Break",
+              "en": "Eternity Break"
+            }
           },
           {
             "textId": "Angel%27s%20Boundary",
-            "title": "Angel's Boundary"
+            "titles": {
+              "ja": "Angel's Boundary",
+              "en": "Angel's Boundary"
+            }
           },
           {
             "textId": "Xterfusion",
-            "title": "Xterfusion"
+            "titles": {
+              "ja": "Xterfusion",
+              "en": "Xterfusion"
+            }
           },
           {
             "textId": "Grandspell",
-            "title": "Grandspell"
+            "titles": {
+              "ja": "Grandspell",
+              "en": "Grandspell"
+            }
           },
           {
             "textId": "Paranoid%20Arc",
-            "title": "Paranoid Arc"
+            "titles": {
+              "ja": "Paranoid Arc",
+              "en": "Paranoid Arc"
+            }
           },
           {
             "textId": "%E7%BE%BD%E5%8C%96%E3%81%99%E3%82%8B%E4%BA%9C%E7%90%83%E4%BD%93",
-            "title": "羽化する亜球体"
+            "titles": {
+              "ja": "羽化する亜球体",
+              "en": "Subsphere in Eclosion"
+            }
           },
           {
             "textId": "%EF%BC%BB%E7%AD%8F%EF%BC%BD%E3%81%AF%E4%BA%91%E3%81%86%E3%80%82%E5%B9%BE%E3%82%89%E6%BC%82%E6%B5%81%E3%81%99%E3%82%8C%E3%81%A9%E4%B8%8D%E6%92%93%E3%81%AE%E5%BF%83%E3%81%95%E3%81%88%E6%9C%89%E3%82%8C%E3%81%B0%E8%BB%88%E3%81%A6%E8%A1%8C%E5%88%B0%E3%82%8B%E3%81%A8%E3%80%82",
-            "title": "［筏］は云う。幾ら漂流すれど不撓の心さえ有れば軈て行到ると。"
+            "titles": {
+              "ja": "［筏］は云う。幾ら漂流すれど不撓の心さえ有れば軈て行到ると。",
+              "en": "The 'Raft' taught me: your heart will always find a way."
+            }
           }
         ]
       },
@@ -515,35 +884,59 @@
         "lockedSongs": [
           {
             "textId": "%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9",
-            "title": "始マリノ詩"
+            "titles": {
+              "ja": "始マリノ詩",
+              "en": "Wake in Hour"
+            }
           },
           {
             "textId": "mod",
-            "title": "mod"
+            "titles": {
+              "ja": "mod",
+              "en": "mod"
+            }
           },
           {
             "textId": "Particle",
-            "title": "Particle"
+            "titles": {
+              "ja": "Particle",
+              "en": "Particle"
+            }
           },
           {
             "textId": "Paradox%20Palette",
-            "title": "Paradox Palette"
+            "titles": {
+              "ja": "Paradox Palette",
+              "en": "Paradox Palette"
+            }
           },
           {
             "textId": "Xxium%20and%20Purple%20haze",
-            "title": "Xxium and Purple haze"
+            "titles": {
+              "ja": "Xxium and Purple haze",
+              "en": "Xxium and Purple haze"
+            }
           },
           {
             "textId": "taboo%20tears%20you%20up%202017",
-            "title": "taboo tears you up 2017"
+            "titles": {
+              "ja": "taboo tears you up 2017",
+              "en": "taboo tears you up 2017"
+            }
           },
           {
             "textId": "undefined",
-            "title": "undefined"
+            "titles": {
+              "ja": "undefined",
+              "en": "undefined"
+            }
           },
           {
             "textId": "~_%2B",
-            "title": "~_+"
+            "titles": {
+              "ja": "~_+",
+              "en": "~_+"
+            }
           }
         ]
       },
@@ -554,83 +947,143 @@
         "lockedSongs": [
           {
             "textId": "HELLOHELL",
-            "title": "HELLOHELL"
+            "titles": {
+              "ja": "HELLOHELL",
+              "en": "HELLOHELL"
+            }
           },
           {
             "textId": "%E3%80%87%E3%80%81",
-            "title": "〇、"
+            "titles": {
+              "ja": "〇、",
+              "en": "〇、"
+            }
           },
           {
             "textId": "Awaken%20In%20Ruins",
-            "title": "Awaken In Ruins"
+            "titles": {
+              "ja": "Awaken In Ruins",
+              "en": "Awaken In Ruins"
+            }
           },
           {
             "textId": "MORNINGLOOM",
-            "title": "MORNINGLOOM"
+            "titles": {
+              "ja": "MORNINGLOOM",
+              "en": "MORNINGLOOM"
+            }
           },
           {
             "textId": "Lethal%20Voltage",
-            "title": "Lethal Voltage"
+            "titles": {
+              "ja": "Lethal Voltage",
+              "en": "Lethal Voltage"
+            }
           },
           {
             "textId": "Leave%20All%20Behind",
-            "title": "Leave All Behind"
+            "titles": {
+              "ja": "Leave All Behind",
+              "en": "Leave All Behind"
+            }
           },
           {
             "textId": "Old%20School%20Salvage",
-            "title": "Old School Salvage"
+            "titles": {
+              "ja": "Old School Salvage",
+              "en": "Old School Salvage"
+            }
           },
           {
             "textId": "%E3%83%87%E3%82%A3%E3%82%B9%E3%83%88%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%8B%E3%83%B3%E3%82%B2%E3%83%B3",
-            "title": "ディストーション・ニンゲン"
+            "titles": {
+              "ja": "ディストーション・ニンゲン",
+              "en": "Distortion Human"
+            }
           },
           {
             "textId": "epitaxy",
-            "title": "epitaxy"
+            "titles": {
+              "ja": "epitaxy",
+              "en": "epitaxy"
+            }
           },
           {
             "textId": "Hailstone",
-            "title": "Hailstone"
+            "titles": {
+              "ja": "Hailstone",
+              "en": "Hailstone"
+            }
           },
           {
             "textId": "%E3%83%95%E3%83%AC%E3%83%86%E3%83%9F%E3%82%BF%E3%82%A4",
-            "title": "フレテミタイ"
+            "titles": {
+              "ja": "フレテミタイ",
+              "en": "FURETE-MITAI"
+            }
           },
           {
             "textId": "%E3%83%97%E3%83%AC%E3%83%A4",
-            "title": "プレヤ"
+            "titles": {
+              "ja": "プレヤ",
+              "en": "Prayer"
+            }
           },
           {
             "textId": "astral.exe",
-            "title": "astral.exe"
+            "titles": {
+              "ja": "astral.exe",
+              "en": "astral.exe"
+            }
           },
           {
             "textId": "Black%20Mirror%20on%20the%20Wall",
-            "title": "Black Mirror on the Wall"
+            "titles": {
+              "ja": "Black Mirror on the Wall",
+              "en": "Black Mirror on the Wall"
+            }
           },
           {
             "textId": "TRPNO",
-            "title": "TRPNO"
+            "titles": {
+              "ja": "TRPNO",
+              "en": "TRPNO"
+            }
           },
           {
             "textId": "%CF%84%20%28tau%29",
-            "title": "τ (tau)"
+            "titles": {
+              "ja": "τ (tau)",
+              "en": "τ (tau)"
+            }
           },
           {
             "textId": "Won%27t%20Back%20Down",
-            "title": "Won't Back Down"
+            "titles": {
+              "ja": "Won't Back Down",
+              "en": "Won't Back Down"
+            }
           },
           {
             "textId": "Someday",
-            "title": "Someday"
+            "titles": {
+              "ja": "Someday",
+              "en": "Someday"
+            }
           },
           {
             "textId": "disintegration",
-            "title": "disintegration"
+            "titles": {
+              "ja": "disintegration",
+              "en": "disintegration"
+            }
           },
           {
             "textId": "ROST%20PAGE%20GENE",
-            "title": "ROST PAGE GENE"
+            "titles": {
+              "ja": "ROST PAGE GENE",
+              "en": "ROST PAGE GENE"
+            }
           }
         ]
       },
@@ -641,83 +1094,143 @@
         "lockedSongs": [
           {
             "textId": "%E6%9C%88%E3%81%AB%E5%8F%A2%E9%9B%B2%E8%8F%AF%E3%81%AB%E9%A2%A8",
-            "title": "月に叢雲華に風"
+            "titles": {
+              "ja": "月に叢雲華に風",
+              "en": "Tsuki ni Murakumo, Hana ni Kaze"
+            }
           },
           {
             "textId": "MANTIS%20%28Arcaea%20Ultra-Bloodrush%20VIP%29",
-            "title": "MANTIS(Arcaea Ultra-Bloodrush VIP)"
+            "titles": {
+              "ja": "MANTIS(Arcaea Ultra-Bloodrush VIP)",
+              "en": "MANTIS(Arcaea Ultra-Bloodrush VIP)"
+            }
           },
           {
             "textId": "World%20Fragments%20III%28radio%20edit%29",
-            "title": "World Fragments III(radio edit)"
+            "titles": {
+              "ja": "World Fragments III(radio edit)",
+              "en": "World Fragments III(radio edit)"
+            }
           },
           {
             "textId": "Astra%20walkthrough",
-            "title": "Astra walkthrough"
+            "titles": {
+              "ja": "Astra walkthrough",
+              "en": "Astra walkthrough"
+            }
           },
           {
             "textId": "Chronicle",
-            "title": "Chronicle"
+            "titles": {
+              "ja": "Chronicle",
+              "en": "Chronicle"
+            }
           },
           {
             "textId": "Let%27s%20Rock%20%28Arcaea%20mix%29",
-            "title": "Let's Rock (Arcaea mix)"
+            "titles": {
+              "ja": "Let's Rock (Arcaea mix)",
+              "en": "Let's Rock (Arcaea mix)"
+            }
           },
           {
             "textId": "Lost%20Emotion%20feat.%20nomico",
-            "title": "Lost Emotion feat. nomico"
+            "titles": {
+              "ja": "Lost Emotion feat. nomico",
+              "en": "Lost Emotion feat. nomico"
+            }
           },
           {
             "textId": "GIMMICK",
-            "title": "GIMMICK"
+            "titles": {
+              "ja": "GIMMICK",
+              "en": "GIMMICK"
+            }
           },
           {
             "textId": "%E7%84%A1%E6%B3%95%E5%9C%B0%E7%82%B9",
-            "title": "無法地点"
+            "titles": {
+              "ja": "無法地点",
+              "en": "Lawless Point"
+            }
           },
           {
             "textId": "%E3%83%92%E3%83%A5%E3%83%96%E3%83%AA%E3%82%B9%E3%81%AE%E9%A0%82%E3%81%AB%E8%81%B3%E3%81%88%E3%82%8B%E3%81%AE%E3%81%AF",
-            "title": "ヒュブリスの頂に聳えるのは"
+            "titles": {
+              "ja": "ヒュブリスの頂に聳えるのは",
+              "en": "Hybris (The one who shattered)"
+            }
           },
           {
             "textId": "Ultimate%20taste",
-            "title": "Ultimate taste"
+            "titles": {
+              "ja": "Ultimate taste",
+              "en": "Ultimate taste"
+            }
           },
           {
             "textId": "RGB",
-            "title": "RGB"
+            "titles": {
+              "ja": "RGB",
+              "en": "RGB"
+            }
           },
           {
             "textId": "%E6%84%9F%E6%83%85%E3%81%AE%E6%91%A9%E5%A4%A9%E6%A5%BC%20%EF%BD%9EArr.Demetori",
-            "title": "感情の摩天楼 ～Arr.Demetori"
+            "titles": {
+              "ja": "感情の摩天楼 ～Arr.Demetori",
+              "en": "Kanjou no matenrou ～Arr.Demetori"
+            }
           },
           {
             "textId": "Dynitik%C3%B3s",
-            "title": "Dynitikós"
+            "titles": {
+              "ja": "Dynitikós",
+              "en": "Dynitikós"
+            }
           },
           {
             "textId": "%E9%9B%A8%E7%A5%9E%E6%A5%BD",
-            "title": "雨神楽"
+            "titles": {
+              "ja": "雨神楽",
+              "en": "Amekagura"
+            }
           },
           {
             "textId": "FANTA5Y",
-            "title": "FANTA5Y"
+            "titles": {
+              "ja": "FANTA5Y",
+              "en": "FANTA5Y"
+            }
           },
           {
             "textId": "%E3%82%A2%E3%83%AD%E3%83%BC%E3%83%B3%E3%82%A2%E3%83%B3%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3",
-            "title": "アローンアンドローン"
+            "titles": {
+              "ja": "アローンアンドローン",
+              "en": "Alone &amp; Lorn"
+            }
           },
           {
             "textId": "felys%20final%20remix",
-            "title": "felys final remix"
+            "titles": {
+              "ja": "felys final remix",
+              "en": "felys final remix"
+            }
           },
           {
             "textId": "On%20And%20On%21%21%20feat.%20Jenga",
-            "title": "On And On!! feat. Jenga"
+            "titles": {
+              "ja": "On And On!! feat. Jenga",
+              "en": "On And On!! feat. Jenga"
+            }
           },
           {
             "textId": "Aleph-0",
-            "title": "Aleph-0"
+            "titles": {
+              "ja": "Aleph-0",
+              "en": "Aleph-0"
+            }
           }
         ]
       },
@@ -728,83 +1241,143 @@
         "lockedSongs": [
           {
             "textId": "Vivid%20Theory",
-            "title": "Vivid Theory"
+            "titles": {
+              "ja": "Vivid Theory",
+              "en": "Vivid Theory"
+            }
           },
           {
             "textId": "1F%E2%88%9A",
-            "title": "1F√"
+            "titles": {
+              "ja": "1F√",
+              "en": "1F√"
+            }
           },
           {
             "textId": "Gekka%20%28Short%20Version%29",
-            "title": "Gekka (Short Version)"
+            "titles": {
+              "ja": "Gekka (Short Version)",
+              "en": "Gekka (Short Version)"
+            }
           },
           {
             "textId": "Give%20Me%20a%20Nightmare",
-            "title": "Give Me a Nightmare"
+            "titles": {
+              "ja": "Give Me a Nightmare",
+              "en": "Give Me a Nightmare"
+            }
           },
           {
             "textId": "Black%20Lotus",
-            "title": "Black Lotus"
+            "titles": {
+              "ja": "Black Lotus",
+              "en": "Black Lotus"
+            }
           },
           {
             "textId": "Faint%20Light%20%28Arcaea%20Edit%29",
-            "title": "Faint Light (Arcaea Edit)"
+            "titles": {
+              "ja": "Faint Light (Arcaea Edit)",
+              "en": "Faint Light (Arcaea Edit)"
+            }
           },
           {
             "textId": "CROSS%E2%80%A0OVER",
-            "title": "CROSS†OVER"
+            "titles": {
+              "ja": "CROSS†OVER",
+              "en": "CROSS†OVER"
+            }
           },
           {
             "textId": "Lapis",
-            "title": "Lapis"
+            "titles": {
+              "ja": "Lapis",
+              "en": "Lapis"
+            }
           },
           {
             "textId": "Purple%20Verse",
-            "title": "Purple Verse"
+            "titles": {
+              "ja": "Purple Verse",
+              "en": "Purple Verse"
+            }
           },
           {
             "textId": "Glow",
-            "title": "Glow"
+            "titles": {
+              "ja": "Glow",
+              "en": "Glow"
+            }
           },
           {
             "textId": "enchanted%20love",
-            "title": "enchanted love"
+            "titles": {
+              "ja": "enchanted love",
+              "en": "enchanted love"
+            }
           },
           {
             "textId": "%E7%AB%B9",
-            "title": "竹"
+            "titles": {
+              "ja": "竹",
+              "en": "Bamboo"
+            }
           },
           {
             "textId": "Life%20is%20PIANO",
-            "title": "Life is PIANO"
+            "titles": {
+              "ja": "Life is PIANO",
+              "en": "Life is PIANO"
+            }
           },
           {
             "textId": "Vandalism",
-            "title": "Vandalism"
+            "titles": {
+              "ja": "Vandalism",
+              "en": "Vandalism"
+            }
           },
           {
             "textId": "Turbocharger",
-            "title": "Turbocharger"
+            "titles": {
+              "ja": "Turbocharger",
+              "en": "Turbocharger"
+            }
           },
           {
             "textId": "%E7%8B%82%E8%A8%80%E7%B6%BA%E8%AA%9E",
-            "title": "狂言綺語"
+            "titles": {
+              "ja": "狂言綺語",
+              "en": "False Embellishment"
+            }
           },
           {
             "textId": "HIVEMIND",
-            "title": "HIVEMIND"
+            "titles": {
+              "ja": "HIVEMIND",
+              "en": "HIVEMIND"
+            }
           },
           {
             "textId": "blue%20comet",
-            "title": "blue comet"
+            "titles": {
+              "ja": "blue comet",
+              "en": "blue comet"
+            }
           },
           {
             "textId": "ENERGY%20SYNERGY%20MATRIX",
-            "title": "ENERGY SYNERGY MATRIX"
+            "titles": {
+              "ja": "ENERGY SYNERGY MATRIX",
+              "en": "ENERGY SYNERGY MATRIX"
+            }
           },
           {
             "textId": "G%20e%20n%20g%20a%20o%20z%20o",
-            "title": "G e n g a o z o"
+            "titles": {
+              "ja": "G e n g a o z o",
+              "en": "G e n g a o z o"
+            }
           }
         ]
       }

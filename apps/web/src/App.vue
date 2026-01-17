@@ -61,7 +61,8 @@ watch(
       >sevenc-nanashi/arcaea-packs-inventory</a
     >
     <br />
-    This project is not affiliated by Lowiro, and copyright of contents belong to Lowiro and respective owners.
+    This project is not affiliated by Lowiro, and copyright of contents belong to Lowiro and
+    respective owners.
   </footer>
 </template>
 

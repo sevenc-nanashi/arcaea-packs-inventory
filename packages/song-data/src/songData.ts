@@ -17,13 +17,19 @@ export type AppendData = {
 };
 export type LockedSongData = {
   textId: string;
-  title: string;
+  titles: {
+    en: string;
+    ja: string;
+  };
 };
 
 export type SongData = {
   index: number;
   textId: string;
-  title: string;
+  titles: {
+    en: string;
+    ja: string;
+  };
   pack: string;
   packAppend?: string | null;
   hasEternal: boolean;

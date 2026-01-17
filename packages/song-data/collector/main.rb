@@ -3,15 +3,20 @@ require "http"
 require "nokogiri"
 require "json"
 
+src = File.expand_path("../src", __dir__)
 packs_html =
-  HTTP.get(
-    "https://wikiwiki.jp/arcaea/%E3%83%91%E3%83%83%E3%82%AF%E9%A0%86"
-  ).to_s
+  HTTP
+    .headers(
+      "User-Agent" =>
+        "Arcaea Packs Inventory/1.0 https://github.com/sevenc-nanashi/arcaea-packs-inventory"
+    )
+    .get("https://wikiwiki.jp/arcaea/%E3%83%91%E3%83%83%E3%82%AF%E9%A0%86")
+    .to_s
 packs_doc = Nokogiri.HTML(packs_html)
 content = packs_doc.at_css("#content")
 current_pack = nil
 current_pack_append = nil
-songs_data = JSON.parse(File.read("../src/songs.json"), symbolize_names: true)
+songs_data = JSON.parse(File.read("#{src}/songs.json"), symbolize_names: true)
 packs = []
 fallback_pack_names = { "memoryarchive" => "Memory Archive" }
 next_index = (songs_data.map { |s| s[:index] }.max || -1) + 1
@@ -130,7 +135,7 @@ content.children.each do |child|
   end
 end
 File.write(
-	"../src/categories.json",
+  "#{src}/categories.json",
   JSON.pretty_generate(
     packs
       .group_by { |p| p[:category] }
@@ -146,4 +151,4 @@ File.write(
       end
   )
 )
-File.write("../src/songs.json", JSON.pretty_generate(songs_data))
+File.write("#{src}/songs.json", JSON.pretty_generate(songs_data))

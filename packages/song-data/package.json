@@ -13,7 +13,9 @@
     "dev": "tsdown --watch",
     "build": "tsdown",
     "gen:songs": "cd songs && ruby main.rb",
-    "gen:inventory": "bun run scripts/inventory.ts"
+    "gen:inventory": "bun run scripts/inventory.ts",
+    "lint": "bundle exec stree check collector/*.rb",
+    "lint:fix": "bundle exec stree write collector/*.rb"
   },
   "devDependencies": {
     "cross-env": "^10.1.0",

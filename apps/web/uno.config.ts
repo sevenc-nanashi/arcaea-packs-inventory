@@ -5,8 +5,8 @@ import { palette } from "@arcaea-packs-inventory/song-data";
 export default defineConfig({
   presets: [
     presetWind4({
-			dark: "media",
-		}),
+      dark: "media",
+    }),
     presetIcons(),
     presetAttributify({
       prefixedOnly: true,

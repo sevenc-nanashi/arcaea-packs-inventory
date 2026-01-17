@@ -2,6 +2,8 @@ import { writeFile } from "node:fs/promises";
 import path from "node:path";
 import categories from "../src/categories.json";
 import songs from "../src/songs.json";
+import englishTitles from "../src/englishTitles.json";
+import { CategoryData, SongData } from "../src";
 
 type BaseSongData = {
   index: number;
@@ -66,39 +68,49 @@ await writeFile(
   JSON.stringify(Object.fromEntries(inventory), null, 2) + "\n",
   "utf8",
 );
-const categoriesData = categoryList.map((category) => ({
-  textId: category.text_id,
-  title: category.title,
-  packs: category.packs.map((pack) => {
-    const lockedSongs =
-      lockedSongPackIds.has(pack.text_id) && !pack.appends.length
-        ? songList
-            .filter((song) => song.pack === pack.text_id && !song.pack_append)
-            .map((song) => ({
-              textId: song.text_id,
-              title: song.title,
-            }))
-        : [];
-    return {
-      textId: pack.text_id,
-      title: pack.title,
-      appends: pack.appends.map((append) => ({
-        textId: `${pack.text_id}__${append.text_id}`,
-        title: append.title,
-      })),
-      lockedSongs,
-    };
+const categoriesData = categoryList.map(
+  (category): CategoryData => ({
+    textId: category.text_id,
+    title: category.title,
+    packs: category.packs.map((pack) => {
+      const lockedSongs =
+        lockedSongPackIds.has(pack.text_id) && !pack.appends.length
+          ? songList
+              .filter((song) => song.pack === pack.text_id && !song.pack_append)
+              .map((song) => ({
+                textId: song.text_id,
+                titles: {
+                  ja: song.title,
+                  en: englishTitles[song.text_id] || song.title,
+                },
+              }))
+          : [];
+      return {
+        textId: pack.text_id,
+        title: pack.title,
+        appends: pack.appends.map((append) => ({
+          textId: `${pack.text_id}__${append.text_id}`,
+          title: append.title,
+        })),
+        lockedSongs,
+      };
+    }),
   }),
-}));
-const songsData = songList.map((song) => ({
-  index: song.index,
-  textId: song.text_id,
-  title: song.title,
-  pack: song.pack,
-  packAppend: song.pack_append ?? undefined,
-  hasEternal: song.has_eternal,
-  hasBeyond: song.has_beyond,
-}));
+);
+const songsData = songList.map(
+  (song): SongData => ({
+    index: song.index,
+    textId: song.text_id,
+    titles: {
+      ja: song.title,
+      en: englishTitles[song.text_id] || song.title,
+    },
+    pack: song.pack,
+    packAppend: song.pack_append ?? undefined,
+    hasEternal: song.has_eternal,
+    hasBeyond: song.has_beyond,
+  }),
+);
 await writeFile(categoriesDataOutputPath, JSON.stringify(categoriesData, null, 2) + "\n", "utf8");
 await writeFile(songsDataOutputPath, JSON.stringify(songsData, null, 2) + "\n", "utf8");
 console.log(`Wrote ${inventory.size} inventory keys`);

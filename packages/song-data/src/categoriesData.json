@@ -937,6 +937,13 @@
               "ja": "~_+",
               "en": "~_+"
             }
+          },
+          {
+            "textId": "%E3%81%8A%E3%81%BE%E3%81%98%E3%81%AA%E3%81%84",
+            "titles": {
+              "ja": "おまじない",
+              "en": "OMAJINAI"
+            }
           }
         ]
       },
@@ -1552,6 +1559,12 @@
     "textId": "collaboration",
     "title": "Collaboration",
     "packs": [
+      {
+        "textId": "megarex",
+        "title": "MEGAREX Collaboration",
+        "appends": [],
+        "lockedSongs": []
+      },
       {
         "textId": "nextstage",
         "title": "Arcaea Next Stage",

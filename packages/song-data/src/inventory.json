@@ -185,6 +185,11 @@
     "title": "Crimson Solace",
     "appends": []
   },
+  "pack__megarex": {
+    "text_id": "megarex",
+    "title": "MEGAREX Collaboration",
+    "appends": []
+  },
   "pack__nextstage": {
     "text_id": "nextstage",
     "title": "Arcaea Next Stage",
@@ -1533,6 +1538,15 @@
     "index": 470,
     "text_id": "~_%2B",
     "title": "~_+",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E3%81%8A%E3%81%BE%E3%81%98%E3%81%AA%E3%81%84": {
+    "index": 510,
+    "text_id": "%E3%81%8A%E3%81%BE%E3%81%98%E3%81%AA%E3%81%84",
+    "title": "おまじない",
     "pack": "extend4",
     "pack_append": null,
     "has_eternal": false,

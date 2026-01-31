@@ -1746,6 +1746,15 @@
     "has_beyond": false
   },
   {
+    "index": 510,
+    "text_id": "%E3%81%8A%E3%81%BE%E3%81%98%E3%81%AA%E3%81%84",
+    "title": "おまじない",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  {
     "index": 474,
     "text_id": "HELLOHELL",
     "title": "HELLOHELL",
@@ -3525,6 +3534,51 @@
     "pack": "crimsonsolace",
     "pack_append": null,
     "has_eternal": false,
+    "has_beyond": false
+  },
+  {
+    "index": 511,
+    "text_id": "CHAIN2NITE",
+    "title": "CHAIN2NITE",
+    "pack": "megarex",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 512,
+    "text_id": "One%20Step%20Closer",
+    "title": "One Step Closer",
+    "pack": "megarex",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  {
+    "index": 513,
+    "text_id": "My%20life%20is%20mine%20alone%21",
+    "title": "My life is mine alone!",
+    "pack": "megarex",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 514,
+    "text_id": "%E3%83%A1%E3%83%AB%E3%83%86%E3%82%A3%E3%83%BC%E3%83%A9%E3%83%97%E3%82%BD%E3%83%87%E3%82%A3%E3%83%BC",
+    "title": "メルティーラプソディー",
+    "pack": "megarex",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 515,
+    "text_id": "Signal",
+    "title": "Signal",
+    "pack": "megarex",
+    "pack_append": null,
+    "has_eternal": true,
     "has_beyond": false
   },
   {

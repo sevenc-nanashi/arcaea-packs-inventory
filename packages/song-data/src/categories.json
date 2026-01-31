@@ -186,6 +186,11 @@
     "title": "Collaboration",
     "packs": [
       {
+        "text_id": "megarex",
+        "title": "MEGAREX Collaboration",
+        "appends": []
+      },
+      {
         "text_id": "nextstage",
         "title": "Arcaea Next Stage",
         "appends": []

@@ -2134,6 +2134,17 @@
     "hasBeyond": false
   },
   {
+    "index": 510,
+    "textId": "%E3%81%8A%E3%81%BE%E3%81%98%E3%81%AA%E3%81%84",
+    "titles": {
+      "ja": "おまじない",
+      "en": "OMAJINAI"
+    },
+    "pack": "extend4",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
     "index": 474,
     "textId": "HELLOHELL",
     "titles": {
@@ -4334,6 +4345,61 @@
     },
     "pack": "crimsonsolace",
     "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 511,
+    "textId": "CHAIN2NITE",
+    "titles": {
+      "ja": "CHAIN2NITE",
+      "en": "CHAIN2NITE"
+    },
+    "pack": "megarex",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 512,
+    "textId": "One%20Step%20Closer",
+    "titles": {
+      "ja": "One Step Closer",
+      "en": "One Step Closer"
+    },
+    "pack": "megarex",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 513,
+    "textId": "My%20life%20is%20mine%20alone%21",
+    "titles": {
+      "ja": "My life is mine alone!",
+      "en": "My life is mine alone!"
+    },
+    "pack": "megarex",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 514,
+    "textId": "%E3%83%A1%E3%83%AB%E3%83%86%E3%82%A3%E3%83%BC%E3%83%A9%E3%83%97%E3%82%BD%E3%83%87%E3%82%A3%E3%83%BC",
+    "titles": {
+      "ja": "メルティーラプソディー",
+      "en": "メルティーラプソディー"
+    },
+    "pack": "megarex",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 515,
+    "textId": "Signal",
+    "titles": {
+      "ja": "Signal",
+      "en": "Signal"
+    },
+    "pack": "megarex",
+    "hasEternal": true,
     "hasBeyond": false
   },
   {

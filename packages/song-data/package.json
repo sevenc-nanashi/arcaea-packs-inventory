@@ -20,5 +20,8 @@
   "devDependencies": {
     "cross-env": "^10.1.0",
     "tsdown": "^0.20.0-beta.3"
+  },
+  "dependencies": {
+    "base64-js": "^1.5.1"
   }
 }

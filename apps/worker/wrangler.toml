@@ -3,6 +3,8 @@ name = "arcaea-packs-inventory"
 main = "src/index.ts"
 compatibility_date = "2025-11-28"
 
+limits.cpu_ms = 100
+
 [observability]
 enabled = true
 

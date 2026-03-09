@@ -874,6 +874,13 @@
               "ja": "［筏］は云う。幾ら漂流すれど不撓の心さえ有れば軈て行到ると。",
               "en": "The 'Raft' taught me: your heart will always find a way."
             }
+          },
+          {
+            "textId": "%2B1%28UNKNOWN%29-NUMBER",
+            "titles": {
+              "ja": "+1(UNKNOWN)-NUMBER",
+              "en": "+1(UNKNOWN)-NUMBER"
+            }
           }
         ]
       },
@@ -943,6 +950,13 @@
             "titles": {
               "ja": "おまじない",
               "en": "OMAJINAI"
+            }
+          },
+          {
+            "textId": "%E6%A3%AE%E5%A5%A5%E8%99%9A%E8%B7%A1",
+            "titles": {
+              "ja": "森奥虚跡",
+              "en": "森奥虚跡"
             }
           }
         ]

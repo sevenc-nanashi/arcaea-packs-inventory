@@ -693,6 +693,17 @@
     "hasBeyond": false
   },
   {
+    "index": 516,
+    "textId": "%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%A1%E3%83%AB%E3%83%9D%E3%83%83%E3%83%97%E3%82%B3%E3%83%BC%E3%83%B3%E3%81%9F%E3%81%B9%E3%81%9F%E3%81%84%E3%82%88%EF%BD%9E",
+    "titles": {
+      "ja": "キャラメルポップコーンたべたいよ～",
+      "en": "キャラメルポップコーンたべたいよ～"
+    },
+    "pack": "arcaea",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
     "index": 472,
     "textId": "DataErr0r",
     "titles": {
@@ -2046,6 +2057,17 @@
     "hasBeyond": false
   },
   {
+    "index": 517,
+    "textId": "%2B1%28UNKNOWN%29-NUMBER",
+    "titles": {
+      "ja": "+1(UNKNOWN)-NUMBER",
+      "en": "+1(UNKNOWN)-NUMBER"
+    },
+    "pack": "memoryarchive",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
     "index": 473,
     "textId": "%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9",
     "titles": {
@@ -2139,6 +2161,17 @@
     "titles": {
       "ja": "おまじない",
       "en": "OMAJINAI"
+    },
+    "pack": "extend4",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 518,
+    "textId": "%E6%A3%AE%E5%A5%A5%E8%99%9A%E8%B7%A1",
+    "titles": {
+      "ja": "森奥虚跡",
+      "en": "森奥虚跡"
     },
     "pack": "extend4",
     "hasEternal": false,

@@ -19,9 +19,11 @@ type BaseCategoryData = {
   text_id: string;
   title: string;
   packs: {
+    index: number;
     text_id: string;
     title: string;
     appends: {
+      index: number;
       text_id: string;
       title: string;
     }[];
@@ -42,6 +44,28 @@ const songsDataOutputPath = path.join(root, "src", "songsData.json");
 
 const categoryList = categories as BaseCategoryData[];
 const songList = songs as BaseSongData[];
+let nextInventoryIndex = Math.max(...songList.map((song) => song.index), -1) + 1;
+
+const ensureIndex = (index: number | undefined): number => {
+  if (index !== undefined) {
+    return index;
+  }
+  const current = nextInventoryIndex;
+  nextInventoryIndex += 1;
+  return current;
+};
+
+const normalizedCategoryList = categoryList.map((category) => ({
+  ...category,
+  packs: category.packs.map((pack) => ({
+    ...pack,
+    index: ensureIndex(pack.index),
+    appends: pack.appends.map((append) => ({
+      ...append,
+      index: ensureIndex(append.index),
+    })),
+  })),
+}));
 
 const inventory = new Map<
   string,
@@ -49,7 +73,7 @@ const inventory = new Map<
   | BaseCategoryData["packs"][number]["appends"][number]
   | BaseSongData
 >();
-for (const category of categoryList) {
+for (const category of normalizedCategoryList) {
   for (const pack of category.packs) {
     inventory.set(makePackInventoryKey(pack.text_id), pack);
     for (const append of pack.appends) {
@@ -63,13 +87,21 @@ for (const song of songList) {
   }
 }
 
-await writeFile(keysOutputPath, JSON.stringify([...inventory.keys()], null, 2) + "\n", "utf8");
+await writeFile(
+  keysOutputPath,
+  JSON.stringify(
+    [...inventory.keys()].sort((a, b) => inventory.get(a)!.index - inventory.get(b)!.index),
+    null,
+    2,
+  ) + "\n",
+  "utf8",
+);
 await writeFile(
   mapOutputPath,
   JSON.stringify(Object.fromEntries(inventory), null, 2) + "\n",
   "utf8",
 );
-const categoriesData = categoryList.map(
+const categoriesData = normalizedCategoryList.map(
   (category): CategoryData => ({
     textId: category.text_id,
     title: category.title,
@@ -87,9 +119,11 @@ const categoriesData = categoryList.map(
               }))
           : [];
       return {
+        index: pack.index,
         textId: pack.text_id,
         title: pack.title,
         appends: pack.appends.map((append) => ({
+          index: append.index,
           textId: `${pack.text_id}__${append.text_id}`,
           title: append.title,
         })),

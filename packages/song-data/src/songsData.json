@@ -1,16 +1,5 @@
 [
   {
-    "index": 471,
-    "textId": "Sayonara%20Hatsukoi",
-    "titles": {
-      "ja": "Sayonara Hatsukoi",
-      "en": "Sayonara Hatsukoi"
-    },
-    "pack": "arcaea",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
     "index": 0,
     "textId": "Fairytale",
     "titles": {
@@ -690,28 +679,6 @@
     },
     "pack": "arcaea",
     "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 516,
-    "textId": "%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%A1%E3%83%AB%E3%83%9D%E3%83%83%E3%83%97%E3%82%B3%E3%83%BC%E3%83%B3%E3%81%9F%E3%81%B9%E3%81%9F%E3%81%84%E3%82%88%EF%BD%9E",
-    "titles": {
-      "ja": "キャラメルポップコーンたべたいよ～",
-      "en": "キャラメルポップコーンたべたいよ～"
-    },
-    "pack": "arcaea",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 472,
-    "textId": "DataErr0r",
-    "titles": {
-      "ja": "DataErr0r",
-      "en": "DataErr0r"
-    },
-    "pack": "memoryarchive",
-    "hasEternal": false,
     "hasBeyond": false
   },
   {
@@ -2024,61 +1991,6 @@
     "hasBeyond": false
   },
   {
-    "index": 466,
-    "textId": "Paranoid%20Arc",
-    "titles": {
-      "ja": "Paranoid Arc",
-      "en": "Paranoid Arc"
-    },
-    "pack": "memoryarchive",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 467,
-    "textId": "%E7%BE%BD%E5%8C%96%E3%81%99%E3%82%8B%E4%BA%9C%E7%90%83%E4%BD%93",
-    "titles": {
-      "ja": "羽化する亜球体",
-      "en": "Subsphere in Eclosion"
-    },
-    "pack": "memoryarchive",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 468,
-    "textId": "%EF%BC%BB%E7%AD%8F%EF%BC%BD%E3%81%AF%E4%BA%91%E3%81%86%E3%80%82%E5%B9%BE%E3%82%89%E6%BC%82%E6%B5%81%E3%81%99%E3%82%8C%E3%81%A9%E4%B8%8D%E6%92%93%E3%81%AE%E5%BF%83%E3%81%95%E3%81%88%E6%9C%89%E3%82%8C%E3%81%B0%E8%BB%88%E3%81%A6%E8%A1%8C%E5%88%B0%E3%82%8B%E3%81%A8%E3%80%82",
-    "titles": {
-      "ja": "［筏］は云う。幾ら漂流すれど不撓の心さえ有れば軈て行到ると。",
-      "en": "The 'Raft' taught me: your heart will always find a way."
-    },
-    "pack": "memoryarchive",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 517,
-    "textId": "%2B1%28UNKNOWN%29-NUMBER",
-    "titles": {
-      "ja": "+1(UNKNOWN)-NUMBER",
-      "en": "+1(UNKNOWN)-NUMBER"
-    },
-    "pack": "memoryarchive",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 473,
-    "textId": "%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9",
-    "titles": {
-      "ja": "始マリノ詩",
-      "en": "Wake in Hour"
-    },
-    "pack": "extend4",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
     "index": 181,
     "textId": "mod",
     "titles": {
@@ -2130,61 +2042,6 @@
       "en": "taboo tears you up 2017"
     },
     "pack": "extend4",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 469,
-    "textId": "undefined",
-    "titles": {
-      "ja": "undefined",
-      "en": "undefined"
-    },
-    "pack": "extend4",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 470,
-    "textId": "~_%2B",
-    "titles": {
-      "ja": "~_+",
-      "en": "~_+"
-    },
-    "pack": "extend4",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 510,
-    "textId": "%E3%81%8A%E3%81%BE%E3%81%98%E3%81%AA%E3%81%84",
-    "titles": {
-      "ja": "おまじない",
-      "en": "OMAJINAI"
-    },
-    "pack": "extend4",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 518,
-    "textId": "%E6%A3%AE%E5%A5%A5%E8%99%9A%E8%B7%A1",
-    "titles": {
-      "ja": "森奥虚跡",
-      "en": "森奥虚跡"
-    },
-    "pack": "extend4",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 474,
-    "textId": "HELLOHELL",
-    "titles": {
-      "ja": "HELLOHELL",
-      "en": "HELLOHELL"
-    },
-    "pack": "extend3",
     "hasEternal": true,
     "hasBeyond": false
   },
@@ -2398,17 +2255,6 @@
     "hasBeyond": false
   },
   {
-    "index": 475,
-    "textId": "%E6%9C%88%E3%81%AB%E5%8F%A2%E9%9B%B2%E8%8F%AF%E3%81%AB%E9%A2%A8",
-    "titles": {
-      "ja": "月に叢雲華に風",
-      "en": "Tsuki ni Murakumo, Hana ni Kaze"
-    },
-    "pack": "extend2",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
     "index": 205,
     "textId": "MANTIS%20%28Arcaea%20Ultra-Bloodrush%20VIP%29",
     "titles": {
@@ -2614,17 +2460,6 @@
       "en": "Aleph-0"
     },
     "pack": "extend2",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 476,
-    "textId": "Vivid%20Theory",
-    "titles": {
-      "ja": "Vivid Theory",
-      "en": "Vivid Theory"
-    },
-    "pack": "extend1",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -2838,17 +2673,6 @@
     "hasBeyond": false
   },
   {
-    "index": 477,
-    "textId": "Viola%20Illyria",
-    "titles": {
-      "ja": "Viola Illyria",
-      "en": "Viola Illyria"
-    },
-    "pack": "liminal",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
     "index": 243,
     "textId": "Vainspire",
     "titles": {
@@ -2890,17 +2714,6 @@
     },
     "pack": "liminal",
     "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 478,
-    "textId": "Swan%20Song",
-    "titles": {
-      "ja": "Swan Song",
-      "en": "Swan Song"
-    },
-    "pack": "lucent",
-    "hasEternal": false,
     "hasBeyond": false
   },
   {
@@ -2970,17 +2783,6 @@
     "hasBeyond": false
   },
   {
-    "index": 479,
-    "textId": "In%20Vain",
-    "titles": {
-      "ja": "In Vain",
-      "en": "In Vain"
-    },
-    "pack": "nihil",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
     "index": 253,
     "textId": "Hypnotize",
     "titles": {
@@ -3022,17 +2824,6 @@
     },
     "pack": "nihil",
     "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 480,
-    "textId": "WAIT%20FOR%20DAWN",
-    "titles": {
-      "ja": "WAIT FOR DAWN",
-      "en": "WAIT FOR DAWN"
-    },
-    "pack": "lasting",
-    "hasEternal": false,
     "hasBeyond": false
   },
   {
@@ -3176,17 +2967,6 @@
     "hasBeyond": false
   },
   {
-    "index": 481,
-    "textId": "Defection",
-    "titles": {
-      "ja": "Defection",
-      "en": "Defection"
-    },
-    "pack": "final",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
     "index": 269,
     "textId": "Infinite%20Strife%2C",
     "titles": {
@@ -3275,17 +3055,6 @@
     "hasBeyond": false
   },
   {
-    "index": 482,
-    "textId": "Equilibrium",
-    "titles": {
-      "ja": "Equilibrium",
-      "en": "Equilibrium"
-    },
-    "pack": "black",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
     "index": 277,
     "textId": "Antagonism",
     "titles": {
@@ -3352,17 +3121,6 @@
     "hasBeyond": false
   },
   {
-    "index": 483,
-    "textId": "Saint%20or%20Sinner",
-    "titles": {
-      "ja": "Saint or Sinner",
-      "en": "Saint or Sinner"
-    },
-    "pack": "adverse",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
     "index": 283,
     "textId": "Vindication",
     "titles": {
@@ -3403,17 +3161,6 @@
       "en": "BLRINK"
     },
     "pack": "adverse",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 484,
-    "textId": "%E4%B9%9D%E7%95%AA%E7%9B%AE%E3%81%AE%E8%BF%B7%E8%B7%AF",
-    "titles": {
-      "ja": "九番目の迷路",
-      "en": "Maze No.9"
-    },
-    "pack": "luminous",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -3473,17 +3220,6 @@
     "hasBeyond": false
   },
   {
-    "index": 485,
-    "textId": "Iconoclast",
-    "titles": {
-      "ja": "Iconoclast",
-      "en": "Iconoclast"
-    },
-    "pack": "vicious",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
     "index": 292,
     "textId": "SOUNDWiTCH",
     "titles": {
@@ -3535,17 +3271,6 @@
       "en": "Grievous Lady"
     },
     "pack": "vicious",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 486,
-    "textId": "cry%20of%20viyella",
-    "titles": {
-      "ja": "cry of viyella",
-      "en": "cry of viyella"
-    },
-    "pack": "eternalcore",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -3635,17 +3360,6 @@
     },
     "pack": "eternalcore",
     "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 487,
-    "textId": "See%20the%20Lights%21",
-    "titles": {
-      "ja": "See the Lights!",
-      "en": "See the Lights!"
-    },
-    "pack": "extant",
-    "hasEternal": true,
     "hasBeyond": false
   },
   {
@@ -3749,17 +3463,6 @@
     },
     "pack": "extant",
     "packAppend": "chapter_experientia",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 488,
-    "textId": "Paper%20Witch",
-    "titles": {
-      "ja": "Paper Witch",
-      "en": "Paper Witch"
-    },
-    "pack": "esoteric",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -3891,17 +3594,6 @@
     "hasBeyond": false
   },
   {
-    "index": 489,
-    "textId": "First%20Snow",
-    "titles": {
-      "ja": "First Snow",
-      "en": "First Snow"
-    },
-    "pack": "divided",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
     "index": 325,
     "textId": "Blue%20Rose",
     "titles": {
@@ -3942,17 +3634,6 @@
       "en": "Lightning Screw"
     },
     "pack": "divided",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 490,
-    "textId": "Alice%20a%20la%20mode",
-    "titles": {
-      "ja": "Alice à la mode",
-      "en": "Alice à la mode"
-    },
-    "pack": "ephemeral",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -4037,17 +3718,6 @@
     "hasBeyond": false
   },
   {
-    "index": 491,
-    "textId": "Chelsea",
-    "titles": {
-      "ja": "Chelsea",
-      "en": "Chelsea"
-    },
-    "pack": "sunset",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
     "index": 336,
     "textId": "AI_UE_OON",
     "titles": {
@@ -4103,17 +3773,6 @@
     "hasBeyond": false
   },
   {
-    "index": 492,
-    "textId": "Antithese",
-    "titles": {
-      "ja": "Antithese",
-      "en": "Antithese"
-    },
-    "pack": "absolute",
-    "hasEternal": false,
-    "hasBeyond": true
-  },
-  {
     "index": 341,
     "textId": "Black%20Territory",
     "titles": {
@@ -4156,17 +3815,6 @@
     "pack": "absolute",
     "hasEternal": false,
     "hasBeyond": false
-  },
-  {
-    "index": 493,
-    "textId": "next%20to%20you",
-    "titles": {
-      "ja": "next to you",
-      "en": "next to you"
-    },
-    "pack": "binary",
-    "hasEternal": false,
-    "hasBeyond": true
   },
   {
     "index": 345,
@@ -4249,17 +3897,6 @@
     "hasBeyond": false
   },
   {
-    "index": 494,
-    "textId": "Blossoms",
-    "titles": {
-      "ja": "Blossoms",
-      "en": "Blossoms"
-    },
-    "pack": "ambivalent",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
     "index": 352,
     "textId": "vs%E3%82%AD%E3%83%9F%E6%88%A6%E4%BA%89",
     "titles": {
@@ -4311,17 +3948,6 @@
       "en": "corps-sans-organes"
     },
     "pack": "ambivalent",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 495,
-    "textId": "Paradise",
-    "titles": {
-      "ja": "Paradise",
-      "en": "Paradise"
-    },
-    "pack": "crimsonsolace",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -4381,72 +4007,6 @@
     "hasBeyond": false
   },
   {
-    "index": 511,
-    "textId": "CHAIN2NITE",
-    "titles": {
-      "ja": "CHAIN2NITE",
-      "en": "CHAIN2NITE"
-    },
-    "pack": "megarex",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 512,
-    "textId": "One%20Step%20Closer",
-    "titles": {
-      "ja": "One Step Closer",
-      "en": "One Step Closer"
-    },
-    "pack": "megarex",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 513,
-    "textId": "My%20life%20is%20mine%20alone%21",
-    "titles": {
-      "ja": "My life is mine alone!",
-      "en": "My life is mine alone!"
-    },
-    "pack": "megarex",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 514,
-    "textId": "%E3%83%A1%E3%83%AB%E3%83%86%E3%82%A3%E3%83%BC%E3%83%A9%E3%83%97%E3%82%BD%E3%83%87%E3%82%A3%E3%83%BC",
-    "titles": {
-      "ja": "メルティーラプソディー",
-      "en": "メルティーラプソディー"
-    },
-    "pack": "megarex",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 515,
-    "textId": "Signal",
-    "titles": {
-      "ja": "Signal",
-      "en": "Signal"
-    },
-    "pack": "megarex",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 496,
-    "textId": "INFINITE%20DIMENSION",
-    "titles": {
-      "ja": "INFINITE DIMENSION",
-      "en": "INFINITE DIMENSION"
-    },
-    "pack": "nextstage",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
     "index": 362,
     "textId": "INCARNATOR%E2%82%80%E2%82%80",
     "titles": {
@@ -4498,17 +4058,6 @@
       "en": "ΛZΛLEΛ"
     },
     "pack": "nextstage",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 497,
-    "textId": "Ladymade%20Star",
-    "titles": {
-      "ja": "Ladymade Star",
-      "en": "Ladymade Star"
-    },
-    "pack": "djmax",
     "hasEternal": true,
     "hasBeyond": false
   },
@@ -4617,17 +4166,6 @@
     "hasBeyond": false
   },
   {
-    "index": 498,
-    "textId": "%E5%BF%83%E3%81%AE%E7%97%9B%E3%81%BF",
-    "titles": {
-      "ja": "心の痛み",
-      "en": "Heartache"
-    },
-    "pack": "undertale",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
     "index": 376,
     "textId": "%E8%8F%AF%E9%BA%97%E3%81%AA%E3%82%8B%E6%AD%BB%E9%97%98",
     "titles": {
@@ -4672,17 +4210,6 @@
     "hasBeyond": false
   },
   {
-    "index": 499,
-    "textId": "Waltz%20for%20Lorelei",
-    "titles": {
-      "ja": "Waltz for Lorelei",
-      "en": "Waltz for Lorelei"
-    },
-    "pack": "rotaeno",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
     "index": 380,
     "textId": "Dual%20Doom%20Deathmatch",
     "titles": {
@@ -4723,17 +4250,6 @@
       "en": "Vulcānus"
     },
     "pack": "rotaeno",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 500,
-    "textId": "Bullet%20Waiting%20for%20Me%20%28James%20Landino%20remix%29",
-    "titles": {
-      "ja": "Bullet Waiting for Me(James Landino remix)",
-      "en": "Bullet Waiting for Me(James Landino remix)"
-    },
-    "pack": "cytusii",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -4842,17 +4358,6 @@
     "hasBeyond": false
   },
   {
-    "index": 501,
-    "textId": "Lights%20of%20Muse",
-    "titles": {
-      "ja": "Lights of Muse",
-      "en": "Lights of Muse"
-    },
-    "pack": "musedash",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
     "index": 393,
     "textId": "Final%20Step%21",
     "titles": {
@@ -4884,17 +4389,6 @@
     "pack": "musedash",
     "hasEternal": false,
     "hasBeyond": false
-  },
-  {
-    "index": 502,
-    "textId": "Quon%E3%80%90WACCA%E3%80%91",
-    "titles": {
-      "ja": "Quon",
-      "en": "Quon"
-    },
-    "pack": "wacca",
-    "hasEternal": false,
-    "hasBeyond": true
   },
   {
     "index": 396,
@@ -4997,17 +4491,6 @@
     },
     "pack": "wacca",
     "packAppend": "collaboration_chapter_2",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 503,
-    "textId": "%E5%9B%9B%E6%9C%88%E3%81%AE%E9%9B%A8",
-    "titles": {
-      "ja": "四月の雨",
-      "en": "April showers"
-    },
-    "pack": "maimai",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -5137,17 +4620,6 @@
     },
     "pack": "maimai",
     "packAppend": "collaboration_chapter_3",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 504,
-    "textId": "Lazy%20Addiction",
-    "titles": {
-      "ja": "Lazy Addiction",
-      "en": "Lazy Addiction"
-    },
-    "pack": "ongeki",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -5289,17 +4761,6 @@
     },
     "pack": "ongeki",
     "packAppend": "collaboration_chapter_3",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 505,
-    "textId": "Garakuta%20Doll%20Play",
-    "titles": {
-      "ja": "Garakuta Doll Play",
-      "en": "Garakuta Doll Play"
-    },
-    "pack": "chunithm",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -5482,17 +4943,6 @@
     "hasBeyond": false
   },
   {
-    "index": 506,
-    "textId": "MERLIN",
-    "titles": {
-      "ja": "MERLIN",
-      "en": "MERLIN"
-    },
-    "pack": "groove",
-    "hasEternal": false,
-    "hasBeyond": true
-  },
-  {
     "index": 443,
     "textId": "DX%E8%B6%85%E6%80%A7%E8%83%BD%E3%83%95%E3%83%AB%E3%83%A1%E3%82%BF%E3%83%AB%E5%B0%91%E5%A5%B3",
     "titles": {
@@ -5584,17 +5034,6 @@
     "hasBeyond": false
   },
   {
-    "index": 507,
-    "textId": "%E5%85%89",
-    "titles": {
-      "ja": "光",
-      "en": "Hikari"
-    },
-    "pack": "tonesphere",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
     "index": 451,
     "textId": "Hall%20of%20Mirrors",
     "titles": {
@@ -5635,17 +5074,6 @@
       "en": "Tiferet"
     },
     "pack": "tonesphere",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
-    "index": 508,
-    "textId": "Dream%20goes%20on",
-    "titles": {
-      "ja": "Dream goes on",
-      "en": "Dream goes on"
-    },
-    "pack": "lanota",
     "hasEternal": false,
     "hasBeyond": false
   },
@@ -5730,17 +5158,6 @@
     "hasBeyond": false
   },
   {
-    "index": 509,
-    "textId": "Moonlight%20of%20Sand%20Castle",
-    "titles": {
-      "ja": "Moonlight of Sand Castle",
-      "en": "Moonlight of Sand Castle"
-    },
-    "pack": "dynamix",
-    "hasEternal": false,
-    "hasBeyond": false
-  },
-  {
     "index": 462,
     "textId": "REconstruction",
     "titles": {
@@ -5781,6 +5198,589 @@
       "en": "αterlβus"
     },
     "pack": "dynamix",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 466,
+    "textId": "Paranoid%20Arc",
+    "titles": {
+      "ja": "Paranoid Arc",
+      "en": "Paranoid Arc"
+    },
+    "pack": "memoryarchive",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 467,
+    "textId": "%E7%BE%BD%E5%8C%96%E3%81%99%E3%82%8B%E4%BA%9C%E7%90%83%E4%BD%93",
+    "titles": {
+      "ja": "羽化する亜球体",
+      "en": "Subsphere in Eclosion"
+    },
+    "pack": "memoryarchive",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 468,
+    "textId": "%EF%BC%BB%E7%AD%8F%EF%BC%BD%E3%81%AF%E4%BA%91%E3%81%86%E3%80%82%E5%B9%BE%E3%82%89%E6%BC%82%E6%B5%81%E3%81%99%E3%82%8C%E3%81%A9%E4%B8%8D%E6%92%93%E3%81%AE%E5%BF%83%E3%81%95%E3%81%88%E6%9C%89%E3%82%8C%E3%81%B0%E8%BB%88%E3%81%A6%E8%A1%8C%E5%88%B0%E3%82%8B%E3%81%A8%E3%80%82",
+    "titles": {
+      "ja": "［筏］は云う。幾ら漂流すれど不撓の心さえ有れば軈て行到ると。",
+      "en": "The 'Raft' taught me: your heart will always find a way."
+    },
+    "pack": "memoryarchive",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 469,
+    "textId": "undefined",
+    "titles": {
+      "ja": "undefined",
+      "en": "undefined"
+    },
+    "pack": "extend4",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 470,
+    "textId": "~_%2B",
+    "titles": {
+      "ja": "~_+",
+      "en": "~_+"
+    },
+    "pack": "extend4",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 471,
+    "textId": "Sayonara%20Hatsukoi",
+    "titles": {
+      "ja": "Sayonara Hatsukoi",
+      "en": "Sayonara Hatsukoi"
+    },
+    "pack": "arcaea",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 472,
+    "textId": "DataErr0r",
+    "titles": {
+      "ja": "DataErr0r",
+      "en": "DataErr0r"
+    },
+    "pack": "memoryarchive",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 473,
+    "textId": "%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9",
+    "titles": {
+      "ja": "始マリノ詩",
+      "en": "Wake in Hour"
+    },
+    "pack": "extend4",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 474,
+    "textId": "HELLOHELL",
+    "titles": {
+      "ja": "HELLOHELL",
+      "en": "HELLOHELL"
+    },
+    "pack": "extend3",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 475,
+    "textId": "%E6%9C%88%E3%81%AB%E5%8F%A2%E9%9B%B2%E8%8F%AF%E3%81%AB%E9%A2%A8",
+    "titles": {
+      "ja": "月に叢雲華に風",
+      "en": "Tsuki ni Murakumo, Hana ni Kaze"
+    },
+    "pack": "extend2",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 476,
+    "textId": "Vivid%20Theory",
+    "titles": {
+      "ja": "Vivid Theory",
+      "en": "Vivid Theory"
+    },
+    "pack": "extend1",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 477,
+    "textId": "Viola%20Illyria",
+    "titles": {
+      "ja": "Viola Illyria",
+      "en": "Viola Illyria"
+    },
+    "pack": "liminal",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 478,
+    "textId": "Swan%20Song",
+    "titles": {
+      "ja": "Swan Song",
+      "en": "Swan Song"
+    },
+    "pack": "lucent",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 479,
+    "textId": "In%20Vain",
+    "titles": {
+      "ja": "In Vain",
+      "en": "In Vain"
+    },
+    "pack": "nihil",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 480,
+    "textId": "WAIT%20FOR%20DAWN",
+    "titles": {
+      "ja": "WAIT FOR DAWN",
+      "en": "WAIT FOR DAWN"
+    },
+    "pack": "lasting",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 481,
+    "textId": "Defection",
+    "titles": {
+      "ja": "Defection",
+      "en": "Defection"
+    },
+    "pack": "final",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 482,
+    "textId": "Equilibrium",
+    "titles": {
+      "ja": "Equilibrium",
+      "en": "Equilibrium"
+    },
+    "pack": "black",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 483,
+    "textId": "Saint%20or%20Sinner",
+    "titles": {
+      "ja": "Saint or Sinner",
+      "en": "Saint or Sinner"
+    },
+    "pack": "adverse",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 484,
+    "textId": "%E4%B9%9D%E7%95%AA%E7%9B%AE%E3%81%AE%E8%BF%B7%E8%B7%AF",
+    "titles": {
+      "ja": "九番目の迷路",
+      "en": "Maze No.9"
+    },
+    "pack": "luminous",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 485,
+    "textId": "Iconoclast",
+    "titles": {
+      "ja": "Iconoclast",
+      "en": "Iconoclast"
+    },
+    "pack": "vicious",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 486,
+    "textId": "cry%20of%20viyella",
+    "titles": {
+      "ja": "cry of viyella",
+      "en": "cry of viyella"
+    },
+    "pack": "eternalcore",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 487,
+    "textId": "See%20the%20Lights%21",
+    "titles": {
+      "ja": "See the Lights!",
+      "en": "See the Lights!"
+    },
+    "pack": "extant",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 488,
+    "textId": "Paper%20Witch",
+    "titles": {
+      "ja": "Paper Witch",
+      "en": "Paper Witch"
+    },
+    "pack": "esoteric",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 489,
+    "textId": "First%20Snow",
+    "titles": {
+      "ja": "First Snow",
+      "en": "First Snow"
+    },
+    "pack": "divided",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 490,
+    "textId": "Alice%20a%20la%20mode",
+    "titles": {
+      "ja": "Alice à la mode",
+      "en": "Alice à la mode"
+    },
+    "pack": "ephemeral",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 491,
+    "textId": "Chelsea",
+    "titles": {
+      "ja": "Chelsea",
+      "en": "Chelsea"
+    },
+    "pack": "sunset",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 492,
+    "textId": "Antithese",
+    "titles": {
+      "ja": "Antithese",
+      "en": "Antithese"
+    },
+    "pack": "absolute",
+    "hasEternal": false,
+    "hasBeyond": true
+  },
+  {
+    "index": 493,
+    "textId": "next%20to%20you",
+    "titles": {
+      "ja": "next to you",
+      "en": "next to you"
+    },
+    "pack": "binary",
+    "hasEternal": false,
+    "hasBeyond": true
+  },
+  {
+    "index": 494,
+    "textId": "Blossoms",
+    "titles": {
+      "ja": "Blossoms",
+      "en": "Blossoms"
+    },
+    "pack": "ambivalent",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 495,
+    "textId": "Paradise",
+    "titles": {
+      "ja": "Paradise",
+      "en": "Paradise"
+    },
+    "pack": "crimsonsolace",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 496,
+    "textId": "INFINITE%20DIMENSION",
+    "titles": {
+      "ja": "INFINITE DIMENSION",
+      "en": "INFINITE DIMENSION"
+    },
+    "pack": "nextstage",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 497,
+    "textId": "Ladymade%20Star",
+    "titles": {
+      "ja": "Ladymade Star",
+      "en": "Ladymade Star"
+    },
+    "pack": "djmax",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 498,
+    "textId": "%E5%BF%83%E3%81%AE%E7%97%9B%E3%81%BF",
+    "titles": {
+      "ja": "心の痛み",
+      "en": "Heartache"
+    },
+    "pack": "undertale",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 499,
+    "textId": "Waltz%20for%20Lorelei",
+    "titles": {
+      "ja": "Waltz for Lorelei",
+      "en": "Waltz for Lorelei"
+    },
+    "pack": "rotaeno",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 500,
+    "textId": "Bullet%20Waiting%20for%20Me%20%28James%20Landino%20remix%29",
+    "titles": {
+      "ja": "Bullet Waiting for Me(James Landino remix)",
+      "en": "Bullet Waiting for Me(James Landino remix)"
+    },
+    "pack": "cytusii",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 501,
+    "textId": "Lights%20of%20Muse",
+    "titles": {
+      "ja": "Lights of Muse",
+      "en": "Lights of Muse"
+    },
+    "pack": "musedash",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 502,
+    "textId": "Quon%E3%80%90WACCA%E3%80%91",
+    "titles": {
+      "ja": "Quon",
+      "en": "Quon"
+    },
+    "pack": "wacca",
+    "hasEternal": false,
+    "hasBeyond": true
+  },
+  {
+    "index": 503,
+    "textId": "%E5%9B%9B%E6%9C%88%E3%81%AE%E9%9B%A8",
+    "titles": {
+      "ja": "四月の雨",
+      "en": "April showers"
+    },
+    "pack": "maimai",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 504,
+    "textId": "Lazy%20Addiction",
+    "titles": {
+      "ja": "Lazy Addiction",
+      "en": "Lazy Addiction"
+    },
+    "pack": "ongeki",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 505,
+    "textId": "Garakuta%20Doll%20Play",
+    "titles": {
+      "ja": "Garakuta Doll Play",
+      "en": "Garakuta Doll Play"
+    },
+    "pack": "chunithm",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 506,
+    "textId": "MERLIN",
+    "titles": {
+      "ja": "MERLIN",
+      "en": "MERLIN"
+    },
+    "pack": "groove",
+    "hasEternal": false,
+    "hasBeyond": true
+  },
+  {
+    "index": 507,
+    "textId": "%E5%85%89",
+    "titles": {
+      "ja": "光",
+      "en": "Hikari"
+    },
+    "pack": "tonesphere",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 508,
+    "textId": "Dream%20goes%20on",
+    "titles": {
+      "ja": "Dream goes on",
+      "en": "Dream goes on"
+    },
+    "pack": "lanota",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 509,
+    "textId": "Moonlight%20of%20Sand%20Castle",
+    "titles": {
+      "ja": "Moonlight of Sand Castle",
+      "en": "Moonlight of Sand Castle"
+    },
+    "pack": "dynamix",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 510,
+    "textId": "%E3%81%8A%E3%81%BE%E3%81%98%E3%81%AA%E3%81%84",
+    "titles": {
+      "ja": "おまじない",
+      "en": "OMAJINAI"
+    },
+    "pack": "extend4",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 511,
+    "textId": "CHAIN2NITE",
+    "titles": {
+      "ja": "CHAIN2NITE",
+      "en": "CHAIN2NITE"
+    },
+    "pack": "megarex",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 512,
+    "textId": "One%20Step%20Closer",
+    "titles": {
+      "ja": "One Step Closer",
+      "en": "One Step Closer"
+    },
+    "pack": "megarex",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 513,
+    "textId": "My%20life%20is%20mine%20alone%21",
+    "titles": {
+      "ja": "My life is mine alone!",
+      "en": "My life is mine alone!"
+    },
+    "pack": "megarex",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 514,
+    "textId": "%E3%83%A1%E3%83%AB%E3%83%86%E3%82%A3%E3%83%BC%E3%83%A9%E3%83%97%E3%82%BD%E3%83%87%E3%82%A3%E3%83%BC",
+    "titles": {
+      "ja": "メルティーラプソディー",
+      "en": "メルティーラプソディー"
+    },
+    "pack": "megarex",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 515,
+    "textId": "Signal",
+    "titles": {
+      "ja": "Signal",
+      "en": "Signal"
+    },
+    "pack": "megarex",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 516,
+    "textId": "%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%A1%E3%83%AB%E3%83%9D%E3%83%83%E3%83%97%E3%82%B3%E3%83%BC%E3%83%B3%E3%81%9F%E3%81%B9%E3%81%9F%E3%81%84%E3%82%88%EF%BD%9E",
+    "titles": {
+      "ja": "キャラメルポップコーンたべたいよ～",
+      "en": "キャラメルポップコーンたべたいよ～"
+    },
+    "pack": "arcaea",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 517,
+    "textId": "%2B1%28UNKNOWN%29-NUMBER",
+    "titles": {
+      "ja": "+1(UNKNOWN)-NUMBER",
+      "en": "+1(UNKNOWN)-NUMBER"
+    },
+    "pack": "memoryarchive",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 518,
+    "textId": "%E6%A3%AE%E5%A5%A5%E8%99%9A%E8%B7%A1",
+    "titles": {
+      "ja": "森奥虚跡",
+      "en": "森奥虚跡"
+    },
+    "pack": "extend4",
     "hasEternal": false,
     "hasBeyond": false
   }

@@ -6,12 +6,14 @@ export type CategoryData = {
   packs: PackData[];
 };
 export type PackData = {
+  index: number;
   textId: string;
   title: string;
   appends: AppendData[];
   lockedSongs: LockedSongData[];
 };
 export type AppendData = {
+  index: number;
   textId: string;
   title: string;
 };

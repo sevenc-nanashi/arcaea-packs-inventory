@@ -4,23 +4,18 @@
     "title": "Arcaea",
     "packs": [
       {
+        "index": 519,
         "textId": "arcaea",
         "title": "Arcaea",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 520,
         "textId": "memoryarchive",
         "title": "Memory Archive",
         "appends": [],
         "lockedSongs": [
-          {
-            "textId": "DataErr0r",
-            "titles": {
-              "ja": "DataErr0r",
-              "en": "DataErr0r"
-            }
-          },
           {
             "textId": "CROSS%E2%80%A0SOUL",
             "titles": {
@@ -876,6 +871,13 @@
             }
           },
           {
+            "textId": "DataErr0r",
+            "titles": {
+              "ja": "DataErr0r",
+              "en": "DataErr0r"
+            }
+          },
+          {
             "textId": "%2B1%28UNKNOWN%29-NUMBER",
             "titles": {
               "ja": "+1(UNKNOWN)-NUMBER",
@@ -885,17 +887,11 @@
         ]
       },
       {
+        "index": 521,
         "textId": "extend4",
         "title": "World Extend 4: Emanations",
         "appends": [],
         "lockedSongs": [
-          {
-            "textId": "%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9",
-            "titles": {
-              "ja": "始マリノ詩",
-              "en": "Wake in Hour"
-            }
-          },
           {
             "textId": "mod",
             "titles": {
@@ -946,6 +942,13 @@
             }
           },
           {
+            "textId": "%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9",
+            "titles": {
+              "ja": "始マリノ詩",
+              "en": "Wake in Hour"
+            }
+          },
+          {
             "textId": "%E3%81%8A%E3%81%BE%E3%81%98%E3%81%AA%E3%81%84",
             "titles": {
               "ja": "おまじない",
@@ -962,17 +965,11 @@
         ]
       },
       {
+        "index": 522,
         "textId": "extend3",
         "title": "Extend Archive 3: Illusions",
         "appends": [],
         "lockedSongs": [
-          {
-            "textId": "HELLOHELL",
-            "titles": {
-              "ja": "HELLOHELL",
-              "en": "HELLOHELL"
-            }
-          },
           {
             "textId": "%E3%80%87%E3%80%81",
             "titles": {
@@ -1105,21 +1102,22 @@
               "ja": "ROST PAGE GENE",
               "en": "ROST PAGE GENE"
             }
+          },
+          {
+            "textId": "HELLOHELL",
+            "titles": {
+              "ja": "HELLOHELL",
+              "en": "HELLOHELL"
+            }
           }
         ]
       },
       {
+        "index": 523,
         "textId": "extend2",
         "title": "Extend Archive 2: Chronicles",
         "appends": [],
         "lockedSongs": [
-          {
-            "textId": "%E6%9C%88%E3%81%AB%E5%8F%A2%E9%9B%B2%E8%8F%AF%E3%81%AB%E9%A2%A8",
-            "titles": {
-              "ja": "月に叢雲華に風",
-              "en": "Tsuki ni Murakumo, Hana ni Kaze"
-            }
-          },
           {
             "textId": "MANTIS%20%28Arcaea%20Ultra-Bloodrush%20VIP%29",
             "titles": {
@@ -1252,21 +1250,22 @@
               "ja": "Aleph-0",
               "en": "Aleph-0"
             }
+          },
+          {
+            "textId": "%E6%9C%88%E3%81%AB%E5%8F%A2%E9%9B%B2%E8%8F%AF%E3%81%AB%E9%A2%A8",
+            "titles": {
+              "ja": "月に叢雲華に風",
+              "en": "Tsuki ni Murakumo, Hana ni Kaze"
+            }
           }
         ]
       },
       {
+        "index": 524,
         "textId": "extend1",
         "title": "Extend Archive 1: Visions",
         "appends": [],
         "lockedSongs": [
-          {
-            "textId": "Vivid%20Theory",
-            "titles": {
-              "ja": "Vivid Theory",
-              "en": "Vivid Theory"
-            }
-          },
           {
             "textId": "1F%E2%88%9A",
             "titles": {
@@ -1399,6 +1398,13 @@
               "ja": "G e n g a o z o",
               "en": "G e n g a o z o"
             }
+          },
+          {
+            "textId": "Vivid%20Theory",
+            "titles": {
+              "ja": "Vivid Theory",
+              "en": "Vivid Theory"
+            }
           }
         ]
       }
@@ -1409,32 +1415,38 @@
     "title": "Main Story Act II",
     "packs": [
       {
+        "index": 525,
         "textId": "liminal",
         "title": "Liminal Eclipse",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 526,
         "textId": "lucent",
         "title": "Lucent Historia",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 527,
         "textId": "nihil",
         "title": "Absolute Nihil",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 528,
         "textId": "lasting",
         "title": "Lasting Eden",
         "appends": [
           {
+            "index": 529,
             "textId": "lasting__lasting_eden_chapter_2",
             "title": "Lasting Eden Chapter 2"
           },
           {
+            "index": 530,
             "textId": "lasting__shifting_veil",
             "title": "Shifting Veil"
           }
@@ -1448,36 +1460,42 @@
     "title": "Main Story Act I",
     "packs": [
       {
+        "index": 531,
         "textId": "final",
         "title": "Final Verdict",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 532,
         "textId": "black",
         "title": "Black Fate",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 533,
         "textId": "adverse",
         "title": "Adverse Prelude",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 534,
         "textId": "luminous",
         "title": "Luminous Sky",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 535,
         "textId": "vicious",
         "title": "Vicious Labyrinth",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 536,
         "textId": "eternalcore",
         "title": "Eternal Core",
         "appends": [],
@@ -1490,10 +1508,12 @@
     "title": "Side Story",
     "packs": [
       {
+        "index": 537,
         "textId": "extant",
         "title": "Extant Anima",
         "appends": [
           {
+            "index": 538,
             "textId": "extant__chapter_experientia",
             "title": "Chapter Experientia"
           }
@@ -1501,14 +1521,17 @@
         "lockedSongs": []
       },
       {
+        "index": 539,
         "textId": "esoteric",
         "title": "Esoteric Order",
         "appends": [
           {
+            "index": 540,
             "textId": "esoteric__pale_tapestry",
             "title": "Pale Tapestry"
           },
           {
+            "index": 541,
             "textId": "esoteric__light_of_salvation",
             "title": "Light of Salvation"
           }
@@ -1516,16 +1539,19 @@
         "lockedSongs": []
       },
       {
+        "index": 542,
         "textId": "divided",
         "title": "Divided Heart",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 543,
         "textId": "ephemeral",
         "title": "Ephemeral Page",
         "appends": [
           {
+            "index": 544,
             "textId": "ephemeral__the_journey_onwards",
             "title": "The Journey Onwards"
           }
@@ -1533,22 +1559,26 @@
         "lockedSongs": []
       },
       {
+        "index": 545,
         "textId": "sunset",
         "title": "Sunset Radiance",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 546,
         "textId": "absolute",
         "title": "Absolute Reason",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 547,
         "textId": "binary",
         "title": "Binary Enfold",
         "appends": [
           {
+            "index": 548,
             "textId": "binary__shared_time",
             "title": "Shared Time"
           }
@@ -1556,12 +1586,14 @@
         "lockedSongs": []
       },
       {
+        "index": 549,
         "textId": "ambivalent",
         "title": "Ambivalent Vision",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 550,
         "textId": "crimsonsolace",
         "title": "Crimson Solace",
         "appends": [],
@@ -1574,22 +1606,26 @@
     "title": "Collaboration",
     "packs": [
       {
+        "index": 551,
         "textId": "megarex",
         "title": "MEGAREX Collaboration",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 552,
         "textId": "nextstage",
         "title": "Arcaea Next Stage",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 553,
         "textId": "djmax",
         "title": "DJMAX Collaboration",
         "appends": [
           {
+            "index": 554,
             "textId": "djmax__collaboration_chapter_2",
             "title": "Collaboration Chapter 2"
           }
@@ -1597,22 +1633,26 @@
         "lockedSongs": []
       },
       {
+        "index": 555,
         "textId": "undertale",
         "title": "UNDERTALE Collaboration",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 556,
         "textId": "rotaeno",
         "title": "Rotaeno Collaboration",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 557,
         "textId": "cytusii",
         "title": "Cytus II Collaboration",
         "appends": [
           {
+            "index": 558,
             "textId": "cytusii__collaboration_chapter_2",
             "title": "Collaboration Chapter 2"
           }
@@ -1620,16 +1660,19 @@
         "lockedSongs": []
       },
       {
+        "index": 559,
         "textId": "musedash",
         "title": "Muse Dash Collaboration",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 560,
         "textId": "wacca",
         "title": "WACCA Collaboration",
         "appends": [
           {
+            "index": 561,
             "textId": "wacca__collaboration_chapter_2",
             "title": "Collaboration Chapter 2"
           }
@@ -1637,14 +1680,17 @@
         "lockedSongs": []
       },
       {
+        "index": 562,
         "textId": "maimai",
         "title": "maimai Collaboration",
         "appends": [
           {
+            "index": 563,
             "textId": "maimai__collaboration_chapter_2",
             "title": "Collaboration Chapter 2"
           },
           {
+            "index": 564,
             "textId": "maimai__collaboration_chapter_3",
             "title": "Collaboration Chapter 3"
           }
@@ -1652,14 +1698,17 @@
         "lockedSongs": []
       },
       {
+        "index": 565,
         "textId": "ongeki",
         "title": "O.N.G.E.K.I. Collaboration",
         "appends": [
           {
+            "index": 566,
             "textId": "ongeki__collaboration_chapter_2",
             "title": "Collaboration Chapter 2"
           },
           {
+            "index": 567,
             "textId": "ongeki__collaboration_chapter_3",
             "title": "Collaboration Chapter 3"
           }
@@ -1667,18 +1716,22 @@
         "lockedSongs": []
       },
       {
+        "index": 568,
         "textId": "chunithm",
         "title": "CHUNITHM Collaboration",
         "appends": [
           {
+            "index": 569,
             "textId": "chunithm__collaboration_chapter_2",
             "title": "Collaboration Chapter 2"
           },
           {
+            "index": 570,
             "textId": "chunithm__collaboration_chapter_3",
             "title": "Collaboration Chapter 3"
           },
           {
+            "index": 571,
             "textId": "chunithm__collaboration_chapter_4",
             "title": "Collaboration Chapter 4"
           }
@@ -1686,10 +1739,12 @@
         "lockedSongs": []
       },
       {
+        "index": 572,
         "textId": "groove",
         "title": "Groove Coaster Collaboration",
         "appends": [
           {
+            "index": 573,
             "textId": "groove__collaboration_chapter_2",
             "title": "Collaboration Chapter 2"
           }
@@ -1697,16 +1752,19 @@
         "lockedSongs": []
       },
       {
+        "index": 574,
         "textId": "tonesphere",
         "title": "Tone Sphere Collaboration",
         "appends": [],
         "lockedSongs": []
       },
       {
+        "index": 575,
         "textId": "lanota",
         "title": "Lanota Collaboration",
         "appends": [
           {
+            "index": 576,
             "textId": "lanota__collaboration_chapter_2",
             "title": "Collaboration Chapter 2"
           }
@@ -1714,6 +1772,7 @@
         "lockedSongs": []
       },
       {
+        "index": 577,
         "textId": "dynamix",
         "title": "Dynamix Collaboration",
         "appends": [],

@@ -17,6 +17,13 @@
         "appends": [],
         "lockedSongs": [
           {
+            "textId": "DataErr0r",
+            "titles": {
+              "ja": "DataErr0r",
+              "en": "DataErr0r"
+            }
+          },
+          {
             "textId": "CROSS%E2%80%A0SOUL",
             "titles": {
               "ja": "CROSS†SOUL",
@@ -871,17 +878,31 @@
             }
           },
           {
-            "textId": "DataErr0r",
-            "titles": {
-              "ja": "DataErr0r",
-              "en": "DataErr0r"
-            }
-          },
-          {
             "textId": "%2B1%28UNKNOWN%29-NUMBER",
             "titles": {
               "ja": "+1(UNKNOWN)-NUMBER",
               "en": "+1(UNKNOWN)-NUMBER"
+            }
+          },
+          {
+            "textId": "GOODRAGE",
+            "titles": {
+              "ja": "GOODRAGE",
+              "en": "GOODRAGE"
+            }
+          },
+          {
+            "textId": "Cryogenic",
+            "titles": {
+              "ja": "Cryogenic",
+              "en": "Cryogenic"
+            }
+          },
+          {
+            "textId": "Desertrealm",
+            "titles": {
+              "ja": "Desertrealm",
+              "en": "Desertrealm"
             }
           }
         ]
@@ -892,6 +913,13 @@
         "title": "World Extend 4: Emanations",
         "appends": [],
         "lockedSongs": [
+          {
+            "textId": "%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9",
+            "titles": {
+              "ja": "始マリノ詩",
+              "en": "Wake in Hour"
+            }
+          },
           {
             "textId": "mod",
             "titles": {
@@ -942,13 +970,6 @@
             }
           },
           {
-            "textId": "%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9",
-            "titles": {
-              "ja": "始マリノ詩",
-              "en": "Wake in Hour"
-            }
-          },
-          {
             "textId": "%E3%81%8A%E3%81%BE%E3%81%98%E3%81%AA%E3%81%84",
             "titles": {
               "ja": "おまじない",
@@ -961,6 +982,20 @@
               "ja": "森奥虚跡",
               "en": "森奥虚跡"
             }
+          },
+          {
+            "textId": "3rd%20Avenue",
+            "titles": {
+              "ja": "3rd Avenue",
+              "en": "3rd Avenue"
+            }
+          },
+          {
+            "textId": "Vallista",
+            "titles": {
+              "ja": "Vallista",
+              "en": "Vallista"
+            }
           }
         ]
       },
@@ -970,6 +1005,13 @@
         "title": "Extend Archive 3: Illusions",
         "appends": [],
         "lockedSongs": [
+          {
+            "textId": "HELLOHELL",
+            "titles": {
+              "ja": "HELLOHELL",
+              "en": "HELLOHELL"
+            }
+          },
           {
             "textId": "%E3%80%87%E3%80%81",
             "titles": {
@@ -1102,13 +1144,6 @@
               "ja": "ROST PAGE GENE",
               "en": "ROST PAGE GENE"
             }
-          },
-          {
-            "textId": "HELLOHELL",
-            "titles": {
-              "ja": "HELLOHELL",
-              "en": "HELLOHELL"
-            }
           }
         ]
       },
@@ -1118,6 +1153,13 @@
         "title": "Extend Archive 2: Chronicles",
         "appends": [],
         "lockedSongs": [
+          {
+            "textId": "%E6%9C%88%E3%81%AB%E5%8F%A2%E9%9B%B2%E8%8F%AF%E3%81%AB%E9%A2%A8",
+            "titles": {
+              "ja": "月に叢雲華に風",
+              "en": "Tsuki ni Murakumo, Hana ni Kaze"
+            }
+          },
           {
             "textId": "MANTIS%20%28Arcaea%20Ultra-Bloodrush%20VIP%29",
             "titles": {
@@ -1250,13 +1292,6 @@
               "ja": "Aleph-0",
               "en": "Aleph-0"
             }
-          },
-          {
-            "textId": "%E6%9C%88%E3%81%AB%E5%8F%A2%E9%9B%B2%E8%8F%AF%E3%81%AB%E9%A2%A8",
-            "titles": {
-              "ja": "月に叢雲華に風",
-              "en": "Tsuki ni Murakumo, Hana ni Kaze"
-            }
           }
         ]
       },
@@ -1266,6 +1301,13 @@
         "title": "Extend Archive 1: Visions",
         "appends": [],
         "lockedSongs": [
+          {
+            "textId": "Vivid%20Theory",
+            "titles": {
+              "ja": "Vivid Theory",
+              "en": "Vivid Theory"
+            }
+          },
           {
             "textId": "1F%E2%88%9A",
             "titles": {
@@ -1397,13 +1439,6 @@
             "titles": {
               "ja": "G e n g a o z o",
               "en": "G e n g a o z o"
-            }
-          },
-          {
-            "textId": "Vivid%20Theory",
-            "titles": {
-              "ja": "Vivid Theory",
-              "en": "Vivid Theory"
             }
           }
         ]

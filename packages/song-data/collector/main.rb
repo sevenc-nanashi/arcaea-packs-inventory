@@ -17,9 +17,24 @@ content = packs_doc.at_css("#content")
 current_pack = nil
 current_pack_append = nil
 songs_data = JSON.parse(File.read("#{src}/songs.json"), symbolize_names: true)
+inventory_data = JSON.parse(File.read("#{src}/inventory.json"), symbolize_names: true)
+inventory_keys_by_index =
+  inventory_data.each_with_object(Hash.new { |hash, key| hash[key] = [] }) do |(key, entry), hash|
+    hash[entry[:index]] << key.to_s
+  end
 packs = []
 fallback_pack_names = { "memoryarchive" => "Memory Archive" }
-next_index = (songs_data.map { |s| s[:index] }.max || -1) + 1
+next_index =
+  [
+    songs_data.map { |s| s[:index] }.max || -1,
+    inventory_data.values.map { |entry| entry[:index] }.max || -1
+  ].max + 1
+
+allocate_index = lambda do
+  index = next_index
+  next_index += 1
+  index
+end
 
 category = :arcaea
 category_names = {
@@ -114,10 +129,15 @@ content.children.each do |child|
           puts "    Beyond: #{has_beyond}"
           index =
             if (existing = songs_data.find { |s| s[:text_id] == text_id })
-              existing[:index]
+              existing_key = "song__#{text_id}"
+              keys_at_index = inventory_keys_by_index[existing[:index]]
+              if keys_at_index.empty? || keys_at_index == [existing_key]
+                existing[:index]
+              else
+                allocate_index.call
+              end
             else
-              next_index += 1
-              next_index - 1
+              allocate_index.call
             end
           song_entry = {
             index: index,

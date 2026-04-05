@@ -4,6 +4,7 @@ import path from "node:path";
 import { CategoryData, SongData } from "../src";
 import categories from "../src/categories.json";
 import englishTitles from "../src/englishTitles.json";
+import existingInventory from "../src/inventory.json";
 import songs from "../src/songs.json";
 
 type BaseSongData = {
@@ -44,11 +45,23 @@ const songsDataOutputPath = path.join(root, "src", "songsData.json");
 
 const categoryList = categories as BaseCategoryData[];
 const songList = songs as BaseSongData[];
-let nextInventoryIndex = Math.max(...songList.map((song) => song.index), -1) + 1;
+const existingInventoryIndex = new Map<string, number>(
+  Object.entries(existingInventory).map(([key, value]) => [key, value.index]),
+);
+let nextInventoryIndex =
+  Math.max(
+    ...songList.map((song) => song.index),
+    ...[...existingInventoryIndex.values()],
+    -1,
+  ) + 1;
 
-const ensureIndex = (index: number | undefined): number => {
+const ensureIndex = (key: string, index: number | undefined): number => {
   if (index !== undefined) {
     return index;
+  }
+  const existingIndex = existingInventoryIndex.get(key);
+  if (existingIndex !== undefined) {
+    return existingIndex;
   }
   const current = nextInventoryIndex;
   nextInventoryIndex += 1;
@@ -59,10 +72,13 @@ const normalizedCategoryList = categoryList.map((category) => ({
   ...category,
   packs: category.packs.map((pack) => ({
     ...pack,
-    index: ensureIndex(pack.index),
+    index: ensureIndex(makePackInventoryKey(pack.text_id), pack.index),
     appends: pack.appends.map((append) => ({
       ...append,
-      index: ensureIndex(append.index),
+      index: ensureIndex(
+        makePackInventoryKey(`${pack.text_id}__${append.text_id}`),
+        append.index,
+      ),
     })),
   })),
 }));

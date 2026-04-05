@@ -442,6 +442,15 @@
     "appends": [],
     "index": 577
   },
+  "song__DataErr0r": {
+    "index": 472,
+    "text_id": "DataErr0r",
+    "title": "DataErr0r",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
   "song__CROSS%E2%80%A0SOUL": {
     "index": 62,
     "text_id": "CROSS%E2%80%A0SOUL",
@@ -539,7 +548,7 @@
     "pack": "memoryarchive",
     "pack_append": null,
     "has_eternal": false,
-    "has_beyond": false
+    "has_beyond": true
   },
   "song__Call%20My%20Name%20feat.%20Yukacco": {
     "index": 73,
@@ -647,7 +656,7 @@
     "pack": "memoryarchive",
     "pack_append": null,
     "has_eternal": false,
-    "has_beyond": false
+    "has_beyond": true
   },
   "song__Filament": {
     "index": 85,
@@ -1513,6 +1522,78 @@
     "has_eternal": false,
     "has_beyond": false
   },
+  "song__Paranoid%20Arc": {
+    "index": 466,
+    "text_id": "Paranoid%20Arc",
+    "title": "Paranoid Arc",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__%E7%BE%BD%E5%8C%96%E3%81%99%E3%82%8B%E4%BA%9C%E7%90%83%E4%BD%93": {
+    "index": 467,
+    "text_id": "%E7%BE%BD%E5%8C%96%E3%81%99%E3%82%8B%E4%BA%9C%E7%90%83%E4%BD%93",
+    "title": "羽化する亜球体",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__%EF%BC%BB%E7%AD%8F%EF%BC%BD%E3%81%AF%E4%BA%91%E3%81%86%E3%80%82%E5%B9%BE%E3%82%89%E6%BC%82%E6%B5%81%E3%81%99%E3%82%8C%E3%81%A9%E4%B8%8D%E6%92%93%E3%81%AE%E5%BF%83%E3%81%95%E3%81%88%E6%9C%89%E3%82%8C%E3%81%B0%E8%BB%88%E3%81%A6%E8%A1%8C%E5%88%B0%E3%82%8B%E3%81%A8%E3%80%82": {
+    "index": 468,
+    "text_id": "%EF%BC%BB%E7%AD%8F%EF%BC%BD%E3%81%AF%E4%BA%91%E3%81%86%E3%80%82%E5%B9%BE%E3%82%89%E6%BC%82%E6%B5%81%E3%81%99%E3%82%8C%E3%81%A9%E4%B8%8D%E6%92%93%E3%81%AE%E5%BF%83%E3%81%95%E3%81%88%E6%9C%89%E3%82%8C%E3%81%B0%E8%BB%88%E3%81%A6%E8%A1%8C%E5%88%B0%E3%82%8B%E3%81%A8%E3%80%82",
+    "title": "［筏］は云う。幾ら漂流すれど不撓の心さえ有れば軈て行到ると。",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__%2B1%28UNKNOWN%29-NUMBER": {
+    "index": 517,
+    "text_id": "%2B1%28UNKNOWN%29-NUMBER",
+    "title": "+1(UNKNOWN)-NUMBER",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__GOODRAGE": {
+    "index": 777,
+    "text_id": "GOODRAGE",
+    "title": "GOODRAGE",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Cryogenic": {
+    "index": 778,
+    "text_id": "Cryogenic",
+    "title": "Cryogenic",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__Desertrealm": {
+    "index": 779,
+    "text_id": "Desertrealm",
+    "title": "Desertrealm",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9": {
+    "index": 473,
+    "text_id": "%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9",
+    "title": "始マリノ詩",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
   "song__mod": {
     "index": 181,
     "text_id": "mod",
@@ -1554,6 +1635,69 @@
     "text_id": "taboo%20tears%20you%20up%202017",
     "title": "taboo tears you up 2017",
     "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__undefined": {
+    "index": 469,
+    "text_id": "undefined",
+    "title": "undefined",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__~_%2B": {
+    "index": 470,
+    "text_id": "~_%2B",
+    "title": "~_+",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E3%81%8A%E3%81%BE%E3%81%98%E3%81%AA%E3%81%84": {
+    "index": 510,
+    "text_id": "%E3%81%8A%E3%81%BE%E3%81%98%E3%81%AA%E3%81%84",
+    "title": "おまじない",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__%E6%A3%AE%E5%A5%A5%E8%99%9A%E8%B7%A1": {
+    "index": 518,
+    "text_id": "%E6%A3%AE%E5%A5%A5%E8%99%9A%E8%B7%A1",
+    "title": "森奥虚跡",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__3rd%20Avenue": {
+    "index": 780,
+    "text_id": "3rd%20Avenue",
+    "title": "3rd Avenue",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Vallista": {
+    "index": 781,
+    "text_id": "Vallista",
+    "title": "Vallista",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__HELLOHELL": {
+    "index": 474,
+    "text_id": "HELLOHELL",
+    "title": "HELLOHELL",
+    "pack": "extend3",
     "pack_append": null,
     "has_eternal": true,
     "has_beyond": false
@@ -1729,6 +1873,15 @@
     "has_eternal": false,
     "has_beyond": false
   },
+  "song__%E6%9C%88%E3%81%AB%E5%8F%A2%E9%9B%B2%E8%8F%AF%E3%81%AB%E9%A2%A8": {
+    "index": 475,
+    "text_id": "%E6%9C%88%E3%81%AB%E5%8F%A2%E9%9B%B2%E8%8F%AF%E3%81%AB%E9%A2%A8",
+    "title": "月に叢雲華に風",
+    "pack": "extend2",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
   "song__MANTIS%20%28Arcaea%20Ultra-Bloodrush%20VIP%29": {
     "index": 205,
     "text_id": "MANTIS%20%28Arcaea%20Ultra-Bloodrush%20VIP%29",
@@ -1900,6 +2053,15 @@
     "has_eternal": false,
     "has_beyond": false
   },
+  "song__Vivid%20Theory": {
+    "index": 476,
+    "text_id": "Vivid%20Theory",
+    "title": "Vivid Theory",
+    "pack": "extend1",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
   "song__1F%E2%88%9A": {
     "index": 224,
     "text_id": "1F%E2%88%9A",
@@ -2033,7 +2195,7 @@
     "pack": "extend1",
     "pack_append": null,
     "has_eternal": false,
-    "has_beyond": false
+    "has_beyond": true
   },
   "song__HIVEMIND": {
     "index": 239,
@@ -2067,123 +2229,6 @@
     "text_id": "G%20e%20n%20g%20a%20o%20z%20o",
     "title": "G e n g a o z o",
     "pack": "extend1",
-    "pack_append": null,
-    "has_eternal": false,
-    "has_beyond": false
-  },
-  "song__Paranoid%20Arc": {
-    "index": 466,
-    "text_id": "Paranoid%20Arc",
-    "title": "Paranoid Arc",
-    "pack": "memoryarchive",
-    "pack_append": null,
-    "has_eternal": true,
-    "has_beyond": false
-  },
-  "song__%E7%BE%BD%E5%8C%96%E3%81%99%E3%82%8B%E4%BA%9C%E7%90%83%E4%BD%93": {
-    "index": 467,
-    "text_id": "%E7%BE%BD%E5%8C%96%E3%81%99%E3%82%8B%E4%BA%9C%E7%90%83%E4%BD%93",
-    "title": "羽化する亜球体",
-    "pack": "memoryarchive",
-    "pack_append": null,
-    "has_eternal": true,
-    "has_beyond": false
-  },
-  "song__%EF%BC%BB%E7%AD%8F%EF%BC%BD%E3%81%AF%E4%BA%91%E3%81%86%E3%80%82%E5%B9%BE%E3%82%89%E6%BC%82%E6%B5%81%E3%81%99%E3%82%8C%E3%81%A9%E4%B8%8D%E6%92%93%E3%81%AE%E5%BF%83%E3%81%95%E3%81%88%E6%9C%89%E3%82%8C%E3%81%B0%E8%BB%88%E3%81%A6%E8%A1%8C%E5%88%B0%E3%82%8B%E3%81%A8%E3%80%82": {
-    "index": 468,
-    "text_id": "%EF%BC%BB%E7%AD%8F%EF%BC%BD%E3%81%AF%E4%BA%91%E3%81%86%E3%80%82%E5%B9%BE%E3%82%89%E6%BC%82%E6%B5%81%E3%81%99%E3%82%8C%E3%81%A9%E4%B8%8D%E6%92%93%E3%81%AE%E5%BF%83%E3%81%95%E3%81%88%E6%9C%89%E3%82%8C%E3%81%B0%E8%BB%88%E3%81%A6%E8%A1%8C%E5%88%B0%E3%82%8B%E3%81%A8%E3%80%82",
-    "title": "［筏］は云う。幾ら漂流すれど不撓の心さえ有れば軈て行到ると。",
-    "pack": "memoryarchive",
-    "pack_append": null,
-    "has_eternal": true,
-    "has_beyond": false
-  },
-  "song__undefined": {
-    "index": 469,
-    "text_id": "undefined",
-    "title": "undefined",
-    "pack": "extend4",
-    "pack_append": null,
-    "has_eternal": false,
-    "has_beyond": false
-  },
-  "song__~_%2B": {
-    "index": 470,
-    "text_id": "~_%2B",
-    "title": "~_+",
-    "pack": "extend4",
-    "pack_append": null,
-    "has_eternal": false,
-    "has_beyond": false
-  },
-  "song__DataErr0r": {
-    "index": 472,
-    "text_id": "DataErr0r",
-    "title": "DataErr0r",
-    "pack": "memoryarchive",
-    "pack_append": null,
-    "has_eternal": false,
-    "has_beyond": false
-  },
-  "song__%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9": {
-    "index": 473,
-    "text_id": "%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9",
-    "title": "始マリノ詩",
-    "pack": "extend4",
-    "pack_append": null,
-    "has_eternal": true,
-    "has_beyond": false
-  },
-  "song__HELLOHELL": {
-    "index": 474,
-    "text_id": "HELLOHELL",
-    "title": "HELLOHELL",
-    "pack": "extend3",
-    "pack_append": null,
-    "has_eternal": true,
-    "has_beyond": false
-  },
-  "song__%E6%9C%88%E3%81%AB%E5%8F%A2%E9%9B%B2%E8%8F%AF%E3%81%AB%E9%A2%A8": {
-    "index": 475,
-    "text_id": "%E6%9C%88%E3%81%AB%E5%8F%A2%E9%9B%B2%E8%8F%AF%E3%81%AB%E9%A2%A8",
-    "title": "月に叢雲華に風",
-    "pack": "extend2",
-    "pack_append": null,
-    "has_eternal": false,
-    "has_beyond": false
-  },
-  "song__Vivid%20Theory": {
-    "index": 476,
-    "text_id": "Vivid%20Theory",
-    "title": "Vivid Theory",
-    "pack": "extend1",
-    "pack_append": null,
-    "has_eternal": false,
-    "has_beyond": false
-  },
-  "song__%E3%81%8A%E3%81%BE%E3%81%98%E3%81%AA%E3%81%84": {
-    "index": 510,
-    "text_id": "%E3%81%8A%E3%81%BE%E3%81%98%E3%81%AA%E3%81%84",
-    "title": "おまじない",
-    "pack": "extend4",
-    "pack_append": null,
-    "has_eternal": false,
-    "has_beyond": false
-  },
-  "song__%2B1%28UNKNOWN%29-NUMBER": {
-    "index": 517,
-    "text_id": "%2B1%28UNKNOWN%29-NUMBER",
-    "title": "+1(UNKNOWN)-NUMBER",
-    "pack": "memoryarchive",
-    "pack_append": null,
-    "has_eternal": false,
-    "has_beyond": false
-  },
-  "song__%E6%A3%AE%E5%A5%A5%E8%99%9A%E8%B7%A1": {
-    "index": 518,
-    "text_id": "%E6%A3%AE%E5%A5%A5%E8%99%9A%E8%B7%A1",
-    "title": "森奥虚跡",
-    "pack": "extend4",
     "pack_append": null,
     "has_eternal": false,
     "has_beyond": false

@@ -904,6 +904,27 @@
               "ja": "Desertrealm",
               "en": "Desertrealm"
             }
+          },
+          {
+            "textId": "Altersist",
+            "titles": {
+              "ja": "Altersist",
+              "en": "Altersist"
+            }
+          },
+          {
+            "textId": "c.s.q.n.",
+            "titles": {
+              "ja": "c.s.q.n.",
+              "en": "c.s.q.n."
+            }
+          },
+          {
+            "textId": "%E3%82%B6%E3%83%A9%E3%83%A1%E3%83%8E%E3%82%AD%E3%83%AF%E3%83%9F",
+            "titles": {
+              "ja": "ザラメノキワミ",
+              "en": "ザラメノキワミ"
+            }
           }
         ]
       },
@@ -995,6 +1016,34 @@
             "titles": {
               "ja": "Vallista",
               "en": "Vallista"
+            }
+          },
+          {
+            "textId": "MIRROR%20-%20kamome%20sano%20remix",
+            "titles": {
+              "ja": "MIRROR - kamome sano remix",
+              "en": "MIRROR - kamome sano remix"
+            }
+          },
+          {
+            "textId": "Riot%20in%20the%20System",
+            "titles": {
+              "ja": "Riot in the System",
+              "en": "Riot in the System"
+            }
+          },
+          {
+            "textId": "flexidefine",
+            "titles": {
+              "ja": "flexidefine",
+              "en": "flexidefine"
+            }
+          },
+          {
+            "textId": "Cosmogyral",
+            "titles": {
+              "ja": "Cosmogyral",
+              "en": "Cosmogyral"
             }
           }
         ]
@@ -1648,13 +1697,6 @@
         "lockedSongs": []
       },
       {
-        "index": 552,
-        "textId": "nextstage",
-        "title": "Arcaea Next Stage",
-        "appends": [],
-        "lockedSongs": []
-      },
-      {
         "index": 553,
         "textId": "djmax",
         "title": "DJMAX Collaboration",
@@ -1665,13 +1707,6 @@
             "title": "Collaboration Chapter 2"
           }
         ],
-        "lockedSongs": []
-      },
-      {
-        "index": 555,
-        "textId": "undertale",
-        "title": "UNDERTALE Collaboration",
-        "appends": [],
         "lockedSongs": []
       },
       {
@@ -1811,6 +1846,33 @@
         "textId": "dynamix",
         "title": "Dynamix Collaboration",
         "appends": [],
+        "lockedSongs": []
+      },
+      {
+        "index": 797,
+        "textId": "virtual",
+        "title": "Virtual Singers",
+        "appends": [],
+        "lockedSongs": []
+      },
+      {
+        "index": 552,
+        "textId": "nextstage",
+        "title": "Arcaea Next Stage",
+        "appends": [],
+        "lockedSongs": []
+      },
+      {
+        "index": 555,
+        "textId": "undertale",
+        "title": "UNDERTALE",
+        "appends": [
+          {
+            "index": 798,
+            "textId": "undertale__undertale",
+            "title": "UNDERTALE"
+          }
+        ],
         "lockedSongs": []
       }
     ]

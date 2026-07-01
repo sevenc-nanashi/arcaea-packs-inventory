@@ -2101,6 +2101,39 @@
     "hasBeyond": false
   },
   {
+    "index": 787,
+    "textId": "Altersist",
+    "titles": {
+      "ja": "Altersist",
+      "en": "Altersist"
+    },
+    "pack": "memoryarchive",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 788,
+    "textId": "c.s.q.n.",
+    "titles": {
+      "ja": "c.s.q.n.",
+      "en": "c.s.q.n."
+    },
+    "pack": "memoryarchive",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 789,
+    "textId": "%E3%82%B6%E3%83%A9%E3%83%A1%E3%83%8E%E3%82%AD%E3%83%AF%E3%83%9F",
+    "titles": {
+      "ja": "ザラメノキワミ",
+      "en": "ザラメノキワミ"
+    },
+    "pack": "memoryarchive",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
     "index": 473,
     "textId": "%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9",
     "titles": {
@@ -2230,6 +2263,50 @@
     },
     "pack": "extend4",
     "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 782,
+    "textId": "MIRROR%20-%20kamome%20sano%20remix",
+    "titles": {
+      "ja": "MIRROR - kamome sano remix",
+      "en": "MIRROR - kamome sano remix"
+    },
+    "pack": "extend4",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 783,
+    "textId": "Riot%20in%20the%20System",
+    "titles": {
+      "ja": "Riot in the System",
+      "en": "Riot in the System"
+    },
+    "pack": "extend4",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 790,
+    "textId": "flexidefine",
+    "titles": {
+      "ja": "flexidefine",
+      "en": "flexidefine"
+    },
+    "pack": "extend4",
+    "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 791,
+    "textId": "Cosmogyral",
+    "titles": {
+      "ja": "Cosmogyral",
+      "en": "Cosmogyral"
+    },
+    "pack": "extend4",
+    "hasEternal": true,
     "hasBeyond": false
   },
   {
@@ -4491,72 +4568,6 @@
     "hasBeyond": false
   },
   {
-    "index": 496,
-    "textId": "INFINITE%20DIMENSION",
-    "titles": {
-      "ja": "INFINITE DIMENSION",
-      "en": "INFINITE DIMENSION"
-    },
-    "pack": "nextstage",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 362,
-    "textId": "INCARNATOR%E2%82%80%E2%82%80",
-    "titles": {
-      "ja": "INCARNATOR₀₀",
-      "en": "INCARNATOR₀₀"
-    },
-    "pack": "nextstage",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 363,
-    "textId": "zephyrlasting",
-    "titles": {
-      "ja": "zephyrlasting",
-      "en": "zephyrlasting"
-    },
-    "pack": "nextstage",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 364,
-    "textId": "MARENYX",
-    "titles": {
-      "ja": "MARENYX",
-      "en": "MARENYX"
-    },
-    "pack": "nextstage",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 365,
-    "textId": "Code%EF%BC%9A%20Oblivion",
-    "titles": {
-      "ja": "Code: Oblivion",
-      "en": "Code: Oblivion"
-    },
-    "pack": "nextstage",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 366,
-    "textId": "%CE%9BZ%CE%9BLE%CE%9B",
-    "titles": {
-      "ja": "ΛZΛLEΛ",
-      "en": "ΛZΛLEΛ"
-    },
-    "pack": "nextstage",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
     "index": 497,
     "textId": "Ladymade%20Star",
     "titles": {
@@ -4668,61 +4679,6 @@
     },
     "pack": "djmax",
     "packAppend": "collaboration_chapter_2",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 498,
-    "textId": "%E5%BF%83%E3%81%AE%E7%97%9B%E3%81%BF",
-    "titles": {
-      "ja": "心の痛み",
-      "en": "Heartache"
-    },
-    "pack": "undertale",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 376,
-    "textId": "%E8%8F%AF%E9%BA%97%E3%81%AA%E3%82%8B%E6%AD%BB%E9%97%98",
-    "titles": {
-      "ja": "華麗なる死闘",
-      "en": "Death by Glamour"
-    },
-    "pack": "undertale",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 377,
-    "textId": "%E6%9C%80%E9%AB%98%E3%81%AE%E6%82%AA%E5%A4%A2",
-    "titles": {
-      "ja": "最高の悪夢",
-      "en": "Your Best Nightmare"
-    },
-    "pack": "undertale",
-    "hasEternal": false,
-    "hasBeyond": true
-  },
-  {
-    "index": 378,
-    "textId": "%E3%81%93%E3%82%8C%E3%81%A7%E3%83%9B%E3%83%B3%E3%83%88%E3%81%AB%E3%82%B5%E3%83%A8%E3%83%8A%E3%83%A9",
-    "titles": {
-      "ja": "これでホントにサヨナラ",
-      "en": "Last Goodbye"
-    },
-    "pack": "undertale",
-    "hasEternal": true,
-    "hasBeyond": false
-  },
-  {
-    "index": 379,
-    "textId": "MEGALOVANIA",
-    "titles": {
-      "ja": "MEGALOVANIA",
-      "en": "MEGALOVANIA"
-    },
-    "pack": "undertale",
     "hasEternal": true,
     "hasBeyond": false
   },
@@ -5837,6 +5793,218 @@
     },
     "pack": "dynamix",
     "hasEternal": false,
+    "hasBeyond": false
+  },
+  {
+    "index": 792,
+    "textId": "%E3%83%A9%E3%83%B4%E3%82%A3",
+    "titles": {
+      "ja": "ラヴィ",
+      "en": "ラヴィ"
+    },
+    "pack": "virtual",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 793,
+    "textId": "%E6%84%9B%E3%81%97%E3%81%A6%E6%84%9B%E3%81%97%E3%81%A6%E6%84%9B%E3%81%97%E3%81%A6",
+    "titles": {
+      "ja": "愛して愛して愛して",
+      "en": "愛して愛して愛して"
+    },
+    "pack": "virtual",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 794,
+    "textId": "%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%89",
+    "titles": {
+      "ja": "オーバーライド",
+      "en": "オーバーライド"
+    },
+    "pack": "virtual",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 795,
+    "textId": "%E3%83%86%E3%83%AC%E3%83%91%E3%82%B7",
+    "titles": {
+      "ja": "テレパシ",
+      "en": "テレパシ"
+    },
+    "pack": "virtual",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 796,
+    "textId": "%E7%A5%9E%E3%81%A3%E3%81%BD%E3%81%84%E3%81%AA",
+    "titles": {
+      "ja": "神っぽいな",
+      "en": "神っぽいな"
+    },
+    "pack": "virtual",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 496,
+    "textId": "INFINITE%20DIMENSION",
+    "titles": {
+      "ja": "INFINITE DIMENSION",
+      "en": "INFINITE DIMENSION"
+    },
+    "pack": "nextstage",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 362,
+    "textId": "INCARNATOR%E2%82%80%E2%82%80",
+    "titles": {
+      "ja": "INCARNATOR₀₀",
+      "en": "INCARNATOR₀₀"
+    },
+    "pack": "nextstage",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 363,
+    "textId": "zephyrlasting",
+    "titles": {
+      "ja": "zephyrlasting",
+      "en": "zephyrlasting"
+    },
+    "pack": "nextstage",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 364,
+    "textId": "MARENYX",
+    "titles": {
+      "ja": "MARENYX",
+      "en": "MARENYX"
+    },
+    "pack": "nextstage",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 365,
+    "textId": "Code%EF%BC%9A%20Oblivion",
+    "titles": {
+      "ja": "Code: Oblivion",
+      "en": "Code: Oblivion"
+    },
+    "pack": "nextstage",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 366,
+    "textId": "%CE%9BZ%CE%9BLE%CE%9B",
+    "titles": {
+      "ja": "ΛZΛLEΛ",
+      "en": "ΛZΛLEΛ"
+    },
+    "pack": "nextstage",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 498,
+    "textId": "%E5%BF%83%E3%81%AE%E7%97%9B%E3%81%BF",
+    "titles": {
+      "ja": "心の痛み",
+      "en": "Heartache"
+    },
+    "pack": "undertale",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 376,
+    "textId": "%E8%8F%AF%E9%BA%97%E3%81%AA%E3%82%8B%E6%AD%BB%E9%97%98",
+    "titles": {
+      "ja": "華麗なる死闘",
+      "en": "Death by Glamour"
+    },
+    "pack": "undertale",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 377,
+    "textId": "%E6%9C%80%E9%AB%98%E3%81%AE%E6%82%AA%E5%A4%A2",
+    "titles": {
+      "ja": "最高の悪夢",
+      "en": "Your Best Nightmare"
+    },
+    "pack": "undertale",
+    "hasEternal": false,
+    "hasBeyond": true
+  },
+  {
+    "index": 378,
+    "textId": "%E3%81%93%E3%82%8C%E3%81%A7%E3%83%9B%E3%83%B3%E3%83%88%E3%81%AB%E3%82%B5%E3%83%A8%E3%83%8A%E3%83%A9",
+    "titles": {
+      "ja": "これでホントにサヨナラ",
+      "en": "Last Goodbye"
+    },
+    "pack": "undertale",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 379,
+    "textId": "MEGALOVANIA",
+    "titles": {
+      "ja": "MEGALOVANIA",
+      "en": "MEGALOVANIA"
+    },
+    "pack": "undertale",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 786,
+    "textId": "%E3%82%B9%E3%83%91%E3%82%A4%E3%83%80%E3%83%BC%E3%83%80%E3%83%B3%E3%82%B9",
+    "titles": {
+      "ja": "スパイダーダンス",
+      "en": "スパイダーダンス"
+    },
+    "pack": "undertale",
+    "packAppend": "undertale",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 784,
+    "textId": "%E6%AD%A3%E7%BE%A9%E3%81%AE%E6%A7%8D",
+    "titles": {
+      "ja": "正義の槍",
+      "en": "正義の槍"
+    },
+    "pack": "undertale",
+    "packAppend": "undertale",
+    "hasEternal": true,
+    "hasBeyond": false
+  },
+  {
+    "index": 785,
+    "textId": "%E3%82%A2%E3%82%BA%E3%82%B4%E3%82%A2",
+    "titles": {
+      "ja": "アズゴア",
+      "en": "アズゴア"
+    },
+    "pack": "undertale",
+    "packAppend": "undertale",
+    "hasEternal": true,
     "hasBeyond": false
   }
 ]

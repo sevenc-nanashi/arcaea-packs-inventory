@@ -1719,6 +1719,33 @@
     "has_beyond": false
   },
   {
+    "index": 787,
+    "text_id": "Altersist",
+    "title": "Altersist",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 788,
+    "text_id": "c.s.q.n.",
+    "title": "c.s.q.n.",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 789,
+    "text_id": "%E3%82%B6%E3%83%A9%E3%83%A1%E3%83%8E%E3%82%AD%E3%83%AF%E3%83%9F",
+    "title": "ザラメノキワミ",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
     "index": 473,
     "text_id": "%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9",
     "title": "始マリノ詩",
@@ -1824,6 +1851,42 @@
     "pack": "extend4",
     "pack_append": null,
     "has_eternal": false,
+    "has_beyond": false
+  },
+  {
+    "index": 782,
+    "text_id": "MIRROR%20-%20kamome%20sano%20remix",
+    "title": "MIRROR - kamome sano remix",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  {
+    "index": 783,
+    "text_id": "Riot%20in%20the%20System",
+    "title": "Riot in the System",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 790,
+    "text_id": "flexidefine",
+    "title": "flexidefine",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  {
+    "index": 791,
+    "text_id": "Cosmogyral",
+    "title": "Cosmogyral",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": true,
     "has_beyond": false
   },
   {
@@ -3654,60 +3717,6 @@
     "has_beyond": false
   },
   {
-    "index": 496,
-    "text_id": "INFINITE%20DIMENSION",
-    "title": "INFINITE DIMENSION",
-    "pack": "nextstage",
-    "pack_append": null,
-    "has_eternal": true,
-    "has_beyond": false
-  },
-  {
-    "index": 362,
-    "text_id": "INCARNATOR%E2%82%80%E2%82%80",
-    "title": "INCARNATOR₀₀",
-    "pack": "nextstage",
-    "pack_append": null,
-    "has_eternal": true,
-    "has_beyond": false
-  },
-  {
-    "index": 363,
-    "text_id": "zephyrlasting",
-    "title": "zephyrlasting",
-    "pack": "nextstage",
-    "pack_append": null,
-    "has_eternal": true,
-    "has_beyond": false
-  },
-  {
-    "index": 364,
-    "text_id": "MARENYX",
-    "title": "MARENYX",
-    "pack": "nextstage",
-    "pack_append": null,
-    "has_eternal": true,
-    "has_beyond": false
-  },
-  {
-    "index": 365,
-    "text_id": "Code%EF%BC%9A%20Oblivion",
-    "title": "Code: Oblivion",
-    "pack": "nextstage",
-    "pack_append": null,
-    "has_eternal": true,
-    "has_beyond": false
-  },
-  {
-    "index": 366,
-    "text_id": "%CE%9BZ%CE%9BLE%CE%9B",
-    "title": "ΛZΛLEΛ",
-    "pack": "nextstage",
-    "pack_append": null,
-    "has_eternal": true,
-    "has_beyond": false
-  },
-  {
     "index": 497,
     "text_id": "Ladymade%20Star",
     "title": "Ladymade Star",
@@ -3794,51 +3803,6 @@
     "title": "We're All Gonna Die",
     "pack": "djmax",
     "pack_append": "collaboration_chapter_2",
-    "has_eternal": true,
-    "has_beyond": false
-  },
-  {
-    "index": 498,
-    "text_id": "%E5%BF%83%E3%81%AE%E7%97%9B%E3%81%BF",
-    "title": "心の痛み",
-    "pack": "undertale",
-    "pack_append": null,
-    "has_eternal": true,
-    "has_beyond": false
-  },
-  {
-    "index": 376,
-    "text_id": "%E8%8F%AF%E9%BA%97%E3%81%AA%E3%82%8B%E6%AD%BB%E9%97%98",
-    "title": "華麗なる死闘",
-    "pack": "undertale",
-    "pack_append": null,
-    "has_eternal": true,
-    "has_beyond": false
-  },
-  {
-    "index": 377,
-    "text_id": "%E6%9C%80%E9%AB%98%E3%81%AE%E6%82%AA%E5%A4%A2",
-    "title": "最高の悪夢",
-    "pack": "undertale",
-    "pack_append": null,
-    "has_eternal": false,
-    "has_beyond": true
-  },
-  {
-    "index": 378,
-    "text_id": "%E3%81%93%E3%82%8C%E3%81%A7%E3%83%9B%E3%83%B3%E3%83%88%E3%81%AB%E3%82%B5%E3%83%A8%E3%83%8A%E3%83%A9",
-    "title": "これでホントにサヨナラ",
-    "pack": "undertale",
-    "pack_append": null,
-    "has_eternal": true,
-    "has_beyond": false
-  },
-  {
-    "index": 379,
-    "text_id": "MEGALOVANIA",
-    "title": "MEGALOVANIA",
-    "pack": "undertale",
-    "pack_append": null,
     "has_eternal": true,
     "has_beyond": false
   },
@@ -4713,6 +4677,177 @@
     "pack": "dynamix",
     "pack_append": null,
     "has_eternal": false,
+    "has_beyond": false
+  },
+  {
+    "index": 792,
+    "text_id": "%E3%83%A9%E3%83%B4%E3%82%A3",
+    "title": "ラヴィ",
+    "pack": "virtual",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 793,
+    "text_id": "%E6%84%9B%E3%81%97%E3%81%A6%E6%84%9B%E3%81%97%E3%81%A6%E6%84%9B%E3%81%97%E3%81%A6",
+    "title": "愛して愛して愛して",
+    "pack": "virtual",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 794,
+    "text_id": "%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%89",
+    "title": "オーバーライド",
+    "pack": "virtual",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 795,
+    "text_id": "%E3%83%86%E3%83%AC%E3%83%91%E3%82%B7",
+    "title": "テレパシ",
+    "pack": "virtual",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 796,
+    "text_id": "%E7%A5%9E%E3%81%A3%E3%81%BD%E3%81%84%E3%81%AA",
+    "title": "神っぽいな",
+    "pack": "virtual",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 496,
+    "text_id": "INFINITE%20DIMENSION",
+    "title": "INFINITE DIMENSION",
+    "pack": "nextstage",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 362,
+    "text_id": "INCARNATOR%E2%82%80%E2%82%80",
+    "title": "INCARNATOR₀₀",
+    "pack": "nextstage",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 363,
+    "text_id": "zephyrlasting",
+    "title": "zephyrlasting",
+    "pack": "nextstage",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 364,
+    "text_id": "MARENYX",
+    "title": "MARENYX",
+    "pack": "nextstage",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 365,
+    "text_id": "Code%EF%BC%9A%20Oblivion",
+    "title": "Code: Oblivion",
+    "pack": "nextstage",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 366,
+    "text_id": "%CE%9BZ%CE%9BLE%CE%9B",
+    "title": "ΛZΛLEΛ",
+    "pack": "nextstage",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 498,
+    "text_id": "%E5%BF%83%E3%81%AE%E7%97%9B%E3%81%BF",
+    "title": "心の痛み",
+    "pack": "undertale",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 376,
+    "text_id": "%E8%8F%AF%E9%BA%97%E3%81%AA%E3%82%8B%E6%AD%BB%E9%97%98",
+    "title": "華麗なる死闘",
+    "pack": "undertale",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 377,
+    "text_id": "%E6%9C%80%E9%AB%98%E3%81%AE%E6%82%AA%E5%A4%A2",
+    "title": "最高の悪夢",
+    "pack": "undertale",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": true
+  },
+  {
+    "index": 378,
+    "text_id": "%E3%81%93%E3%82%8C%E3%81%A7%E3%83%9B%E3%83%B3%E3%83%88%E3%81%AB%E3%82%B5%E3%83%A8%E3%83%8A%E3%83%A9",
+    "title": "これでホントにサヨナラ",
+    "pack": "undertale",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 379,
+    "text_id": "MEGALOVANIA",
+    "title": "MEGALOVANIA",
+    "pack": "undertale",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 786,
+    "text_id": "%E3%82%B9%E3%83%91%E3%82%A4%E3%83%80%E3%83%BC%E3%83%80%E3%83%B3%E3%82%B9",
+    "title": "スパイダーダンス",
+    "pack": "undertale",
+    "pack_append": "undertale",
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 784,
+    "text_id": "%E6%AD%A3%E7%BE%A9%E3%81%AE%E6%A7%8D",
+    "title": "正義の槍",
+    "pack": "undertale",
+    "pack_append": "undertale",
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  {
+    "index": 785,
+    "text_id": "%E3%82%A2%E3%82%BA%E3%82%B4%E3%82%A2",
+    "title": "アズゴア",
+    "pack": "undertale",
+    "pack_append": "undertale",
+    "has_eternal": true,
     "has_beyond": false
   }
 ]

@@ -90,7 +90,7 @@ content.children.each do |child|
           elsif append_text.nil?
             raise "Subpack header strong text not found"
           end
-          append_title = append_text&.match(/^"(.+)" Pack Append/)&.[](1)
+          append_title = append_text&.match(/^"(.+?)"? Pack Append/)&.[](1)
           if append_title
             puts "  Subpack: #{append_title}"
           elsif maybe_header.text.strip.include?("にて削除")

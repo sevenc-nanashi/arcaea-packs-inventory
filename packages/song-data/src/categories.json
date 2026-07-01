@@ -191,11 +191,6 @@
         "appends": []
       },
       {
-        "text_id": "nextstage",
-        "title": "Arcaea Next Stage",
-        "appends": []
-      },
-      {
         "text_id": "djmax",
         "title": "DJMAX Collaboration",
         "appends": [
@@ -204,11 +199,6 @@
             "title": "Collaboration Chapter 2"
           }
         ]
-      },
-      {
-        "text_id": "undertale",
-        "title": "UNDERTALE Collaboration",
-        "appends": []
       },
       {
         "text_id": "rotaeno",
@@ -315,6 +305,26 @@
         "text_id": "dynamix",
         "title": "Dynamix Collaboration",
         "appends": []
+      },
+      {
+        "text_id": "virtual",
+        "title": "Virtual Singers",
+        "appends": []
+      },
+      {
+        "text_id": "nextstage",
+        "title": "Arcaea Next Stage",
+        "appends": []
+      },
+      {
+        "text_id": "undertale",
+        "title": "UNDERTALE",
+        "appends": [
+          {
+            "text_id": "undertale",
+            "title": "UNDERTALE"
+          }
+        ]
       }
     ]
   }

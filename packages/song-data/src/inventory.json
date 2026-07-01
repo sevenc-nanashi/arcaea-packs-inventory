@@ -230,12 +230,6 @@
     "appends": [],
     "index": 551
   },
-  "pack__nextstage": {
-    "text_id": "nextstage",
-    "title": "Arcaea Next Stage",
-    "appends": [],
-    "index": 552
-  },
   "pack__djmax": {
     "text_id": "djmax",
     "title": "DJMAX Collaboration",
@@ -252,12 +246,6 @@
     "text_id": "collaboration_chapter_2",
     "title": "Collaboration Chapter 2",
     "index": 554
-  },
-  "pack__undertale": {
-    "text_id": "undertale",
-    "title": "UNDERTALE Collaboration",
-    "appends": [],
-    "index": 555
   },
   "pack__rotaeno": {
     "text_id": "rotaeno",
@@ -441,6 +429,35 @@
     "title": "Dynamix Collaboration",
     "appends": [],
     "index": 577
+  },
+  "pack__virtual": {
+    "text_id": "virtual",
+    "title": "Virtual Singers",
+    "appends": [],
+    "index": 797
+  },
+  "pack__nextstage": {
+    "text_id": "nextstage",
+    "title": "Arcaea Next Stage",
+    "appends": [],
+    "index": 552
+  },
+  "pack__undertale": {
+    "text_id": "undertale",
+    "title": "UNDERTALE",
+    "appends": [
+      {
+        "text_id": "undertale",
+        "title": "UNDERTALE",
+        "index": 798
+      }
+    ],
+    "index": 555
+  },
+  "pack__undertale__undertale": {
+    "text_id": "undertale",
+    "title": "UNDERTALE",
+    "index": 798
   },
   "song__DataErr0r": {
     "index": 472,
@@ -1585,6 +1602,33 @@
     "has_eternal": false,
     "has_beyond": false
   },
+  "song__Altersist": {
+    "index": 787,
+    "text_id": "Altersist",
+    "title": "Altersist",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__c.s.q.n.": {
+    "index": 788,
+    "text_id": "c.s.q.n.",
+    "title": "c.s.q.n.",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__%E3%82%B6%E3%83%A9%E3%83%A1%E3%83%8E%E3%82%AD%E3%83%AF%E3%83%9F": {
+    "index": 789,
+    "text_id": "%E3%82%B6%E3%83%A9%E3%83%A1%E3%83%8E%E3%82%AD%E3%83%AF%E3%83%9F",
+    "title": "ザラメノキワミ",
+    "pack": "memoryarchive",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
   "song__%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9": {
     "index": 473,
     "text_id": "%E5%A7%8B%E3%83%9E%E3%83%AA%E3%83%8E%E8%A9%A9",
@@ -1691,6 +1735,42 @@
     "pack": "extend4",
     "pack_append": null,
     "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__MIRROR%20-%20kamome%20sano%20remix": {
+    "index": 782,
+    "text_id": "MIRROR%20-%20kamome%20sano%20remix",
+    "title": "MIRROR - kamome sano remix",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Riot%20in%20the%20System": {
+    "index": 783,
+    "text_id": "Riot%20in%20the%20System",
+    "title": "Riot in the System",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": true,
+    "has_beyond": false
+  },
+  "song__flexidefine": {
+    "index": 790,
+    "text_id": "flexidefine",
+    "title": "flexidefine",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": false,
+    "has_beyond": false
+  },
+  "song__Cosmogyral": {
+    "index": 791,
+    "text_id": "Cosmogyral",
+    "title": "Cosmogyral",
+    "pack": "extend4",
+    "pack_append": null,
+    "has_eternal": true,
     "has_beyond": false
   },
   "song__HELLOHELL": {

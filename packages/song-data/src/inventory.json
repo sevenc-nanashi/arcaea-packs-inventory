@@ -447,17 +447,17 @@
     "title": "UNDERTALE",
     "appends": [
       {
-        "text_id": "undertale",
-        "title": "UNDERTALE",
-        "index": 798
+        "text_id": "undertale_pack_append",
+        "title": "UNDERTALE Pack Append",
+        "index": 800
       }
     ],
     "index": 555
   },
-  "pack__undertale__undertale": {
-    "text_id": "undertale",
-    "title": "UNDERTALE",
-    "index": 798
+  "pack__undertale__undertale_pack_append": {
+    "text_id": "undertale_pack_append",
+    "title": "UNDERTALE Pack Append",
+    "index": 800
   },
   "song__DataErr0r": {
     "index": 472,

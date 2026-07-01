@@ -5979,7 +5979,7 @@
       "en": "スパイダーダンス"
     },
     "pack": "undertale",
-    "packAppend": "undertale",
+    "packAppend": "undertale_pack_append",
     "hasEternal": true,
     "hasBeyond": false
   },
@@ -5991,7 +5991,7 @@
       "en": "正義の槍"
     },
     "pack": "undertale",
-    "packAppend": "undertale",
+    "packAppend": "undertale_pack_append",
     "hasEternal": true,
     "hasBeyond": false
   },
@@ -6003,7 +6003,7 @@
       "en": "アズゴア"
     },
     "pack": "undertale",
-    "packAppend": "undertale",
+    "packAppend": "undertale_pack_append",
     "hasEternal": true,
     "hasBeyond": false
   }

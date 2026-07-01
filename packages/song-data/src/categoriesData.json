@@ -1847,7 +1847,13 @@
         "title": "Dynamix Collaboration",
         "appends": [],
         "lockedSongs": []
-      },
+      }
+    ]
+  },
+  {
+    "textId": "variety",
+    "title": "Variety",
+    "packs": [
       {
         "index": 797,
         "textId": "virtual",
@@ -1868,9 +1874,9 @@
         "title": "UNDERTALE",
         "appends": [
           {
-            "index": 798,
-            "textId": "undertale__undertale",
-            "title": "UNDERTALE"
+            "index": 800,
+            "textId": "undertale__undertale_pack_append",
+            "title": "UNDERTALE Pack Append"
           }
         ],
         "lockedSongs": []

@@ -305,7 +305,13 @@
         "text_id": "dynamix",
         "title": "Dynamix Collaboration",
         "appends": []
-      },
+      }
+    ]
+  },
+  {
+    "text_id": "variety",
+    "title": "Variety",
+    "packs": [
       {
         "text_id": "virtual",
         "title": "Virtual Singers",
@@ -321,8 +327,8 @@
         "title": "UNDERTALE",
         "appends": [
           {
-            "text_id": "undertale",
-            "title": "UNDERTALE"
+            "text_id": "undertale_pack_append",
+            "title": "UNDERTALE Pack Append"
           }
         ]
       }

@@ -4,28 +4,25 @@ require "nokogiri"
 require "json"
 
 src = File.expand_path("../src", __dir__)
-packs_html =
-  HTTP
-    .headers(
-      "User-Agent" =>
-        "Arcaea Packs Inventory/1.0 https://github.com/sevenc-nanashi/arcaea-packs-inventory"
-    )
-    .get("https://wikiwiki.jp/arcaea/%E3%83%91%E3%83%83%E3%82%AF%E9%A0%86")
-    .to_s
+packs_html = HTTP
+  .headers(
+    "User-Agent" =>
+      "Arcaea Packs Inventory/1.0 https://github.com/sevenc-nanashi/arcaea-packs-inventory"
+  )
+  .get("https://wikiwiki.jp/arcaea/%E3%83%91%E3%83%83%E3%82%AF%E9%A0%86")
+  .to_s
 packs_doc = Nokogiri.HTML(packs_html)
 content = packs_doc.at_css("#content")
 current_pack = nil
 current_pack_append = nil
 songs_data = JSON.parse(File.read("#{src}/songs.json"), symbolize_names: true)
 inventory_data = JSON.parse(File.read("#{src}/inventory.json"), symbolize_names: true)
-inventory_keys_by_index =
-  inventory_data.each_with_object(Hash.new { |hash, key| hash[key] = [] }) do |(key, entry), hash|
+inventory_keys_by_index = inventory_data.each_with_object(Hash.new { |hash, key| hash[key] = [] }) do |(key, entry), hash|
     hash[entry[:index]] << key.to_s
   end
 packs = []
 fallback_pack_names = { "memoryarchive" => "Memory Archive" }
-next_index =
-  [
+next_index = [
     songs_data.map { |s| s[:index] }.max || -1,
     inventory_data.values.map { |entry| entry[:index] }.max || -1
   ].max + 1
@@ -42,7 +39,8 @@ category_names = {
   main_story_1: "Main Story Act I",
   main_story_2: "Main Story Act II",
   side_story: "Side Story",
-  collaboration: "Collaboration"
+  collaboration: "Collaboration",
+	variety: "Variety"
 }
 
 content.children.each do |child|
@@ -71,6 +69,8 @@ content.children.each do |child|
         category = :side_story
       when "crimsonsolace"
         category = :collaboration
+      when "dynamix"
+        category = :variety
       end
       puts "Pack: #{title} (ID: #{pack_id})"
     end
@@ -90,8 +90,9 @@ content.children.each do |child|
           elsif append_text.nil?
             raise "Subpack header strong text not found"
           end
-          append_title = append_text&.match(/^"(.+?)"? Pack Append/)&.[](1)
-          if append_title
+          if (append_title = append_text&.match(/^"(.+?)" Pack Append/)&.[](1))
+            puts "  Subpack: #{append_title}"
+          elsif (append_title = append_text&.match(/^"(.+? Pack Append)"/)&.[](1))
             puts "  Subpack: #{append_title}"
           elsif maybe_header.text.strip.include?("にて削除")
             # Particle Artsくん...
@@ -158,17 +159,17 @@ File.write(
   "#{src}/categories.json",
   JSON.pretty_generate(
     packs
-      .group_by { |p| p[:category] }
-      .map do |cat, ps|
-        {
-          text_id: cat.to_s,
-          title: category_names[cat],
-          packs:
-            ps.map do |p|
-              { text_id: p[:text_id], title: p[:title], appends: p[:appends] }
-            end
-        }
-      end
+  .group_by { |p| p[:category] }
+  .map do |cat, ps|
+    {
+      text_id: cat.to_s,
+      title: category_names[cat],
+      packs:
+        ps.map do |p|
+          { text_id: p[:text_id], title: p[:title], appends: p[:appends] }
+        end
+    }
+  end
   ) + "\n"
 )
 File.write("#{src}/songs.json", JSON.pretty_generate(songs_data) + "\n")
